@@ -1,10 +1,14 @@
 export const contHero = {
   h2a: "METASİSTEMİK",
   h2b: "Farkındalığa Dayalı Kişisel Dönüşümün Sistemik Çapta Değişimle Gerçekleştiği Yer",
-  h1a: "Potansiyelinizin Kilidini Açın.",
-  h1b: "Dünyanızla Birlikte Dönüşün!",
+  h1a: "Potansiyelinizin Kilidini Açın",
+  h1b: "Dünyanızla Birlikte Dönüşün",
   desc: "METASİSTEMİK olarak, Farkındalık Geliştirme ve Sistemik Çalışmaya olan bağlılığımız bizi farklı kılıyor. Kişisel farkındalığı geliştirmenin ve bütünsel birbirine bağlılığı anlamanın bireylerde, ekiplerde ve kuruluşlarda dönüşüm potansiyelinin kilidini açmak için gerekli olduğuna inanıyoruz.",
-  btn1: "Beni ARA",
+  desc2:
+    "Geleneksel programların aksine, bireysel yetenek ve beceri geliştirmenin ötesine geçerek, daha büyük sistemlerin dinamikleri içerisinde nasıl etkileşime girdiğimize dair derinlemesine bir anlayış ve farkındalık geliştiriyoruz.",
+  desc3:
+    "Kapsamlı mesleki yeterlilik ve gelişim sertifika programlarımız kişisel gelişim ve sistemik etki için dönüştürücü bir alan sağlar.",
+  btn1: "Whatsapp Kayıt",
   btn2: "Bilgi",
   quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
 };
@@ -38,20 +42,36 @@ export const whyweneed = {
 };
 
 export const whatwegain = {
-  h2: "Birlikte Yaptığımız Yol Çalışmaları Ne Kazandırıyor",
-  p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
+  h2: "Eğitim Programlarımız Neler Kazandırır?",
   items: [
     {
-      title: "Bilinç",
-      info: "Kendimizi bilinçli varlıklar olarak görüyoruz, ama bilincimizin farkında mıyız? Bilinç bir anlamda rastgele içimizde beliriyor. Bilincinizi fark etmeyi ve bunu farkındalıkla yönetmeyi istemez misiniz?",
+      title: "Derin Kişisel Farkındalığı Geliştirin",
+      info: "Farkındalığa dayalı amaçlı büyümeye yönelik bir temel oluşturmak için benzersiz güçlü yönlerinizi, kalıplarınızı, sınırlamalarınızı ve daha büyük sistemlerle nasıl bağlantı kurduğunuzu ortaya çıkarın.",
     },
     {
-      title: "Farkındalık",
-      info: "Saf farkındalık, tüm duyu, duygu ve düşüncelerin ötesinde asıl varlığımızın bulunduğu bir alan. Ancak bize yüklenen tanımlar ve programlar nedeniyle kendimizden oldukça uzakta yaşıyoruz.",
+      title: "Sistemik Kişilik Anlayışını Keşfedin",
+      info: "Kişiliğin sistemik inşası hakkında derinlemesine bir anlayış geliştirin. Hem kişisel büyüme yolculuğunuzda hem de mesleki uzmanlığınızda bu dönüşümsel bilginin yöntem ve tekniklerinden yararlanın.",
     },
     {
-      title: "Kendini Tanıma ve Kendin Olma",
-      info: "Tüm arayış çalışmaları, insanın kendisini sorgulamaya başlamasına dayanıyor. Böyle bir sorgulama ateşi başladıysa, kendinizi bulana kadar devam edecek bir yangına dönüşüyor.",
+      title: "Dönüşüm için Güçlü Araçlar Geliştirin",
+      info: "Kendinizi ve başkalarını güçlendirmek için kanıta dayalı sistemik koçluk metodolojilerinde, sistemik kolaylaştırma tekniklerinde, profesyonel eğitmenlikte, sistemik dizim yaklaşımlarında ve Enneagram çerçevesinde uzmanlaşın.",
+    },
+  ],
+};
+export const whatwegain2 = {
+  items: [
+    {
+      title: "Profesyonelliğe Adım Atın ve/veya Kariyerinizi Yükseltin",
+      info: "Ulusal ve Uluslararası mesleki standartlarda hazırlanan sertifika programlarımızla birlikte üst seviyede eğitimlerinizi tamamlayarak, kendinizi profesyonellik için ihtiyaç duyacağınız güçlü yetkinliklerle donatın. Benzersiz mesleki gelişim sertifika programlarımıza katılarak, kariyerinizde fark yaratın.",
+    },
+    {
+      title:
+        "Resmi Mesleki Kimlik Belgelerinizi ve Uluslararası Mesleki Unvanınızı Edinin",
+      info: "MYK Seviye-6 resmi meslek belgelerinizi edinmeniz için etkili sınav hazırlık programlarımızla süreç boyunca yanınızda olacağız. Ek olarak ICF ünvan alma (ACC/PCC) son aşaması olan sınav sürecine gelmişseniz, benzer sınav sorularından oluşan testler, süpervizyon ve mentorluk süreçleriyle desteklenen ICF sınav hazırlık programımızla, sınav sürecinde güçlü desteğimizi sunuyoruz..",
+    },
+    {
+      title: "Başarılı bir Topluluğa Katılın",
+      info: "Farkındalık Geliştirme ve Sistemik Çalışma anlayışını ve dünya üzerinde olumlu bir etki yaratma tutkunuzu paylaşan kişilerle bağlantı kurun ve birlikte öğrenin..",
     },
   ],
 };

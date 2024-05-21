@@ -1,7 +1,7 @@
 // please update required information
 const siteMetadata = {
   title:
-    "Farkındalığa Dayalı Kişisel Dönüşümün Sistemik Çapta Değişimle Gerçekleştiği Yer",
+    "Metasistemik - Farkındalığa Dayalı Kişisel Dönüşümün Sistemik Çapta Değişimle Gerçekleştiği Yer",
   author: "rcteenx",
   headerTitle:
     "Farkındalığa Dayalı Kişisel Dönüşümün Sistemik Çapta Değişimle Gerçekleştiği Yer",
