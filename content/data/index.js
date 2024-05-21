@@ -1,10 +1,10 @@
 export const contHero = {
-  h2a: "Reyhan Çetin ve Arkadaşları",
-  h2b: "Ezoterik Felsefe Araştırma ve Uygulama Arkadaş Topluluğu",
-  h1a: "YENİDEN TOPLANIYOR!",
-  h1b: "Hazır mısınız?",
-  desc: "Bilinç ve farkındalık konulu sohbet, meditasyon ve grup çalışmalarımızla içsel yolculuğumuz tekrar çevrim içi.",
-  btn1: "Katıl",
+  h2a: "METASİSTEMİK",
+  h2b: "Farkındalığa Dayalı Kişisel Dönüşümün Sistemik Çapta Değişimle Gerçekleştiği Yer",
+  h1a: "Potansiyelinizin Kilidini Açın.",
+  h1b: "Dünyanızla Birlikte Dönüşün!",
+  desc: "METASİSTEMİK olarak, Farkındalık Geliştirme ve Sistemik Çalışmaya olan bağlılığımız bizi farklı kılıyor. Kişisel farkındalığı geliştirmenin ve bütünsel birbirine bağlılığı anlamanın bireylerde, ekiplerde ve kuruluşlarda dönüşüm potansiyelinin kilidini açmak için gerekli olduğuna inanıyoruz.",
+  btn1: "Beni ARA",
   btn2: "Bilgi",
   quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
 };
@@ -185,14 +185,14 @@ export const yollar = [
 export const StaticPages = [
   {
     id: 1,
-    title: "Reyhan",
-    link: "reyhan",
+    title: "METASİSTEMATİK",
+    link: "metasistematik",
     pages: [{ id: 1, title: "reyhan kim?", link: "kimim" }],
   },
   {
     id: 2,
-    title: "Yol",
-    link: "yol",
+    title: "SINAVLAR",
+    link: "sinavlar",
     pages: [
       { id: 1, title: "Bilinç Yolu", link: "bilinc" },
       {
@@ -200,28 +200,22 @@ export const StaticPages = [
         title: "Farkındalık Yolu",
         link: "farkindalik",
       },
-      // {
-      //   id: 3,
-      //   title: "Birlik & Sevgi Yolu",
-      //   link: "birlik",
-      // },
     ],
   },
   {
     id: 3,
-    title: "Davet",
-    link: "davet",
-    pages: [
-      { id: 1, title: "Giriş Atölyesi", link: "atolye" },
-      // {
-      //   id: 2,
-      //   title: "Tanıtım Semineri",
-      //   link: "seminer",
-      // },
-    ],
+    title: "OKULLAR",
+    link: "okullar",
+    pages: [{ id: 1, title: "Giriş Atölyesi", link: "atolye" }],
   },
   {
     id: 4,
+    title: "ATÖLYELER",
+    link: "atolyeler",
+    pages: [{ id: 1, title: "Giriş Atölyesi", link: "atolye" }],
+  },
+  {
+    id: 5,
     title: "İletişim",
     link: "iletisim",
     pages: [

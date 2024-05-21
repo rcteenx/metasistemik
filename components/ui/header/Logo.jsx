@@ -3,11 +3,11 @@ import smd from "@/content/data/siteMetaData";
 
 const HeaderLogo = () => {
   return (
-    <Link id="platform" href="/" className="">
-      <div className="w-12 md:w-16 xl:w-20 z-10">
-        <img src={smd.siteLogo} alt={smd.title} className="p-0.5 " />
-      </div>
-    </Link>
+    <div className="w-32 md:w-64 p-4 bg-black rounded-xl">
+      <Link id="metasistemik" href="/">
+        <img src={smd.siteLogo} alt={smd.title} className="" />
+      </Link>
+    </div>
   );
 };
 

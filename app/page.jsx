@@ -33,6 +33,8 @@ export default function Home() {
   return (
     <>
       <Hero rVideo={rVideo} />
+
+      {/* 
       <InfoBar info={barInfo} />
 
       <WhatWeGain img={rVideo} gain={whatwegain} />
@@ -42,8 +44,7 @@ export default function Home() {
       <AttendenceContitions img={rVideo} con={conditions} />
       <Workshops />
 
-      {/* <Support /> */}
-      <SocialMedia />
+      <SocialMedia /> */}
     </>
   );
 }
