@@ -16,14 +16,14 @@ const Hero = () => {
         <div className="absolute inset-0 h-full w-full overflow-hidden bg-cover flex items-center justify-center">
           {/* bg-[hsla(240,33%,30%,.50)] */}
           <div>
-            <h1 className="mb-4 text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-slate">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-slate">
               {contHero.h1a}
             </h1>
             <h3 className="mb-4 text-2xl sm:text-3xl md:text-4xl font-bold text-slate">
               {contHero.h1b}
             </h3>
-            <div className="bg-black/40 p-4 mx-12 rounded-full ">
-              <h2 className="font-medium md:text-lg lg:text-6xl text-white">
+            <div className="bg-black/40 p-4 rounded-full ">
+              <h2 className="border-b-4 inline-block font-medium md:text-lg lg:text-6xl text-white">
                 {contHero.h2a}
               </h2>
               <p className="font-normal text-xs md:text-sm lg:text-xl">
