@@ -14,15 +14,15 @@ export default function SocialMedia() {
           Karşılıklı etkileşim için sosyal medya sayfalarımıza bekliyoruz.
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8 max-w-4xl mx-auto px-8">
+      <div className="flex flex-wrap items-center justify-center gap-8 mt-8 max-w-4xl mx-auto bg-gray-100 p-8 rounded-xl border ">
         {socialMedia.map((i) => (
           <div key={i.id}>
             <a
               href={i.link}
-              className="group flex sm:block items-center justify-center gap-8 hover:bg-white p-10 hover:shadow-[3px_4px_20px_0_rgba(0,0,0,.15)] rounded transition-all text-center"
+              className="group flex sm:block items-center justify-center gap-8 bg-white hover:bg-gray-100  shadow-[3px_4px_20px_0_rgba(0,0,0,.15)] hover:shadow-[3px_4px_20px_0_rgba(0,0,0,.35)] rounded-xl transition-all text-center "
               target="_blank"
             >
-              <div className="flex justify-center h-14 items-center">
+              <div className="flex justify-center items-center w-36 h-36">
                 <IconComponent
                   name={i.svgIcon}
                   size={96}

@@ -1,18 +1,3 @@
-export const contHero = {
-  h2a: "METASİSTEMİK",
-  h2b: "Farkındalığa Dayalı Kişisel Dönüşümün Sistemik Çapta Değişimle Gerçekleştiği Yer",
-  h1a: "Potansiyelinizin Kilidini Açın",
-  h1b: "Dünyanızla Birlikte Dönüşün",
-  desc: "METASİSTEMİK olarak, Farkındalık Geliştirme ve Sistemik Çalışmaya olan bağlılığımız bizi farklı kılıyor. Kişisel farkındalığı geliştirmenin ve bütünsel birbirine bağlılığı anlamanın bireylerde, ekiplerde ve kuruluşlarda dönüşüm potansiyelinin kilidini açmak için gerekli olduğuna inanıyoruz.",
-  desc2:
-    "Geleneksel programların aksine, bireysel yetenek ve beceri geliştirmenin ötesine geçerek, daha büyük sistemlerin dinamikleri içerisinde nasıl etkileşime girdiğimize dair derinlemesine bir anlayış ve farkındalık geliştiriyoruz.",
-  desc3:
-    "Kapsamlı mesleki yeterlilik ve gelişim sertifika programlarımız kişisel gelişim ve sistemik etki için dönüştürücü bir alan sağlar.",
-  btn1: "Whatsapp",
-  btn2: "Bilgi",
-  quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
-};
-
 export const barInfo = {
   h2: "Hayatın İçinde Bilinç ve Farkındalık Yolculuğu",
   items: [
