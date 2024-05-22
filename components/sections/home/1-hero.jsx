@@ -22,7 +22,7 @@ const Hero = () => {
             <h3 className="mb-4 text-2xl sm:text-3xl md:text-4xl font-bold text-slate">
               {contHero.h1b}
             </h3>
-            <div className="bg-black/40 p-4 rounded-full ">
+            <div className="bg-black/40 mx-4 p-4 rounded-full ">
               <h2 className="border-b-4 inline-block font-medium md:text-lg lg:text-6xl text-white">
                 {contHero.h2a}
               </h2>

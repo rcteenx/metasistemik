@@ -10,7 +10,7 @@ export default function Workshops() {
             Hafta da birer gün olarak düzenlediğimiz aşağıdaki gruplarımız genel
             katılıma açıktır:
           </p>
-          <ul className="text-slate text-base flex gap-4 ">
+          <ul className="text-slate text-base flex flex-col sm:flex-row gap-4 ">
             <li className=" w-full border p-4 my-4 rounded-md shadow-md bg-white hover:bg-gray-100">
               <h3>Grup İçin Sistemik Dizim</h3>
               <p> (Sürekli çalışma grubu)</p>

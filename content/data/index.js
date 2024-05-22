@@ -8,7 +8,7 @@ export const contHero = {
     "Geleneksel programların aksine, bireysel yetenek ve beceri geliştirmenin ötesine geçerek, daha büyük sistemlerin dinamikleri içerisinde nasıl etkileşime girdiğimize dair derinlemesine bir anlayış ve farkındalık geliştiriyoruz.",
   desc3:
     "Kapsamlı mesleki yeterlilik ve gelişim sertifika programlarımız kişisel gelişim ve sistemik etki için dönüştürücü bir alan sağlar.",
-  btn1: "Whatsapp Kayıt",
+  btn1: "Whatsapp",
   btn2: "Bilgi",
   quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
 };
