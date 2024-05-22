@@ -27,9 +27,8 @@ module.exports = {
         "white-400": "rgba(255, 255, 255, 0.80)",
       },
       backgroundImage: (theme) => ({
-        // space: "url('/assets/images/theme/bg-hero-1920-480.png')",
-        // hMerhaba: "url('/assets/images/merhaba/home.jpg')",
         kocluk1: "url('/assets/images/kocluk-1.jpg')",
+        bilincSonrasi: "url('/assets/images/bilinc-sonrasi.jpg')",
       }),
     },
   },

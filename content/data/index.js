@@ -20,12 +20,6 @@ export const barInfo = {
   ],
 };
 
-export const whyweneed = {
-  h2: "Neden Kendimizi Tanımaya ve İçsel Yolculuğa İhtiyacımız var?",
-  p: "Pek çok kişi için böyle bir ihtiyaç yok: Ancak, pek az kişi, bambaşka sebeplerle ve doğal olarak kendi üzerlerinde çalışmaya başlıyor. ",
-  p2: "Bu çalışma daveti, zaten kendisine doğru içsel bir yolculuğa başlamış olanlar için.",
-};
-
 export const whatwegain = {
   h2: "Eğitim Programlarımız Neler Kazandırır?",
   items: [
@@ -59,11 +53,6 @@ export const whatwegain2 = {
       info: "Farkındalık Geliştirme ve Sistemik Çalışma anlayışını ve dünya üzerinde olumlu bir etki yaratma tutkunuzu paylaşan kişilerle bağlantı kurun ve birlikte öğrenin..",
     },
   ],
-};
-
-export const meetingTitle = {
-  h2: "DEVAMLI ÇALIŞMA: HAFTALIK TOPLANTILAR",
-  p: 'Düzenli çalışmalarımıza, öncelikle temel niteliğinde olan "workshop"a katılan ve başarılı olanlar devam edebilir.',
 };
 
 export const meetingList = [
@@ -111,79 +100,6 @@ export const meetingList = [
       "Çember Desteği ve Açılımları",
       "Kendimizi Çalışma",
     ],
-  },
-];
-
-export const conditions = {
-  h2: "Haftalık Düzenli Çalışmalarımıza Katılım Koşulları",
-  p: "Çalışmaların gerektirdiği ortak bir dil, belli bir varlık seviyesi ve deneyimin sağlayanması için atölye çalışmalarımıza davet ediyoruz.",
-  items: [
-    {
-      title: "Ortak Dil",
-      info: "Katılımcıların kelimelerle anlaşabilmek için, kelimelerin işaret ettiği kavramlar konusunda az çok aynı anlayışta olması gerekiyor. Bu bağlamda hepimiz ortak bir terminolojiyi öğreniyor ve çalışmalarda kullanıyoruz.",
-    },
-    {
-      title: "Varlık Seviyesi",
-      info: "Bilgi, ancak uygun bir varlık seviyesi ile deneyimlenince anlayışa dönüşebiliyor. Bu bağlamda, katılımcıların hem hayatsal hem de bilinç/farkındalık alanında belli bir varlık kazanmış olması gerekiyor.",
-    },
-    {
-      title: "Deneyim",
-      info: "Bu çalışmalar kişilerin hayatla ilgili deneyimlerinin sorgulanmasına ve çalışılmasına dayanıyor. Bu bağlamda, katılımcıların belli bir yaş ve buna bağlı kazanılan deneyimlere sahip olması bekleniyor.",
-    },
-  ],
-};
-
-export const yollar = [
-  {
-    id: 0,
-    title: "hayat yolu",
-    link: "hayat",
-    // pages: [
-    //   { id: 1, title: "felsefe", link: "felsefe" },
-    //   { id: 2, title: "sorgulama", link: "sorgulama" },
-    // ],
-  },
-  {
-    id: 1,
-    title: "arayış yolu",
-    link: "arayis",
-    // pages: [
-    //   { id: 1, title: "felsefe", link: "felsefe" },
-    //   { id: 2, title: "sorgulama", link: "sorgulama" },
-    // ],
-  },
-  {
-    id: 2,
-    title: "bilgi yolu",
-    link: "bilgi",
-    // pages: [
-    //   { id: 1, title: "ezoterik felsefe", link: "felsefe" },
-    //   { id: 3, title: "wiki", link: "wiki" },
-    // ],
-  },
-  {
-    id: 3,
-    title: "bilinç yolu",
-    link: "bilinc",
-    pages: [
-      { id: 1, title: "seminer", link: "seminer" },
-      { id: 2, title: "meditasyon", link: "meditasyon" },
-    ],
-  },
-  {
-    id: 4,
-    title: "farkındalık yolu",
-    link: "farkındalık",
-    pages: [
-      { id: 1, title: "sohbet", link: "sohbet" },
-      { id: 2, title: "mindfulness", link: "mindfulness" },
-    ],
-  },
-  ,
-  {
-    id: 5,
-    title: "birlik & sevgi yolu",
-    link: "birlik",
   },
 ];
 
