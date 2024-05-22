@@ -23,6 +23,9 @@ import AttendenceContitions from "@/components/sections/home/c-2-att-conditions"
 import Workshops from "@/components/sections/home/c-3-workshops";
 
 import Support from "@/components/sections/home/x6-support";
+
+import HomeServices from "@/components/sections/home/c-services";
+import BlogBar from "@/components/sections/home/c-blog-bar";
 import SocialMedia from "@/components/sections/common/z-social-media";
 import IconComponent from "@/components/ui/icons/icons";
 
@@ -44,9 +47,11 @@ export default function Home() {
       <WeeklyMeetings title={meetingTitle} meetingList={meetingList} />
 
       <AttendenceContitions img={rVideo} con={conditions} />
+*/}
       <Workshops />
-
-      <SocialMedia /> */}
+      <HomeServices />
+      <BlogBar />
+      <SocialMedia />
     </>
   );
 }

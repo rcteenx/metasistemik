@@ -136,3 +136,9 @@
   background: #333366;
   opacity: 0.5;
 }
+
+.imageBG {
+  background-position: 50%;
+  background-image: url("/assets/images/kocluk-1.jpg");
+  height: 480px;
+}

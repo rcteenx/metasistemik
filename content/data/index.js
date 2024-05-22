@@ -207,18 +207,21 @@ export const StaticPages = [
     id: 1,
     title: "METASİSTEMATİK",
     link: "metasistematik",
-    pages: [{ id: 1, title: "reyhan kim?", link: "kimim" }],
+    pages: [
+      { id: 1, title: "Platform Hakkında", link: "platform" },
+      { id: 2, title: "Kurucumuz", link: "kurucumuz" },
+    ],
   },
   {
     id: 2,
     title: "SINAVLAR",
     link: "sinavlar",
     pages: [
-      { id: 1, title: "Bilinç Yolu", link: "bilinc" },
+      { id: 1, title: "MYK Seviye 6", link: "myk" },
       {
         id: 2,
-        title: "Farkındalık Yolu",
-        link: "farkindalik",
+        title: "ICF Yeterlilik Sınavı",
+        link: "icf",
       },
     ],
   },
@@ -226,25 +229,55 @@ export const StaticPages = [
     id: 3,
     title: "OKULLAR",
     link: "okullar",
-    pages: [{ id: 1, title: "Giriş Atölyesi", link: "atolye" }],
+    pages: [
+      { id: 1, title: "Koçluk Okulu", link: "kocluk" },
+      { id: 2, title: "Eğitmenlik Okulu", link: "egitmenlik" },
+      { id: 3, title: "Sistemik Dizim Okulu", link: "sistemik-dizim" },
+      { id: 4, title: "Enneagram Okulu", link: "enneagram" },
+    ],
   },
   {
     id: 4,
     title: "ATÖLYELER",
     link: "atolyeler",
-    pages: [{ id: 1, title: "Giriş Atölyesi", link: "atolye" }],
+    pages: [
+      {
+        id: 1,
+        title: "Farkındalık Geliştirme",
+        link: "farkindalik-gelistirme",
+      },
+      {
+        id: 2,
+        title: "Sistemik Dizim Çalışma Grubu",
+        link: "sistemik-dizim",
+      },
+    ],
   },
   {
     id: 5,
+    title: "HİZMETLERİMİZ",
+    link: "hizmetlerimiz",
+    pages: [
+      {
+        id: 1,
+        title: "Kurumsal Hizmetler",
+        link: "kurumsal",
+      },
+      { id: 2, title: "Bireysel Hizmetler", link: "bireysel" },
+      { id: 3, title: "Sosyal Sorumluluk", link: "sosyal-sorumluluk" },
+    ],
+  },
+  {
+    id: 6,
     title: "İletişim",
     link: "iletisim",
     pages: [
       {
         id: 1,
-        title: "rhan.cetinx@gmail.com",
-        link: "mailto:rhan.cetinx@gmail.com",
+        title: "hakan.turkdonmez@gmail.com",
+        link: "mailto:hakan.turkdonmez@gmail.com",
       },
-      { id: 2, title: "+90 (544) 308 74 02", link: "tel:+905443087402" },
+      { id: 2, title: "+90 (543) 464 91 44", link: "tel:+905434649144" },
       { id: 3, title: "Çerez Politikası", link: "cerez" },
       { id: 4, title: "K.V.K.K.", link: "kvkk" },
     ],
