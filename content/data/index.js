@@ -291,7 +291,7 @@ export const socialMedia = [
     name: "facebook",
     alt: "facebook logo",
     title: "facebook sayfamıza bekleriz",
-    link: "https://www.facebook.com/reyhancetinve",
+    link: "https://www.facebook.com/",
   },
   {
     id: 2,
@@ -299,7 +299,23 @@ export const socialMedia = [
     name: "instagram",
     alt: "instagram logo",
     title: "instagram sayfamıza bekleriz",
-    link: "https://www.instagram.com/reyhancetinve",
+    link: "https://www.instagram.com/metasistemik/?igsh=N2VyZ2JmcjRhejM0",
+  },
+  {
+    id: 3,
+    svgIcon: "youtube",
+    name: "youtube",
+    alt: "youtube logo",
+    title: "youtube sayfamıza bekleriz",
+    link: "https://www.youtube.com/@metasistemik",
+  },
+  {
+    id: 4,
+    svgIcon: "linkedin",
+    name: "linkedin",
+    alt: "linkedin logo",
+    title: "linkedin sayfamıza bekleriz",
+    link: "https://www.linkedin.com/company/metasistemik/about/?viewAsMember=true",
   },
 ];
 

@@ -9,8 +9,8 @@ const FooterInfo = () => {
         <a href="/">
           <img
             src={footerReyhan.src}
-            alt="reyhan çetin"
-            title="reyhan çetin"
+            alt="resim"
+            title="resim"
             className="m-0 p-2 h-28 w-28 border-2 border-gray rounded-full"
           />
         </a>

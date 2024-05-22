@@ -31,7 +31,7 @@ import IconComponent from "@/components/ui/icons/icons";
 
 export async function generateMetadata() {
   return {
-    title: smd.title + " - Reyhan Çetin",
+    title: smd.title + " - Metasistemik",
   };
 }
 

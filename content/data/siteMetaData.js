@@ -8,7 +8,7 @@ const siteMetadata = {
   description:
     "Farkındalığa Dayalı Kişisel Dönüşümün Sistemik Çapta Değişimle Gerçekleştiği Yer",
   language: "tr-TR",
-  siteUrl: "https://reyhan.org.tr/",
+  siteUrl: "https://metasistemik.com.tr",
   siteLogo: "/logo-metasistemik.webp",
   email: "rhan.cetinx@gmail.com",
 };

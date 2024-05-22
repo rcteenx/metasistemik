@@ -14,7 +14,7 @@ export default function SocialMedia() {
           Karşılıklı etkileşim için sosyal medya sayfalarımıza bekliyoruz.
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-8 mt-8 max-w-4xl mx-auto px-8">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8 max-w-4xl mx-auto px-8">
         {socialMedia.map((i) => (
           <div key={i.id}>
             <a
