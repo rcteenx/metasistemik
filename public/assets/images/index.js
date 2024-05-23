@@ -4,5 +4,16 @@ import footerReyhan from "./rcteenx.jpeg";
 import bOncesi from "./bilinc-oncesi.jpg";
 import bSonrasi from "./bilinc-sonrasi.jpg";
 import kocluk1 from "./kocluk-1.jpg";
+import kocluky1 from "./kocluk-y-1.jpg";
+import kocluky2 from "./kocluk-y-2.jpg";
 
-export { rcHero, rVideo, footerReyhan, bOncesi, bSonrasi, kocluk1 };
+export {
+  rcHero,
+  rVideo,
+  footerReyhan,
+  bOncesi,
+  bSonrasi,
+  kocluk1,
+  kocluky1,
+  kocluky2,
+};

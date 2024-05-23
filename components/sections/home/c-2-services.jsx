@@ -20,7 +20,7 @@ export default function HomeServices() {
           Daha tatmin edici bir hayata ve daha etkili bir organizasyona doğru
           yolculuğunuz burada başlıyor.
         </p>
-        <p>Detaylı Bilgi İçin Hizmetlerimiz sayfasına ulaşın</p>
+        <h4>Detaylı Bilgi İçin Hizmetlerimiz sayfasına ulaşın</h4>
       </div>
     </section>
   );

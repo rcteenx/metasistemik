@@ -1,20 +1,18 @@
 import SvgCheck from "@/components/ui/svg/check";
 
-export default function WhatWeGain({ img, gain, gain2 }) {
+export default function WhatWeGain({ img, img2, gain, gain2 }) {
   return (
     <div id="gain" className="bg-white py-10">
       <div className="container mx-auto">
         <div className="px-4 lg:p-0 text-left xl:text-center">
           <h2>{gain.h2}</h2>
         </div>
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 items-center ">
           <div className="rounded-3xl hidden xl:block">
             <img
               src={img.src}
               alt="img colletion"
-              width="w-full"
-              height={400}
-              className=" rounded-xl"
+              className=" h-[420px] w-full rounded-xl object-cover object-center "
             />
           </div>
           <div className="p-4">
@@ -37,7 +35,7 @@ export default function WhatWeGain({ img, gain, gain2 }) {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 items-center">
           <div className="p-4">
             <ul className="space-y-5">
-              {gain.items.map((i, index) => (
+              {gain2.items.map((i, index) => (
                 <li key={index} className="flex gap-2">
                   <SvgCheck />
                   <div>
@@ -52,11 +50,9 @@ export default function WhatWeGain({ img, gain, gain2 }) {
           </div>
           <div className="rounded-3xl hidden xl:block">
             <img
-              src={img.src}
+              src={img2.src}
               alt="img colletion"
-              width="w-full"
-              height={400}
-              className=" rounded-xl"
+              className=" h-[480px] w-full rounded-xl object-cover object-center"
             />
           </div>
         </div>

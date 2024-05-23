@@ -3,7 +3,7 @@ import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import Support from "@/components/sections/home/x6-support";
-import SocialMedia from "@/components/sections/common/z-social-media";
+import SocialMedia from "@/components/sections/common/z-contact";
 
 export default function StaticPage() {
   return (

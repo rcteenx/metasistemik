@@ -17,7 +17,14 @@ module.exports = {
         base: ["var(--font-base)", "sans-serif"],
       },
       colors: {
-        primary: "#8c8c8c",
+        // primary: "#8c8c8c",
+        primary: "#242a2b",
+        secondary: "#808080",
+        accent: {
+          DEFAULT: "#1cbccf",
+          secondary: "#18abbc",
+        },
+        grey: "#e0f0f1",
         slate: "#333366",
         slate2: "#5b5b84",
         gray40: "#666666",
@@ -26,9 +33,14 @@ module.exports = {
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)",
       },
+      boxShadow: {
+        custom1: "0px 2px 40px 0px rgba(8, 70, 78, 0.08)",
+        custom2: "0px 2px 30px 0px rgba(8, 73, 81, 0.06)",
+      },
       backgroundImage: (theme) => ({
         kocluk1: "url('/assets/images/kocluk-1.jpg')",
         bilincSonrasi: "url('/assets/images/bilinc-sonrasi.jpg')",
+        services: "url('/assets/images/bg.svg')",
       }),
     },
   },

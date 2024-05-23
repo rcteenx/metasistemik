@@ -55,13 +55,19 @@ export const whatwegain2 = {
   ],
 };
 
-export const meetingList = [
+export const schoolTitle = {
+  h2: "OKULLARIMIZ ve EĞİTİMLERİMİZ",
+  h5: "Sistemik Yaklaşımda Uzmanlık Geliştirin",
+  p: "Dönüşüme giden benzersiz bir yolu keşfedin. Farkındalık Geliştirme ve Sistemik Çalışmanın dönüştürücü ilkelerini, yöntemlerini ve tekniklerini tüm sertifika programlarımıza entegre ederek, sizi yetenek geliştirmeye dayalı dönüşüm yolculuğu için güçlendiriyoruz.",
+};
+
+export const schoolList = [
   {
     id: 1,
-    title: "Sohbet",
+    title: "Koçluk Okulu",
     fulltitle: "Ezoterik Felsefe Araştırma ve Uygulama Sohbetleri",
-    time: "Pazar 21:30",
     link: "sohbet",
+    desc: "Kendinizi ve diğerlerini kalıcı dönüşüme doğru yönlendirmek için Sistemik Koçluk yaklaşımlarında ve metodolojilerinde uzmanlaşın. Koçluk becerilerinizi derinleştirin, sistemik bakış açınızı genişletin ve bireyler ve kuruluşlar için anlamlı değişimi kolaylaştırma potansiyelinizi ortaya çıkarın.",
     specs: [
       "Yaratılış Işını",
       "Bilinç, Farkındalık ve Ötesi",
@@ -73,9 +79,8 @@ export const meetingList = [
   },
   {
     id: 2,
-    title: "Meditasyon",
+    title: "Eğitmenlik Okulu",
     fulltitle: "Bilinç ve Farkındalık Pratiği: Mindfulness Çalışmaları",
-    time: "Salı 21:30",
     link: "meditasyon",
     specs: [
       "Bilinç ve Farkındalık Ayrımı",
@@ -88,9 +93,22 @@ export const meetingList = [
   },
   {
     id: 3,
-    title: "Grup Çalışması",
+    title: "Sistemik Dizim Okulu",
     fulltitle: "Olağan Hayatımızda Çalışma: Gözlem Paylaşımı",
-    time: "Perşembe 21:30",
+    link: "grup",
+    specs: [
+      "Bizi Yöneten Benlikleri Fark Etmek",
+      "Kendimize bir Kahya Oluşturmak",
+      "Hayatın İçinde Farkındalık",
+      "Bireysel Gözlem Paylaşımı",
+      "Çember Desteği ve Açılımları",
+      "Kendimizi Çalışma",
+    ],
+  },
+  {
+    id: 4,
+    title: "Enneagram Okulu",
+    fulltitle: "Olağan Hayatımızda Çalışma: Gözlem Paylaşımı",
     link: "grup",
     specs: [
       "Bizi Yöneten Benlikleri Fark Etmek",

@@ -4,10 +4,21 @@ import { socialMedia } from "@/content/data";
 
 export default function SocialMedia() {
   return (
-    <section className="container mx-auto my-16 lg:my-24">
+    <section className="container mx-auto text-center my-16 lg:my-24">
       <div className="px-8">
-        <div className="text-center text-2xl lg:text-4xl">
-          İçsel yolculuğumuzu paylaşmak için
+        <h2 className="text-2xl lg:text-6xl text-center border-b-4 inline-block border-black">
+          BİZE ULAŞIN
+        </h2>
+        <h3>Periyodik Bülten</h3>
+        <p>
+          Ücretsiz Eğitici Materyaller içeren ve periyodik olarak yenilenip
+          sunduğumuz Bültenimize Kaydolmak için tıklayın
+        </p>
+        <h3>Sertifika Programları Sunum Dosyaları</h3>
+        <p>Talep için tıklayınız</p>
+        <hr className="my-8" />
+        <div className="text-2xl lg:text-4xl">
+          Doğrudan iletişim için
           <span className="font-bold">"sosyal medya"dayız!</span>
         </div>
         <div className="text-center mt-4 text-base md:text-xl">
