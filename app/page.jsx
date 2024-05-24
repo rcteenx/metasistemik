@@ -7,7 +7,12 @@ import {
   schoolTitle,
   schoolList,
 } from "@/content/data";
-import { rcHero, rVideo, kocluky1, kocluky2 } from "@/public/assets/images";
+import {
+  rcHero,
+  kocluky1,
+  kocluky2,
+  metasistemikNedir,
+} from "@/public/assets/images";
 
 import Hero from "@/components/sections/home/1-hero";
 import SubHero from "@/components/sections/home/1b-sub-hero";
@@ -16,13 +21,13 @@ import InfoBar from "@/components/sections/home/3-info-bar";
 import WhatWeGain from "@/components/sections/home/b-1-what-we-gain";
 import Schools from "@/components/sections/home/b-2-schools";
 
+import Schools2 from "@/components/sections/home/b-2a-schools";
+
 import Workshops from "@/components/sections/home/c-1-workshops";
 
 import HomeServices from "@/components/sections/home/c-2-services";
 import BlogBar from "@/components/sections/home/c-3-blog-bar";
 import SocialMedia from "@/components/sections/common/z-contact";
-
-import ServicesTut from "@/components/sections/home/x-tut-services";
 
 export async function generateMetadata() {
   return {
@@ -34,7 +39,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <SubHero rVideo={rcHero} />
+      <SubHero img={metasistemikNedir} />
       <InfoBar info={barInfo} />
 
       <WhatWeGain
@@ -43,14 +48,15 @@ export default function Home() {
         gain={whatwegain}
         gain2={whatwegain2}
       />
-      <Schools title={schoolTitle} xlist={schoolList} />
+
+      <Schools2 />
+
+      {/* <Schools title={schoolTitle} xlist={schoolList} /> */}
 
       <Workshops />
       <HomeServices />
       <BlogBar />
       <SocialMedia />
-
-      <ServicesTut />
     </>
   );
 }

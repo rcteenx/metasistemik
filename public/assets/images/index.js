@@ -7,6 +7,8 @@ import kocluk1 from "./kocluk-1.jpg";
 import kocluky1 from "./kocluk-y-1.jpg";
 import kocluky2 from "./kocluk-y-2.jpg";
 
+import metasistemikNedir from "./metasistemik-nedir.jpg";
+
 export {
   rcHero,
   rVideo,
@@ -16,4 +18,5 @@ export {
   kocluk1,
   kocluky1,
   kocluky2,
+  metasistemikNedir,
 };

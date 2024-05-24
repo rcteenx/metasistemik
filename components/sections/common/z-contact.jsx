@@ -37,7 +37,7 @@ export default function SocialMedia() {
                 <IconComponent
                   name={i.svgIcon}
                   size={96}
-                  color="#333366"
+                  color="#1CBCCF"
                   alt={i.alt}
                   title={i.alt}
                 />

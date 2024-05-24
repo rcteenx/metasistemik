@@ -2,7 +2,7 @@ import SvgCheck from "@/components/ui/svg/check";
 
 export default function WhatWeGain({ img, img2, gain, gain2 }) {
   return (
-    <div id="gain" className="bg-white py-10">
+    <div id="gain" className="bg-white py-10 lg:my-16">
       <div className="container mx-auto">
         <div className="px-4 lg:p-0 text-left xl:text-center">
           <h2>{gain.h2}</h2>
@@ -21,7 +21,7 @@ export default function WhatWeGain({ img, img2, gain, gain2 }) {
                 <li key={index} className="flex gap-2">
                   <SvgCheck />
                   <div>
-                    <dt className="font-semibold mt-1">{i.title}</dt>
+                    <dt className="font-semibold mt-1  ">{i.title}</dt>
                     <dd className="-ml-7 mt-2 pb-2 border-b border-gray-200">
                       {i.info}
                     </dd>

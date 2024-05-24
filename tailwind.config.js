@@ -22,16 +22,10 @@ module.exports = {
         secondary: "#808080",
         accent: {
           DEFAULT: "#1cbccf",
-          secondary: "#18abbc",
+          opposite: "#f3af56",
         },
         grey: "#e0f0f1",
-        slate: "#333366",
-        slate2: "#5b5b84",
-        gray40: "#666666",
-        "coral-red": "#FF6452",
-        "slate-gray": "#6D6D6D",
-        "pale-blue": "#F5F6FF",
-        "white-400": "rgba(255, 255, 255, 0.80)",
+        accent: "#1cbccf",
       },
       boxShadow: {
         custom1: "0px 2px 40px 0px rgba(8, 70, 78, 0.08)",

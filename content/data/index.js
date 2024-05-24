@@ -1,27 +1,27 @@
 export const barInfo = {
-  h2: "Hayatın İçinde Bilinç ve Farkındalık Yolculuğu",
+  h2: "Metasistemik: Farkındalık Geliştirme ve Sistemik Çalışmaları",
   items: [
     {
       title: "Çalışma",
       info: "25 yıl",
     },
     {
-      title: "Katılımcı",
-      info: "10.000",
+      title: "Okul",
+      info: "4",
     },
     {
-      title: "Seminer",
+      title: "Katılımcı",
       info: "1.000",
     },
     {
-      title: "Grup Çalışması",
+      title: "Atölye Çalışması",
       info: "100",
     },
   ],
 };
 
 export const whatwegain = {
-  h2: "Eğitim Programlarımız Neler Kazandırır?",
+  h2: "Metasistemik Çalışma Programlarımız Neler Kazandırır?",
   items: [
     {
       title: "Derin Kişisel Farkındalığı Geliştirin",
@@ -235,117 +235,6 @@ export const socialMedia = [
     alt: "linkedin logo",
     title: "linkedin sayfamıza bekleriz",
     link: "https://www.linkedin.com/company/metasistemik/about/?viewAsMember=true",
-  },
-];
-
-export const digerReyhanlar = [
-  {
-    id: 1,
-    name: "Elif'in Babası",
-    bgcolour: "slate",
-    tcolour: "white",
-  },
-  {
-    id: 2,
-    name: "İnci'in Babası",
-    bgcolour: "slate",
-    tcolour: "white",
-  },
-  {
-    id: 3,
-    name: "Kaan'ın Babası",
-    bgcolour: "slate",
-    tcolour: "white",
-  },
-  {
-    id: 4,
-    name: "Babasının Oğlu",
-    bgcolour: "slate2",
-    tcolour: "white",
-  },
-  {
-    id: 5,
-    name: "Annesinin Oğlu",
-    bgcolour: "slate2",
-    tcolour: "white",
-  },
-  {
-    id: 6,
-    name: "Kardeşinin Abisi",
-    bgcolour: "pale-blue",
-    tcolour: "black",
-  },
-  // aktif kullanılmayan renkler gelmiyor, tailwind kaldırıyor bunları
-  {
-    id: 7,
-    name: "Dayısının Yeğeni",
-  },
-  {
-    id: 8,
-    name: "Eski Koca",
-  },
-  {
-    id: 9,
-    name: "İşletme Mezunu",
-  },
-  {
-    id: 10,
-    name: "Yazılımcı",
-  },
-  {
-    id: 11,
-    name: "Bigalı",
-  },
-  {
-    id: 12,
-    name: "Boğaziçili",
-  },
-  {
-    id: 13,
-    name: "Beşiktaşlı",
-  },
-  {
-    id: 14,
-    name: "Liberal",
-  },
-];
-
-export const ezoterikFelsefe = [
-  {
-    id: 1,
-    name: "Bilinç",
-  },
-  {
-    id: 2,
-    name: "Farkındalık",
-  },
-  {
-    id: 3,
-    name: "Çoğul Ben'likler",
-  },
-  {
-    id: 4,
-    name: "Yaratılış Işını",
-  },
-  {
-    id: 5,
-    name: "Bilinç Seviyeleri",
-  },
-  {
-    id: 6,
-    name: "Kendini Gözlem",
-  },
-  {
-    id: 7,
-    name: "Kendini Hatırlama",
-  },
-  {
-    id: 8,
-    name: "Mindfulness Meditasyonu",
-  },
-  {
-    id: 9,
-    name: "Gözlem Çalışmaları",
   },
 ];
 

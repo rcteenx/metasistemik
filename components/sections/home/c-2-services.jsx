@@ -6,8 +6,8 @@ export default function HomeServices() {
   return (
     <section className="container mx-auto my-16 lg:my-24">
       <div className="px-8 text-center">
-        <h2 className="text-2xl lg:text-4xl">HİZMETLERİMİZ</h2>
-        <h3 className="mt-4 text-base md:text-xl">
+        <h2 className="text-2xl lg:text-4xl text-accent">HİZMETLERİMİZ</h2>
+        <h3 className="mt-4 text-base md:text-xl text-accent">
           Dönüşüme Doğru İlk Adımı Atın
         </h3>
         <p>
@@ -20,7 +20,9 @@ export default function HomeServices() {
           Daha tatmin edici bir hayata ve daha etkili bir organizasyona doğru
           yolculuğunuz burada başlıyor.
         </p>
-        <h4>Detaylı Bilgi İçin Hizmetlerimiz sayfasına ulaşın</h4>
+        <h4 className="text-accent">
+          Detaylı Bilgi İçin Hizmetlerimiz sayfasına ulaşın
+        </h4>
       </div>
     </section>
   );
