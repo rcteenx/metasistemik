@@ -1,6 +1,11 @@
 import smd from "@/content/data/siteMetaData";
 
-import { barInfo, whatwegain, whatwegain2 } from "@/content/data";
+import {
+  barInfo,
+  whatwegain,
+  whatwegain2,
+  mekanikYollar,
+} from "@/content/data";
 import {
   rcHero,
   kocluky1,
@@ -17,9 +22,10 @@ import WhatWeGain from "@/components/sections/home/b-1-what-we-gain";
 import Schools2 from "@/components/sections/home/b-2a-schools";
 
 import Workshops from "@/components/sections/home/c-1-workshops";
+import Certificates from "@/components/sections/home/c-2-certificates";
 
-import HomeServices from "@/components/sections/home/c-2-services";
-import BlogBar from "@/components/sections/home/c-3-blog-bar";
+import HomeServices from "@/components/sections/home/d-2-services";
+import BlogBar from "@/components/sections/home/d-3-blog-bar";
 import SocialMedia from "@/components/sections/common/z-contact";
 
 export async function generateMetadata() {
@@ -34,17 +40,22 @@ export default function Home() {
       <Hero />
       <SubHero img={metasistemikNedir} />
       <InfoBar info={barInfo} />
-
       <WhatWeGain
         img={kocluky1}
         img2={kocluky2}
         gain={whatwegain}
         gain2={whatwegain2}
       />
-
       <Schools2 />
-
       <Workshops />
+      <section className="relative w-100 h-12 md:h-24 ">
+        <div className="curvedR"></div>
+      </section>
+      <Certificates img={kocluky1} mekanikYollar={mekanikYollar} />
+      <section className="relative w-100 h-12 md:h-24">
+        <div className="curved"></div>
+      </section>
+
       <HomeServices />
       <BlogBar />
       <SocialMedia />

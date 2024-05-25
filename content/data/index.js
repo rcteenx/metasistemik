@@ -55,6 +55,26 @@ export const whatwegain2 = {
   ],
 };
 
+export const mekanikYollar = {
+  h2: "Mesleki Yeterlilik ve Gelişim Sertifika Programları",
+  p: "Kendi bilinç ışığımız yanmadan önce, bir anlamda henüz ruhsal gözlerimiz körken, karanlığın içinde yürüdüğümüz 3 temel yol.",
+  h3: "Bilinç Ateşinden Önceki Yollar",
+  items: [
+    {
+      title: "Hayat Yolu: Bitkisel Oluş",
+      info: "Bitkisel Oluş: Pek çok insan, saksı çiçeği gibi kendi kültürel şartları içinde bir tür hapis hayatı yaşar. Bu durumla ilgili genellikle büyük şikayetleri ya da arayışları yoktur.",
+    },
+    {
+      title: "Sorgulama & Arayış: Hayvani Faaliyet",
+      info: "Bazıları, saksıda çiçek olmanın ötesini merak eder. Karanlıkta bir sorgulama dönemi başlar. Bulunduğu topraktan beslenemediğinde, hayatta kalmak için, bir hayvan gibi karanlığın içinde ve her yöne saldırmaya başlar. Felsefe, bu kutunun dışına çıkmanın başlangıcıdır.",
+    },
+    {
+      title: "Ezoterik Bilgi: İnsani Süreç",
+      info: "Sürüden ayrılıp arayışa çıkanların bir kısmı, ezoterik felsefi bilgilere yani saklı hazineye giden haritaya ulaşıyor. Ezoterik bilgiler, karanlık bir labirentte ilerlememize yardımcı olmak için teorik bilgi sağlar.",
+    },
+  ],
+};
+
 export const StaticPages = [
   {
     id: 1,
