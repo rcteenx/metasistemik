@@ -16,7 +16,7 @@ const Hero = () => {
               Gerçekleştiği Yer
             </h3>
             <div className="bg-accent/30 mx-4 p-4 rounded-full text-white ">
-              <h2 className="border-b-4 inline-block font-medium md:text-lg lg:text-6xl">
+              <h2 className="border-b-4 inline-block font-bold md:text-lg lg:text-6xl ">
                 METASİSTEMİK
               </h2>
               <p className="font-normal text-xs md:text-sm lg:text-xl ">
@@ -25,7 +25,7 @@ const Hero = () => {
               <div className="flex my-8 flex-row space-x-4 justify-center items-center">
                 <a
                   href="https://wa.me/905434649144?text=genel%20bilgi%20istiyorum"
-                  className="btn-hero bg-accent-opposite text-black"
+                  className="btn-hero text-black bg-accent-opposite "
                 >
                   Mesaj Atın
                   <IconComponent name="arrowright" size={18} color="black" />
@@ -34,7 +34,7 @@ const Hero = () => {
                   href="#"
                   className="border-0 border-b border-white rounded-none "
                 >
-                  Biz Sizi Arayalım
+                  Sizi Arayalım
                 </a>
               </div>
             </div>

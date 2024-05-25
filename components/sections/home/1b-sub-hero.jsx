@@ -18,14 +18,13 @@ const SubHero = ({ img }) => {
           <h3>METASİSTEMİK ÇALIŞMA NEDİR?</h3>
           <div className="text-base leading-4">
             <p>
-              METASİSTEMİK, Farkındalık Geliştirme ve Sistemik Çalışmaya olan
-              bağlılığımıza dayalı bir çalışma sistemidir.
+              Farkındalık Geliştirme ve Sistemik Çalışmaya olan bağlılığımıza
+              dayalı bir çalışma sistemidir.
             </p>
             <p>
               Kişisel farkındalığı geliştirmenin ve bütünsel birbirine bağlılığı
-              anlamanın bireylerde, ekiplerde ve kuruluşlarda dönüşüm
-              potansiyelinin kilidini açmak için gerekli olduğunu iddia
-              ediyoruz.
+              anlamak; bireylerde ve ekiplerde dönüşüm potansiyelinin kilidini
+              açmak için gereklidir.
             </p>
             <h3>Metasistemik Çalışmanın Farkı</h3>
             <ul className="list-disc px-4">
