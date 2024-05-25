@@ -6,10 +6,10 @@ export default function HomeServices() {
   return (
     <section className="container mx-auto my-16 lg:my-24">
       <div className="px-8 text-center">
-        <h2 className="text-2xl lg:text-6xl text-accent-primaryd-6">
+        <h2 className="text-2xl lg:text-6xl text-accent-dark-6">
           HİZMETLERİMİZ
         </h2>
-        <h3 className="my-4 text-base md:text-xl text-accent-primaryl-5">
+        <h3 className="my-4 text-base md:text-xl text-accent-light-5">
           Dönüşüme Doğru İlk Adımı Atın
         </h3>
         <p>

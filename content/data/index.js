@@ -67,19 +67,6 @@ export const StaticPages = [
   },
   {
     id: 2,
-    title: "SINAVLAR",
-    link: "sinavlar",
-    pages: [
-      { id: 1, title: "MYK Seviye 6", link: "myk" },
-      {
-        id: 2,
-        title: "ICF Yeterlilik Sınavı",
-        link: "icf",
-      },
-    ],
-  },
-  {
-    id: 3,
     title: "OKULLAR",
     link: "okullar",
     pages: [
@@ -90,7 +77,7 @@ export const StaticPages = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     title: "ATÖLYELER",
     link: "atolyeler",
     pages: [
@@ -103,6 +90,19 @@ export const StaticPages = [
         id: 2,
         title: "Sistemik Dizim Çalışma Grubu",
         link: "sistemik-dizim",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "SINAVLAR",
+    link: "sinavlar",
+    pages: [
+      { id: 1, title: "MYK Seviye 6", link: "myk" },
+      {
+        id: 2,
+        title: "ICF Yeterlilik Sınavı",
+        link: "icf",
       },
     ],
   },

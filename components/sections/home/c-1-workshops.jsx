@@ -4,9 +4,11 @@ export default function Workshops() {
   return (
     <section id="atolye" className="">
       <div className="container mx-auto my-8 lg:my-24">
-        <div className="bg-accent p-12 m-4 border rounded-2xl shadow-lg text-center text-white">
-          <h2>ATÖLYE VE ETKİNLİKLER</h2>
-          <p>
+        <div className="bg-gradient-to-br from-accent via-accent-dark-3 to-accent-dark-7 p-12 m-4 border rounded-2xl shadow-lg text-center text-white">
+          <h2 className=" text-accent-light-7 lg:text-6xl">
+            ATÖLYE VE ETKİNLİKLER
+          </h2>
+          <p className=" text-accent-light-8">
             Hafta da birer gün olarak düzenlediğimiz aşağıdaki gruplarımız genel
             katılıma açıktır:
           </p>

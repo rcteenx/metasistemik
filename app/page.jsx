@@ -1,12 +1,6 @@
 import smd from "@/content/data/siteMetaData";
 
-import {
-  barInfo,
-  whatwegain,
-  whatwegain2,
-  schoolTitle,
-  schoolList,
-} from "@/content/data";
+import { barInfo, whatwegain, whatwegain2 } from "@/content/data";
 import {
   rcHero,
   kocluky1,
@@ -19,7 +13,6 @@ import SubHero from "@/components/sections/home/1b-sub-hero";
 import InfoBar from "@/components/sections/home/3-info-bar";
 
 import WhatWeGain from "@/components/sections/home/b-1-what-we-gain";
-import Schools from "@/components/sections/home/b-2-schools";
 
 import Schools2 from "@/components/sections/home/b-2a-schools";
 
@@ -50,8 +43,6 @@ export default function Home() {
       />
 
       <Schools2 />
-
-      {/* <Schools title={schoolTitle} xlist={schoolList} /> */}
 
       <Workshops />
       <HomeServices />

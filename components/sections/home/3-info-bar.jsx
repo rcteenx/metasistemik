@@ -1,6 +1,6 @@
 export default function InfoBar({ info }) {
   return (
-    <section className="bg-gradient-to-r from-accent via-[#148491] to-accent py-8 lg:py-16 text-white">
+    <section className="bg-gradient-to-r from-accent via-accent-dark-7 to-accent py-8 lg:py-16 text-white">
       <div className="container mx-auto">
         <h2 className="text-2xl lg:text-4xl text-center ">{info.h2}</h2>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:divide-x divide-accent lg:[&>*]:pl-14 mt-10 md:text-left">

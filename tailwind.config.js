@@ -22,7 +22,7 @@ module.exports = {
         secondary: "#808080",
         accent: {
           DEFAULT: "#1cbccf",
-          primaryl: {
+          light: {
             1: "#33C3D4",
             2: "#49C9D9",
             3: "#60D0DD",
@@ -33,7 +33,7 @@ module.exports = {
             8: "#D2F2F5",
             9: "#E8F8FA",
           },
-          primaryd: {
+          dark: {
             1: "#19A9BA",
             2: "#1696A6",
             3: "#148491",
