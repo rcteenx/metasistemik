@@ -14,15 +14,15 @@ export default function Certificates({ img, mekanikYollar }) {
             sunar.
           </p>
         </div>
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:my-8 items-start bg-accent-light-7 p-4 rounded-xl">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:my-8 items-start bg-accent-light-7 p-4 rounded-xl text-center">
           <div className="p-4">
             <img
               src={img.src}
               alt="img colletion"
-              className=" h-[420px] w-full rounded-xl object-cover object-center shadow-lg border-4 "
+              className=" h-[420px] w-full rounded-xl object-cover object-center shadow-lg border-8   border-white"
             />
             <h3 className="mt-4">METASİSTEMİK Onaylı Sertifikalar</h3>
-            <p className="bg-white p-4 rounded-lg">
+            <p className="bg-white p-4 rounded-lg shadow-lg ">
               Uzman okullarımız tarafından verilen ve platformumuz tarafından
               onaylanan transkriptli bu sertifikalar, desteklediğimiz sıkı
               eğitim ve değerlendirme standartlarını yansıtır.
@@ -32,12 +32,12 @@ export default function Certificates({ img, mekanikYollar }) {
             <img
               src={img.src}
               alt="img colletion"
-              className=" h-[420px] w-full rounded-xl object-cover object-center shadow-lg border-4"
+              className=" h-[420px] w-full rounded-xl object-cover object-center shadow-lg border-8   border-white"
             />
-            <h3 className="mt-4">
+            <h3 className="my-4">
               Uluslararası Onaylı Güvenilir Sertifikasyon Sistemi
             </h3>
-            <p className="bg-white p-4 rounded-lg">
+            <p className="bg-white p-4 rounded-lg shadow-lg ">
               Ek bir onay ve güvenlik katmanı sağlamak için üniversitelerdeki
               Sürekli Eğitim Merkezlerinin de (SEM) tercih ettiği (CARDCERT) ile
               ortaklık yapıyoruz. Mezunlarımız, güvenli doğrulama ve küresel
@@ -47,7 +47,7 @@ export default function Certificates({ img, mekanikYollar }) {
             </p>
           </div>
         </div>
-        <div className="text-center">
+        <div className="text-center bg-accent-dark-3 p-8 rounded-xl text-accent-light-7">
           <h3>Sertifika Programlarımızda Avrupa Standartlarına Uyum</h3>
           <p>
             Mesleki Yeterlilik ve Gelişim Sertifika Programlarımız, MYK Seviye-6

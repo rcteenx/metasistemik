@@ -147,10 +147,10 @@ export const StaticPages = [
     pages: [
       {
         id: 1,
-        title: "hakan.turkdonmez@gmail.com",
-        link: "mailto:hakan.turkdonmez@gmail.com",
+        title: "bilgi@metasistemik.com",
+        link: "mailto:bilgi@metasistemik.com",
       },
-      { id: 2, title: "+90 (543) 464 91 44", link: "tel:+905434649144" },
+      { id: 2, title: "0 (232) 520 8409", link: "tel:+902325208409" },
       { id: 3, title: "Çerez Politikası", link: "cerez" },
       { id: 4, title: "K.V.K.K.", link: "kvkk" },
     ],

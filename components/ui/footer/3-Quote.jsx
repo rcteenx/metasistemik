@@ -3,7 +3,7 @@ import IconComponent from "@/components/ui/icons/icons";
 
 export default function FooterQuote() {
   return (
-    <div className="flex flex-col md:flex-row  justify-between items-end">
+    <div className="flex flex-col md:flex-row justify-between items-end">
       <div className="flex items-center gap-2 mt-4">
         {socialMedia.map((icon) => (
           <div
@@ -16,9 +16,8 @@ export default function FooterQuote() {
           </div>
         ))}
       </div>
-      <p className="hidden md:block text-right text-sm text-white">
-        Kendimizi deneyimleyebileceğiniz ve kendimiz olabileceğimiz bir alan
-        açıyoruz.
+      <p className="text-right text-sm text-white">
+        Çınarlı Mah. Ozan Abay Cad. No:8-Z17 / Ege Perla-Konak / İzmir
       </p>
     </div>
   );
