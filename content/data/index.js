@@ -115,19 +115,6 @@ export const StaticPages = [
   },
   {
     id: 4,
-    title: "SINAVLAR",
-    link: "sinavlar",
-    pages: [
-      { id: 1, title: "MYK Seviye 6", link: "myk" },
-      {
-        id: 2,
-        title: "ICF Yeterlilik Sınavı",
-        link: "icf",
-      },
-    ],
-  },
-  {
-    id: 5,
     title: "HİZMETLERİMİZ",
     link: "hizmetlerimiz",
     pages: [
@@ -138,6 +125,19 @@ export const StaticPages = [
       },
       { id: 2, title: "Bireysel Hizmetler", link: "bireysel" },
       { id: 3, title: "Sosyal Sorumluluk", link: "sosyal-sorumluluk" },
+    ],
+  },
+  {
+    id: 5,
+    title: "SINAVLAR",
+    link: "sinavlar",
+    pages: [
+      { id: 1, title: "MYK Seviye 6", link: "myk" },
+      {
+        id: 2,
+        title: "ICF Yeterlilik Sınavı",
+        link: "icf",
+      },
     ],
   },
   {

@@ -6,12 +6,9 @@ import {
   whatwegain2,
   mekanikYollar,
 } from "@/content/data";
-import {
-  rcHero,
-  kocluky1,
-  kocluky2,
-  metasistemikNedir,
-} from "@/public/assets/images";
+import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
+
+import { mykLogo, icfLogo } from "@/public/assets/logo";
 
 import Hero from "@/components/sections/home/1-hero";
 import SubHero from "@/components/sections/home/1b-sub-hero";
@@ -24,7 +21,10 @@ import Schools2 from "@/components/sections/home/b-2a-schools";
 import Workshops from "@/components/sections/home/c-1-workshops";
 import Certificates from "@/components/sections/home/c-2-certificates";
 
+import Exams from "@/components/sections/home/d-1-exams";
+import SignupBar from "@/components/sections/home/dx-mailing-bar";
 import HomeServices from "@/components/sections/home/d-2-services";
+
 import BlogBar from "@/components/sections/home/d-3-blog-bar";
 import SocialMedia from "@/components/sections/common/z-contact";
 
@@ -56,8 +56,11 @@ export default function Home() {
         <div className="curved"></div>
       </section>
 
+      <Exams img={mykLogo} img2={icfLogo} />
+      <SignupBar />
       <HomeServices />
       <BlogBar />
+
       <SocialMedia />
     </>
   );
