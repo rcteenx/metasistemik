@@ -1,4 +1,4 @@
-const FooterCopyRight = () => {
+export default function FooterCopyRight() {
   return (
     <div className="py-2 flex justify-between text-white-400 border-t">
       <p className="text-xs">
@@ -16,6 +16,4 @@ const FooterCopyRight = () => {
       </p>
     </div>
   );
-};
-
-export default FooterCopyRight;
+}

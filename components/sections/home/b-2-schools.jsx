@@ -1,7 +1,7 @@
 import IconComponent from "@/components/ui/icons/icons";
 
 // https://www.youtube.com/watch?v=qmMIz0_c9Ek
-const Schools2 = () => {
+export default function Schools2() {
   return (
     <section id="servicestut" className="mx-4">
       <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[328px] flex items-center xl:items-start -z-10">
@@ -78,6 +78,4 @@ const Schools2 = () => {
       </div>
     </section>
   );
-};
-
-export default Schools2;
+}

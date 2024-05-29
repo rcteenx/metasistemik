@@ -1,7 +1,7 @@
 import { StaticPages } from "@/content/data";
 import FooterInfo from "@/components/ui/footer/1-Info";
 
-const FooterLinks = () => {
+export default function FooterLinks() {
   return (
     <div className="flex flex-col lg:flex-row justify-between lg:items-start gap-8 text-center lg:text-left">
       {StaticPages.map((pg) => (
@@ -31,6 +31,4 @@ const FooterLinks = () => {
       ))}
     </div>
   );
-};
-
-export default FooterLinks;
+}

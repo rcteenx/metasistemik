@@ -2,7 +2,7 @@ import { footerReyhan } from "@/public/assets/images";
 import { socialMedia } from "@/content/data";
 import IconComponent from "@/components/ui/icons/icons";
 
-const FooterInfo = () => {
+export default function FooterInfo() {
   return (
     <div className="flex justify-around items-center md:ml-8 ">
       <div>
@@ -17,6 +17,4 @@ const FooterInfo = () => {
       </div>
     </div>
   );
-};
-
-export default FooterInfo;
+}

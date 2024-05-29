@@ -1,57 +1,31 @@
 import IconComponent from "@/components/ui/icons/icons";
 
 // https://www.youtube.com/watch?v=qmMIz0_c9Ek
-export default function SystemicPrograms() {
+export default function WorkshopPrograms() {
   return (
     <section id="coaching-programms" className="mx-4">
       <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[328px] flex items-center xl:items-start -z-10">
         <div className="container mx-auto">
           <div className="text-center text-white">
-            <h2 className="xl:text-4xl ">SİSTEMİK DİZİM OKULU</h2>
-            <h3 className="xl:text-2xl ">
-              MESLEKİ YETERLİLİK ve GELİŞİM SERTİFİKA PROGRAMLARI
-            </h3>
+            <h2 className="xl:text-4xl ">METASİSTEMATİK ÇALIŞMALAR</h2>
+            <h3 className="xl:text-2xl ">GRUP ATÖLYE ÇALIŞAMLARIMIZ</h3>
           </div>
         </div>
       </div>
 
       <div className="container mx-auto xl:-mt-[124px]">
-        <div className="grid  xl:grid-cols-3 gap-4 px-8 xl:px-0">
+        <div className="grid  md:grid-cols-2 gap-4 px-8 xl:px-0">
           <div className="services__item bg-accent-light-9 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border border-accent ">
-            <p className="text-3xl text-accent-dark-1 font-bold">Seviye 1</p>
-            <h4 className="mb-[10px]">
-              BİREYSEL SİSTEMİK DİZİM KOLAYLAŞTIRICISI SERTİFİKA PROGRAMI
+            <h4 className="">
+              Farkındalık Geliştirme ve Sistemik Çalışma Grubu
             </h4>
-            <p className=" font-light leading-normal max-w-[300px] text-sm">
-              120 Saat
-              <br />
-              Mesleki Yeterlilik Eğitimi
-            </p>
+            <p className=" font-light leading-normal max-w-[300px] text-sm"></p>
           </div>
 
           <div className="services__item bg-accent-light-7 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border-accent">
-            <p className="text-3xl text-accent-dark-3 font-bold">Seviye 2/A</p>
-            <h4 className="mb-[10px]">
-              <a href="#">SİSTEMİK DİZİM KOLAYLAŞTIRICISI SERTİFİKA PROGRAMI</a>
+            <h4 className="">
+              <a href="#">Sistemik Dizim Çalışma Grubu</a>
             </h4>
-            <p className=" font-light leading-normal max-w-[300px] text-sm">
-              120 Saat
-              <br />
-              Mesleki Gelişim Eğitimi
-            </p>
-          </div>
-
-          <div className="services__item bg-accent-light-5 p-[30px] rounded-[10px] shadow-custom2 flex flex-col items-center text-center border-accent">
-            <p className="text-3xl text-accent-dark-5 font-bold">Seviye 2/B</p>
-            <h4 className="mb-[10px]">
-              YÖNETİM VE ORGANİZASYONEL SİSTEMİK DİZİM KOLAYLAŞTIRICISI
-              SERTİFİKA PROGRAMI
-            </h4>
-            <p className=" font-light leading-normal max-w-[300px] text-sm">
-              120 Saat
-              <br />
-              Mesleki Gelişim Eğitimi
-            </p>
           </div>
         </div>
         <div className="text-center my-8">

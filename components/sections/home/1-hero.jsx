@@ -1,7 +1,6 @@
-import { kocluk1 } from "@/public/assets/images";
-
 import IconComponent from "@/components/ui/icons/icons";
-const Hero = () => {
+
+export default function Hero() {
   return (
     <section id="hero" className="text-center text-white">
       <div className="relative overflow-hidden bg-cover bg-no-repeat imageBG">
@@ -43,6 +42,4 @@ const Hero = () => {
       </div>
     </section>
   );
-};
-
-export default Hero;
+}

@@ -1,4 +1,4 @@
-const SubHero = ({ img }) => {
+export default function SubHero() {
   return (
     <section
       id="subhero"
@@ -47,6 +47,4 @@ const SubHero = ({ img }) => {
       </div>
     </section>
   );
-};
-
-export default SubHero;
+}

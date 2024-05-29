@@ -4,7 +4,7 @@ import FooterLinks from "@/components/ui/footer/2-Links";
 import FooterQuote from "./3-Quote";
 import FooterCopyRight from "@/components/ui/footer/4-CopyRight";
 
-const Footer = () => {
+export default function Footer() {
   return (
     <footer
       id="footer"
@@ -18,6 +18,4 @@ const Footer = () => {
       <FooterCopyRight />
     </footer>
   );
-};
-
-export default Footer;
+}

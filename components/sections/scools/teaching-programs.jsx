@@ -1,7 +1,7 @@
 import IconComponent from "@/components/ui/icons/icons";
 
 // https://www.youtube.com/watch?v=qmMIz0_c9Ek
-const TeachingProgramms = () => {
+export default function TeachingProgramms() {
   return (
     <section id="coaching-programms" className="mx-4">
       <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[328px] flex items-center xl:items-start -z-10">
@@ -42,7 +42,7 @@ const TeachingProgramms = () => {
           </div>
 
           <div className="services__item bg-accent-light-5 p-[30px] rounded-[10px] shadow-custom2 flex flex-col items-center text-center border-accent">
-            <p className="text-3xl text-accent-dark-5 font-bold">Seviye 3/A</p>
+            <p className="text-3xl text-accent-dark-5 font-bold">Seviye 3</p>
             <h4 className="mb-[10px]">
               SİSTEMİK SÜPERVİZYON SERTİFİKA PROGRAMI
             </h4>
@@ -87,6 +87,4 @@ const TeachingProgramms = () => {
       </div>
     </section>
   );
-};
-
-export default TeachingProgramms;
+}
