@@ -3,16 +3,16 @@ import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import {
-  teachingwhatwegain,
-  teachingwhatwegain2,
+  systemicwhatwegain,
+  systemicwhatwegain2,
 } from "@/content/data/schools";
 import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
 import { mykLogo, icfLogo } from "@/public/assets/logo";
 
-import TeadchingWhy from "@/components/sections/scools/teaching-why";
-import TeachingGain from "@/components/sections/scools/teaching-gain";
+import SystemicWhy from "@/components/sections/scools/systemic-why";
+import SystemicGain from "@/components/sections/scools/systemic-gain";
 
-import TeachingProgramms from "@/components/sections/scools/teaching-programs";
+import SystemicPrograms from "@/components/sections/scools/systemic-programs";
 
 import SocialMedia from "@/components/sections/common/z-contact";
 
@@ -51,15 +51,15 @@ export default function StaticPage() {
         </p>
       </PageContent>
 
-      <TeadchingWhy />
-      <TeachingGain
+      <SystemicWhy />
+      <SystemicGain
         img={kocluky1}
         img2={kocluky2}
-        gain={teachingwhatwegain}
-        gain2={teachingwhatwegain2}
+        gain={systemicwhatwegain}
+        gain2={systemicwhatwegain2}
       />
 
-      <TeachingProgramms />
+      <SystemicPrograms />
 
       <SocialMedia />
     </>
