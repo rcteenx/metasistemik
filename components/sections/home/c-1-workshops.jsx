@@ -2,7 +2,7 @@ import { StaticPages } from "@/content/data";
 
 export default function Workshops() {
   return (
-    <section id="atolye" className="">
+    <section id="workshops" className="">
       <div className="container mx-auto my-8 lg:my-24">
         <div className="bg-gradient-to-br from-accent via-accent-dark-3 to-accent-dark-7 p-12 m-4 border rounded-2xl shadow-lg text-center text-white">
           <h2 className=" text-accent-light-7 lg:text-6xl">

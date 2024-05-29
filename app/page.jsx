@@ -16,7 +16,7 @@ import InfoBar from "@/components/sections/home/3-info-bar";
 
 import WhatWeGain from "@/components/sections/home/b-1-what-we-gain";
 
-import Schools2 from "@/components/sections/home/b-2a-schools";
+import Schools from "@/components/sections/home/b-2-schools";
 
 import Workshops from "@/components/sections/home/c-1-workshops";
 import Certificates from "@/components/sections/home/c-2-certificates";
@@ -46,7 +46,7 @@ export default function Home() {
         gain={whatwegain}
         gain2={whatwegain2}
       />
-      <Schools2 />
+      <Schools />
       <Workshops />
       <section className="relative w-100 h-12 md:h-24 ">
         <div className="curvedR"></div>

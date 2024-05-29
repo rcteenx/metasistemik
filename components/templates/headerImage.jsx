@@ -2,17 +2,13 @@ import { cva } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const imageStyles = cva(
-  "mx-auto h-48 max-w-xl relative bg-no-repeat bg-center bg-gray-500 rounded-2xl shadow-2xl ",
+  "mx-auto h-48 max-w-2xl relative bg-no-repeat bg-center bg-gray-500 rounded-2xl shadow-2xl ",
   {
     variants: {
       bgImage: {
-        default: "bg-rMerhaba",
+        default: "bg-services",
         rMerhaba: "bg-rMerhaba",
         fMerhaba: "bg-fMerhaba",
-        yMerhaba: "bg-yMerhaba",
-        cMerhaba: "bg-cMerhaba",
-        aMerhaba: "bg-aMerhaba",
-        iMerhaba: "bg-iMerhaba",
       },
     },
     defaultVariants: {
