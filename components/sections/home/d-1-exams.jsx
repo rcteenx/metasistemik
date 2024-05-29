@@ -108,7 +108,7 @@ export default function Exams({ img, img2 }) {
         </div>
 
         <p className="text-center my-4">
-          Dağa kapsamlı bilgiler için Mesleki Yeterlilik Sınavları sayfamızı
+          Daha kapsamlı bilgiler için Mesleki Yeterlilik Sınavları sayfamızı
           ziyaret edin
         </p>
       </div>

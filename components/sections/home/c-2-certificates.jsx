@@ -68,6 +68,38 @@ export default function Certificates({ img, mekanikYollar }) {
             Yaklaşan yeni sınıflarımızı kaçırmayın; dönüştürücü öğrenme
             yolculuğunuza başlamak için bugün bizimle iletişime geçin!
           </p>
+          <div className="bg-accent-light-5 p-4 mt-8 rounded-xl text-accent-dark-5 max-w-lg mx-auto">
+            <h4>Bizimle iletişime geçin</h4>
+            <p>
+              Yaklaşan başlangıç tarihleri hakkında daha fazla bilgi edinmek
+              veya mesleki gelişim hedeflerinizi tartışmak için sizi şu adrese
+              davet ediyoruz:
+            </p>
+            <ul className="flex justify-center gap-4 my-4">
+              <li className="p-4 border rounded-xl">
+                <dd className="font-semibold">Ara</dd>
+                <dt>
+                  <a
+                    href="/iletisim/tel:+902325208409"
+                    className="hover:border-b"
+                  >
+                    0 (232) 520 8409
+                  </a>
+                </dt>
+              </li>
+              <li className="p-4 border rounded-xl">
+                <dd className="font-semibold">Yaz</dd>
+                <dt>
+                  <a
+                    href="/iletisim/mailto:bilgi@metasistemik.com"
+                    className="hover:border-b"
+                  >
+                    bilgi@metasistemik.com
+                  </a>
+                </dt>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

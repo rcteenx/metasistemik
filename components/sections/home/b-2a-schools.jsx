@@ -24,10 +24,11 @@ const Schools2 = () => {
       </div>
 
       <div className="container mx-auto xl:-mt-[144px]">
-        <h3 className="text-center mb-4 text-white">OKULUNUZU SEÇİN</h3>
+        <h3 className="text-center mb-4 text-white text-4xl bg-accent-dark-5 p-4 rounded-xl">
+          OKULUNUZU SEÇİN
+        </h3>
         <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-4 px-8 xl:px-0">
           <div className="services__item bg-white p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center ">
-            {" "}
             <div className="mb-[15px]">
               <img src="assets/icons/services/icon-1.svg" alt="" />
             </div>
