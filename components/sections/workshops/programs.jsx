@@ -19,7 +19,6 @@ export default function WorkshopPrograms() {
             <h4 className="">
               Farkındalık Geliştirme ve Sistemik Çalışma Grubu
             </h4>
-            <p className=" font-light leading-normal max-w-[300px] text-sm"></p>
           </div>
 
           <div className="services__item bg-accent-light-7 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border-accent">
