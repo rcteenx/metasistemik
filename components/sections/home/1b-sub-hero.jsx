@@ -1,4 +1,4 @@
-export default function SubHero() {
+export default function SubHero({ img }) {
   return (
     <section
       id="subhero"
