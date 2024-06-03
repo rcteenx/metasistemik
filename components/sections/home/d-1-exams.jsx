@@ -25,8 +25,10 @@ export default function Exams({ img, img2 }) {
           </p>
         </div>
         <div className="lg:mt-4  p-8 bg-accent text-accent-light-7 rounded-xl ">
-          <h3 className="text-center my-4">
-            Ulusal Mesleki Kimlik Kazanımı (MYK Düzey-6)
+          <h3 className=" mx-auto my-4 hover:border-b text-center">
+            <a href="/sinavlar/myk">
+              Ulusal Mesleki Kimlik Kazanımı (MYK Düzey-6)
+            </a>
           </h3>
           <div className="grid grid-cols-1 xl:grid-cols-3 items-end gap-8 ">
             <div className="rounded-xl p-8 bg-white ">
@@ -73,8 +75,10 @@ export default function Exams({ img, img2 }) {
         </div>
 
         <div className="lg:mt-4 p-8 border rounded-xl border-accent-dark-3 text-accent-dark-3">
-          <h3 className="text-center my-4">
-            Ulusal Mesleki Kimlik Kazanımı (MYK Düzey-6)
+          <h3 className=" mx-auto my-4 hover:border-b text-center">
+            <a href="/sinavlar/icf">
+              Ulusal Mesleki Kimlik Kazanımı (MYK Düzey-6)
+            </a>
           </h3>
           <div className="grid grid-cols-1 xl:grid-cols-3 items-end gap-8 ">
             <div className="p-4 col-span-2 ">
