@@ -6,12 +6,12 @@ import { whatwegain, whatwegain2 } from "@/content/data/schools";
 import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
 import { mykLogo, icfLogo } from "@/public/assets/logo";
 
-import WhyCoacging from "@/components/sections/scools/coaching-why";
-import WhatYouGain from "@/components/sections/scools/coaching-gain";
-import CoachingInfoBar from "@/components/sections/scools/coaching-bar";
-import CoachingTitles from "@/components/sections/scools/coaching-title";
+import WhyCoacging from "@/components/sections/schools/coaching-why";
+import WhatYouGain from "@/components/sections/schools/coaching-gain";
+import CoachingInfoBar from "@/components/sections/schools/coaching-bar";
+import CoachingTitles from "@/components/sections/schools/coaching-title";
 
-import CoachingProgramms from "@/components/sections/scools/coaching-programs";
+import CoachingProgramms from "@/components/sections/schools/coaching-programs";
 
 import SocialMedia from "@/components/sections/common/z-contact";
 

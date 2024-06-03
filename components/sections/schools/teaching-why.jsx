@@ -13,7 +13,7 @@ export default function TeachingWhy() {
               uzmanlığınızı yükseltin.
             </p>
             <h3>Neden Eğitmenlik Okulumuzu Seçmelisiniz?</h3>
-            <ul className="grid grid-cols-2 mx-auto gap-8 my-4 p-4 [&>li]:border [&>li]:bg-accent-light-7 [&>li]:rounded-xl [&>li]:p-4">
+            <ul className="grid md:grid-cols-2 mx-auto gap-8 my-4 p-4 [&>li]:border [&>li]:bg-accent-light-7 [&>li]:rounded-xl [&>li]:p-4">
               <li>
                 <h3>Derinlik ve Boyut</h3>
                 <p>

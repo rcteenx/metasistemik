@@ -9,10 +9,10 @@ import {
 import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
 import { mykLogo, icfLogo } from "@/public/assets/logo";
 
-import EnneagramWhy from "@/components/sections/scools/enneagram-why";
-import EnneagramGain from "@/components/sections/scools/enneagram-gain";
+import EnneagramWhy from "@/components/sections/schools/enneagram-why";
+import EnneagramGain from "@/components/sections/schools/enneagram-gain";
 
-import EnneagramPrograms from "@/components/sections/scools/enneagram-programs";
+import EnneagramPrograms from "@/components/sections/schools/enneagram-programs";
 
 import SocialMedia from "@/components/sections/common/z-contact";
 

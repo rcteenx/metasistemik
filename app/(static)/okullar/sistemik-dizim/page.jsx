@@ -9,10 +9,10 @@ import {
 import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
 import { mykLogo, icfLogo } from "@/public/assets/logo";
 
-import SystemicWhy from "@/components/sections/scools/systemic-why";
-import SystemicGain from "@/components/sections/scools/systemic-gain";
+import SystemicWhy from "@/components/sections/schools/systemic-why";
+import SystemicGain from "@/components/sections/schools/systemic-gain";
 
-import SystemicPrograms from "@/components/sections/scools/systemic-programs";
+import SystemicPrograms from "@/components/sections/schools/systemic-programs";
 
 import SocialMedia from "@/components/sections/common/z-contact";
 

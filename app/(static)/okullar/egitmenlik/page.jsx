@@ -9,10 +9,10 @@ import {
 import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
 import { mykLogo, icfLogo } from "@/public/assets/logo";
 
-import TeadchingWhy from "@/components/sections/scools/teaching-why";
-import TeachingGain from "@/components/sections/scools/teaching-gain";
+import TeadchingWhy from "@/components/sections/schools/teaching-why";
+import TeachingGain from "@/components/sections/schools/teaching-gain";
 
-import TeachingProgramms from "@/components/sections/scools/teaching-programs";
+import TeachingProgramms from "@/components/sections/schools/teaching-programs";
 
 import SocialMedia from "@/components/sections/common/z-contact";
 

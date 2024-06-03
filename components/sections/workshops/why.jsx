@@ -8,7 +8,7 @@ export default function WorkshopsWhy() {
           </h2>
           <div className=" mx-auto bg-accent-light-3 p-4 md:p-12 text-accent-dark-7 rounded-xl my-8">
             <h2 className="md:text-6xl">Atölyelerimizin Faydaları</h2>
-            <ul className="grid grid-cols-2 mx-auto gap-8 my-8 p-4 [&>li]:border [&>li]:bg-accent-light-7 [&>li]:rounded-xl [&>li]:p-4">
+            <ul className="grid md:grid-cols-2 mx-auto gap-8 my-8 p-4 [&>li]:border [&>li]:bg-accent-light-7 [&>li]:rounded-xl [&>li]:p-4">
               <li>
                 <h3>Kişisel Farkındalığı Derinleştirin</h3>
                 <p>

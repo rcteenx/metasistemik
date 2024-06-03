@@ -14,7 +14,7 @@ export default function EnneagramWhy() {
               gelişimi kolaylaştırın.
             </p>
             <h3>İşte sizi bekleyenler:</h3>
-            <ul className="grid grid-cols-2 mx-auto gap-8 my-8 p-4 [&>li]:border [&>li]:bg-accent-light-7 [&>li]:rounded-xl [&>li]:p-4">
+            <ul className="grid md:grid-cols-2 mx-auto gap-8 my-8 p-4 [&>li]:border [&>li]:bg-accent-light-7 [&>li]:rounded-xl [&>li]:p-4">
               <li>
                 <h3>Dönüştürücü Yaklaşım</h3>
                 <p>
