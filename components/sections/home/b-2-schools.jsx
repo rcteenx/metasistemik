@@ -32,7 +32,9 @@ export default function Schools2() {
             <div className="mb-[15px]">
               <img src="assets/icons/services/icon-1.svg" alt="" />
             </div>
-            <h3 className="mb-[10px]">Koçluk Okulu</h3>
+            <h3 className="mb-[10px]">
+              <a href="/okullar/kocluk">Koçluk Okulu</a>
+            </h3>
             <p className=" font-light leading-normal max-w-[300px] text-sm">
               Kendinizi ve diğerlerini kalıcı dönüşüme doğru yönlendirmek için
               uzmanlaşın.
@@ -43,7 +45,9 @@ export default function Schools2() {
             <div className="mb-[15px]">
               <img src="assets/icons/services/icon-2.svg" alt="" />
             </div>
-            <h3 className="mb-[10px]">Eğitmenlik Okulu</h3>
+            <h3 className="mb-[10px]">
+              <a href="/okullar/egitmenlik">Eğitmenlik Okulu</a>
+            </h3>
             <p className=" font-light leading-normal max-w-[300px] text-sm">
               Dönüşümsel öğrenme ortamlarının dinamik bir Sistemik Eğitmen,
               kolaylaştırıcı ve lider olun.
@@ -54,7 +58,9 @@ export default function Schools2() {
             <div className="mb-[15px]">
               <img src="assets/icons/services/icon-3.svg" alt="" />
             </div>
-            <h3 className="mb-[10px]">Sistemik Dizim Okulu</h3>
+            <h3 className="mb-[10px]">
+              <a href="/okullar/sistemik-dizim">Sistemik Dizim Okulu</a>
+            </h3>
             <p className=" font-light leading-normal max-w-[300px] text-sm">
               Bireyler, gruplar ve organizasyon sistemleri içindeki gizli
               dinamikleri ortaya çıkarın.
@@ -65,7 +71,9 @@ export default function Schools2() {
             <div className="mb-[15px]">
               <img src="assets/icons/services/icon-4.svg" alt="" />
             </div>
-            <h3 className="mb-[10px]">Enneagram Okulu</h3>
+            <h3 className="mb-[10px]">
+              <a href="/okullar/enneagram">Enneagram Okulu</a>
+            </h3>
             <p className=" font-light leading-normal max-w-[300px] text-sm">
               Derinlemesine kişisel anlayış, ilişkiler ve kişisel gelişime
               dönüştürücü bir yaklaşım kazanın.

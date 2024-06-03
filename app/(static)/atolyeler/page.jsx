@@ -2,13 +2,6 @@ import HeaderTitle from "@/components/templates/headerTitle";
 import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
-import {
-  enneagramwhatwegain,
-  enneagramwhatwegain2,
-} from "@/content/data/schools";
-import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
-import { mykLogo, icfLogo } from "@/public/assets/logo";
-
 import WorkshopsWhy from "@/components/sections/workshops/why";
 
 import WorkshopPrograms from "@/components/sections/workshops/programs";
@@ -30,13 +23,22 @@ export default function StaticPage() {
         </p>
         <h3>İki Güçlü Yaklaşımla Potansiyelinizi Ortaya Çıkarın</h3>
         <p>İki farklı ama tamamlayıcı grup atölyesi deneyimi sunuyoruz:</p>
-        <h4>1-Farkındalık Geliştirme ve Sistemik Çalışma Grubu:</h4>
+        <h4>
+          1-
+          <a href="/atolyeler/farkindalik-gelistirme">
+            Farkındalık Geliştirme ve Sistemik Çalışma Grubu
+          </a>
+          :
+        </h4>
         <p>
           Farkındalığı geliştirin, hayatınızı şekillendiren sistemik yapıları
           keşfedin ve destekleyici bir topluluk içinde tüm potansiyelinizi
           ortaya çıkarın.
         </p>
-        <h4>2-Sistemik Dizim Çalışma Grubu:</h4>
+        <h4>
+          2-<a href="/atolyeler/sistemik-dizim">Sistemik Dizim Çalışma Grubu</a>
+          :
+        </h4>
         <p>
           Kendi içinizdeki, ilişkilerinizdeki ve daha geniş sistemlerinizdeki
           gizli dinamikleri ortaya çıkarın. Dönüştürücü içgörüler elde edin,

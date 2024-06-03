@@ -15,13 +15,7 @@ export default function FooterLinks() {
                 key={sp.id}
                 className="mt-1 text-sm leading-normal text-white-400"
               >
-                <a
-                  href={
-                    pg.id == 4 && sp.id < 3
-                      ? sp.link
-                      : "/" + pg.link + "/" + sp.link
-                  }
-                >
+                <a href={pg.id == 4 && sp.id < 3 ? sp.link : "/" + sp.link}>
                   {sp.title}
                 </a>
               </li>

@@ -16,14 +16,18 @@ export default function WorkshopPrograms() {
       <div className="container mx-auto xl:-mt-[124px]">
         <div className="grid md:grid-cols-2 gap-4 px-8 xl:px-0">
           <div className="services__item bg-accent-light-9 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border border-accent ">
-            <h4 className="">
-              Farkındalık Geliştirme ve Sistemik Çalışma Grubu
+            <h4>
+              <a href="/atolyeler/farkindalik-gelistirme">
+                Farkındalık Geliştirme ve Sistemik Çalışma Grubu
+              </a>
             </h4>
           </div>
 
           <div className="services__item bg-accent-light-7 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border-accent">
-            <h4 className="">
-              <a href="#">Sistemik Dizim Çalışma Grubu</a>
+            <h4>
+              <a href="/atolyeler/sistemik-dizim">
+                Sistemik Dizim Çalışma Grubu
+              </a>
             </h4>
           </div>
         </div>

@@ -82,7 +82,7 @@ export const StaticPages = [
     link: "metasistematik",
     pages: [
       // { id: 1, title: "Platform Hakkında", link: "platform" },
-      { id: 1, title: "Kurucumuz", link: "kurucumuz" },
+      { id: 1, title: "Kurucumuz", link: "metasistematik/kurucumuz" },
     ],
   },
   {
@@ -90,10 +90,10 @@ export const StaticPages = [
     title: "OKULLAR",
     link: "okullar",
     pages: [
-      { id: 1, title: "Koçluk Okulu", link: "kocluk" },
-      { id: 2, title: "Eğitmenlik Okulu", link: "egitmenlik" },
-      { id: 3, title: "Sistemik Dizim Okulu", link: "sistemik-dizim" },
-      { id: 4, title: "Enneagram Okulu", link: "enneagram" },
+      { id: 1, title: "Koçluk Okulu", link: "okullar/kocluk" },
+      { id: 2, title: "Eğitmenlik Okulu", link: "okullar/egitmenlik" },
+      { id: 3, title: "Sistemik Dizim Okulu", link: "okullar/sistemik-dizim" },
+      { id: 4, title: "Enneagram Okulu", link: "okullar/enneagram" },
     ],
   },
   {
@@ -104,12 +104,12 @@ export const StaticPages = [
       {
         id: 1,
         title: "Farkındalık Geliştirme",
-        link: "farkindalik-gelistirme",
+        link: "atolyeler/farkindalik-gelistirme",
       },
       {
         id: 2,
-        title: "Sistemik Dizim Çalışma Grubu",
-        link: "sistemik-dizim",
+        title: "Sistemik Dizim",
+        link: "atolyeler/sistemik-dizim",
       },
     ],
   },
@@ -121,10 +121,14 @@ export const StaticPages = [
       {
         id: 1,
         title: "Kurumsal Hizmetler",
-        link: "kurumsal",
+        link: "hizmetlerimiz/kurumsal",
       },
-      { id: 2, title: "Bireysel Hizmetler", link: "bireysel" },
-      { id: 3, title: "Sosyal Sorumluluk", link: "sosyal-sorumluluk" },
+      { id: 2, title: "Bireysel Hizmetler", link: "hizmetlerimiz/bireysel" },
+      {
+        id: 3,
+        title: "Sosyal Sorumluluk",
+        link: "hizmetlerimiz/sosyal-sorumluluk",
+      },
     ],
   },
   {
@@ -132,11 +136,11 @@ export const StaticPages = [
     title: "SINAVLAR",
     link: "sinavlar",
     pages: [
-      { id: 1, title: "MYK Seviye 6", link: "myk" },
+      { id: 1, title: "MYK Seviye 6", link: "sinavlar/myk" },
       {
         id: 2,
         title: "ICF Yeterlilik Sınavı",
-        link: "icf",
+        link: "sinavlar/icf",
       },
     ],
   },
@@ -151,8 +155,8 @@ export const StaticPages = [
         link: "mailto:bilgi@metasistemik.com",
       },
       { id: 2, title: "0 (232) 520 8409", link: "tel:+902325208409" },
-      { id: 3, title: "Çerez Politikası", link: "cerez" },
-      { id: 4, title: "K.V.K.K.", link: "kvkk" },
+      { id: 3, title: "Çerez Politikası", link: "iletisim/cerez" },
+      { id: 4, title: "K.V.K.K.", link: "iletisim/kvkk" },
     ],
   },
 ];

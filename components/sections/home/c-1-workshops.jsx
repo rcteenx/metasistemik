@@ -15,7 +15,11 @@ export default function Workshops() {
           <p> (Sürekli çalışma grubu)</p>
           <ul className="my-4 text-accent text-base flex flex-col md:flex-row gap-4 ">
             <li className=" w-full border p-4 rounded-md shadow-lg bg-white hover:bg-gray-100 ">
-              <h4>Grup İçin Sistemik Dizim</h4>
+              <h4>
+                <a href="/atolyeler/farkindalik-gelistirme">
+                  Farkındalık Geliştirme ve Sistemik Çalışma Grubu
+                </a>
+              </h4>
               <ul className="my-4 flex items-center justify-center gap-4  ">
                 <li className="px-4 py-2 bg-accent text-white hover:bg-accent/80 rounded-xl cursor-pointer shadow-lg">
                   <a href="https://wa.me/905443087402?text=bilgi">Kayıt</a>
@@ -26,7 +30,11 @@ export default function Workshops() {
               </ul>
             </li>
             <li className=" w-full border p-4 rounded-md shadow-lg bg-white hover:bg-gray-100">
-              <h4>Farkındalık Geliştirime & Sistemik Çalışma</h4>
+              <h4>
+                <a href="/atolyeler/sistemik-dizim">
+                  Sistemik Dizim Çalışma Grubu
+                </a>
+              </h4>
               <ul className="my-4 flex items-center justify-center gap-4  ">
                 <li className="px-4 py-2 bg-accent text-white hover:bg-accent/80 rounded-xl cursor-pointer shadow-lg">
                   <a href="https://wa.me/905443087402?text=bilgi">Kayıt</a>
