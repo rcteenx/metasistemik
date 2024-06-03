@@ -7,7 +7,7 @@ export default function Schools2() {
       <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[328px] flex items-center xl:items-start -z-10">
         <div className="container mx-auto">
           <div className="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]">
-            <h2 className="h2 xl:pr-8 xl:border-r xl:text-6xl text-white">
+            <h2 className="xl:pr-8 xl:border-r xl:text-6xl text-white">
               OKULLARIMIZ
             </h2>
             <div className="xl:pl-8 flex-1">
@@ -23,8 +23,8 @@ export default function Schools2() {
         </div>
       </div>
 
-      <div className="container mx-auto xl:-mt-[144px]">
-        <h3 className="text-center mb-4 text-white text-4xl bg-accent-dark-5 p-4 rounded-xl">
+      <div className="container mx-auto xl:-mt-[144px] ">
+        <h3 className="mx-4 xl:mx-auto mb-4 p-4  bg-accent-dark-5 rounded-xl text-center text-2xl md:text-4xl text-white ">
           OKULUNUZU SEÇİN
         </h3>
         <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-4 px-8 xl:px-0">

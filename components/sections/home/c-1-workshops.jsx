@@ -12,10 +12,10 @@ export default function Workshops() {
             Hafta da birer gün olarak düzenlediğimiz aşağıdaki gruplarımız genel
             katılıma açıktır:
           </p>
-          <ul className="text-accent text-base flex flex-col sm:flex-row gap-4 ">
-            <li className=" w-full border p-4 my-4 rounded-md shadow-lg bg-white hover:bg-gray-100 ">
-              <h3>Grup İçin Sistemik Dizim</h3>
-              <p> (Sürekli çalışma grubu)</p>
+          <p> (Sürekli çalışma grubu)</p>
+          <ul className="my-4 text-accent text-base flex flex-col md:flex-row gap-4 ">
+            <li className=" w-full border p-4 rounded-md shadow-lg bg-white hover:bg-gray-100 ">
+              <h4>Grup İçin Sistemik Dizim</h4>
               <ul className="my-4 flex items-center justify-center gap-4  ">
                 <li className="px-4 py-2 bg-accent text-white hover:bg-accent/80 rounded-xl cursor-pointer shadow-lg">
                   <a href="https://wa.me/905443087402?text=bilgi">Kayıt</a>
@@ -25,9 +25,8 @@ export default function Workshops() {
                 </li>
               </ul>
             </li>
-            <li className=" w-full border p-4 my-4 rounded-md shadow-lg bg-white hover:bg-gray-100">
-              <h3>Farkındalık Geliştirime & Sistemik Çalışma</h3>
-              <p> (Sürekli çalışma grubu)</p>
+            <li className=" w-full border p-4 rounded-md shadow-lg bg-white hover:bg-gray-100">
+              <h4>Farkındalık Geliştirime & Sistemik Çalışma</h4>
               <ul className="my-4 flex items-center justify-center gap-4  ">
                 <li className="px-4 py-2 bg-accent text-white hover:bg-accent/80 rounded-xl cursor-pointer shadow-lg">
                   <a href="https://wa.me/905443087402?text=bilgi">Kayıt</a>

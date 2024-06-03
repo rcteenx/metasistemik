@@ -75,23 +75,20 @@ export default function Certificates({ img, mekanikYollar }) {
               veya mesleki gelişim hedeflerinizi tartışmak için sizi şu adrese
               davet ediyoruz:
             </p>
-            <ul className="flex justify-center gap-4 my-4">
-              <li className="p-4 border rounded-xl">
+            <ul className="flex flex-col md:flex-row justify-center gap-4 my-4">
+              <li className="p-4 border rounded-xl w-96">
                 <dd className="font-semibold">Ara</dd>
                 <dt>
-                  <a
-                    href="/iletisim/tel:+902325208409"
-                    className="hover:border-b"
-                  >
+                  <a href="tel:+902325208409" className="hover:border-b">
                     0 (232) 520 8409
                   </a>
                 </dt>
               </li>
-              <li className="p-4 border rounded-xl">
+              <li className="p-4 border rounded-xl w-96">
                 <dd className="font-semibold">Yaz</dd>
                 <dt>
                   <a
-                    href="/iletisim/mailto:bilgi@metasistemik.com"
+                    href="mailto:bilgi@metasistemik.com"
                     className="hover:border-b"
                   >
                     bilgi@metasistemik.com
