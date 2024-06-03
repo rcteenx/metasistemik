@@ -16,17 +16,23 @@ export default function StaticPage() {
           <li>
             <dd className="font-semibold">Whatsapp & Telefon:</dd>
             <dt>
-              <a href="tel:+905443087402">+90 (544) 308 74 02</a>
+              <a href="tel:+902325208409" className="hover:border-b">
+                0 (232) 520 8409
+              </a>
             </dt>
           </li>
           <li className="mt-4">
             <dd className="font-semibold">Email:</dd>
             <dt>
-              <a href="mailto:rhan.cetinx@gmail.com">rhan.cetinx@gmail.com</a>
+              <a
+                href="mailto:bilgi@metasistemik.com"
+                className="hover:border-b"
+              >
+                bilgi@metasistemik.com
+              </a>
             </dt>
           </li>
         </ul>
-        <p>Sevgilerle...</p>
       </PageContent>
 
       <SocialMedia />

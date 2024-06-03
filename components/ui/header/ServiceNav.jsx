@@ -6,7 +6,7 @@ export default function MobileMenu() {
       <nav id="service-menu">
         <ul className="flex space-x-4 text-sm m-4">
           <li className="bg-black text-white rounded-xl hover:bg-gray-400 hover:text-black py-1 px-3">
-            <a href="#">Kayıt</a>
+            <a href="/blog">Blog</a>
           </li>
           <li className="rounded-xl  hover:bg-gray-300 py-1 px-3">
             <a href="/iletisim">İletişim</a>

@@ -14,7 +14,7 @@ export default function WorkshopPrograms() {
       </div>
 
       <div className="container mx-auto xl:-mt-[124px]">
-        <div className="grid  md:grid-cols-2 gap-4 px-8 xl:px-0">
+        <div className="grid md:grid-cols-2 gap-4 px-8 xl:px-0">
           <div className="services__item bg-accent-light-9 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border border-accent ">
             <h4 className="">
               Farkındalık Geliştirme ve Sistemik Çalışma Grubu
