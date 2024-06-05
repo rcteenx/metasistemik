@@ -1,10 +1,9 @@
 import HeaderTitle from "@/components/templates/headerTitle";
-import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
-import WorkshopsWhy from "@/components/sections/workshops/why";
-
 import WorkshopPrograms from "@/components/sections/workshops/programs";
+
+import WorkshopsWhy from "@/components/sections/workshops/why";
 
 import SocialMedia from "@/components/sections/common/z-contact";
 
@@ -12,7 +11,8 @@ export default function StaticPage() {
   return (
     <>
       <HeaderTitle>ATÖLYELER VE ETKİNLİKLER</HeaderTitle>
-      <HeaderImage>Hayatınızı Dönüştürün, Dünyanızı Güçlendirin</HeaderImage>
+
+      <WorkshopPrograms />
 
       <PageContent h2Title="ATÖLYELER VE ETKİNLİKLER">
         <p>
@@ -57,8 +57,6 @@ export default function StaticPage() {
       </PageContent>
 
       <WorkshopsWhy />
-
-      <WorkshopPrograms />
 
       <SocialMedia />
     </>

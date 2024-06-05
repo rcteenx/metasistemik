@@ -14,40 +14,40 @@ export default function BlogCategories() {
 
       <div className="container mx-auto mt-4 xl:-mt-[80px]">
         <div className="grid md:grid-cols-3 gap-4 px-8 xl:px-0">
-          <div className="services__item bg-accent-light-9 p-[30px] rounded-[10px] shadow-custom2 flex flex-col items-center text-center border border-accent ">
+          <div className="services__item bg-accent-light-9 px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border border-accent ">
             <h4>Koçluk Okulu Bloğu</h4>
             <p>...</p>
           </div>
 
-          <div className="services__item bg-accent-light-7 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border-accent">
+          <div className="services__item bg-accent-light-7 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
             <h4 className="">
               <a href="#">Eğitmenlik Okulu Bloğu</a>
             </h4>
             <p>...</p>
           </div>
 
-          <div className="services__item bg-accent-light-5 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border-accent">
+          <div className="services__item bg-accent-light-5 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
             <h4 className="">
               <a href="#">Sistemik Dizim Okulu Bloğu</a>
             </h4>
             <p>...</p>
           </div>
 
-          <div className="services__item bg-accent-light-5 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border-accent">
+          <div className="services__item bg-accent-light-5 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
             <h4 className="">
               <a href="#">Enneagram Okulu Bloğu</a>
             </h4>
             <p>...</p>
           </div>
 
-          <div className="services__item bg-accent-light-5 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border-accent">
+          <div className="services__item bg-accent-light-5 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
             <h4 className="">
               <a href="#">Atölye ve Etkinlikler Bloğu</a>
             </h4>
             <p>...</p>
           </div>
 
-          <div className="services__item bg-accent-light-5 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border-accent">
+          <div className="services__item bg-accent-light-5 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
             <h4 className="">
               <a href="#">Sosyal Sorumluluk Bloğu</a>
             </h4>

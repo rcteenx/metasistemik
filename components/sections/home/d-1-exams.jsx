@@ -86,7 +86,7 @@ export default function Exams({ img, img2 }) {
                 <li className="flex gap-2">
                   <SvgCheck />
                   <div>
-                    <dt className="font-semibold mt-1">
+                    <dt className="text-2xl">
                       ACC veya PCC Unvanınızı Kazanın
                     </dt>
                     <dd className="-ml-7 mt-2">

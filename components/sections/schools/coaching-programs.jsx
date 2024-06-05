@@ -16,8 +16,8 @@ export default function CoachingProgramms() {
       </div>
 
       <div className="container mx-auto xl:-mt-[124px]">
-        <div className="grid md:grid-cols-2 xl:grid-cols-5 gap-4 px-8 xl:px-0">
-          <div className="services__item bg-accent-light-9 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border border-accent ">
+        <div className="mx-4 grid md:grid-cols-2 xl:grid-cols-5 gap-4 px-8 xl:px-0">
+          <div className="services__item bg-accent-light-9 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border border-accent ">
             <p className="text-3xl text-accent-dark-1 font-bold">Seviye 1</p>
             <h4 className="mb-[10px]">PROFESYONEL KOÇLUK SERTİFİKA PROGRAMI</h4>
             <p className=" font-light leading-normal max-w-[300px] text-sm">
@@ -27,7 +27,7 @@ export default function CoachingProgramms() {
             </p>
           </div>
 
-          <div className="services__item bg-accent-light-7 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border-accent">
+          <div className="services__item bg-accent-light-7 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
             <p className="text-3xl text-accent-dark-3 font-bold">Seviye 2</p>
             <h4 className="mb-[10px]">
               <a href="#">SİSTEMİK KOÇLUK SERTİFİKA PROGRAMI</a>
@@ -39,7 +39,7 @@ export default function CoachingProgramms() {
             </p>
           </div>
 
-          <div className="services__item bg-accent-light-5 p-[30px] rounded-[10px] shadow-custom2 flex flex-col items-center text-center border-accent">
+          <div className="services__item bg-accent-light-5 px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent">
             <p className="text-3xl text-accent-dark-5 font-bold">Seviye 3/A</p>
             <h4 className="mb-[10px]">
               Çözüm Odaklı ve Yapılandırmacı SİSTEMİK KOÇLUK SERTİFİKA PROGRAMI
@@ -51,7 +51,7 @@ export default function CoachingProgramms() {
             </p>
           </div>
 
-          <div className="services__item bg-accent-light-3 p-[30px] rounded-[10px] shadow-custom2 flex flex-col items-center text-center border-accent">
+          <div className="services__item bg-accent-light-3 px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent">
             <p className="text-3xl text-accent-dark-7 font-bold">Seviye 3/B</p>
             <h4 className="mb-[10px]">
               YÖNETİM ve ORGANİZASYONEL SİSTEMİK KOÇLUK SERTİFİKA PROGRAMI
@@ -63,7 +63,7 @@ export default function CoachingProgramms() {
             </p>
           </div>
 
-          <div className="services__item bg-accent-light-1 p-[30px] rounded-[10px] shadow-custom2 flex flex-col items-center text-center border-accent">
+          <div className="services__item bg-accent-light-1 px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent">
             <p className="text-3xl text-accent-dark-9 font-bold">Seviye 3/C</p>
             <h4 className="mb-[10px]">
               ENNEAGRAMLA SİSTEMİK KOÇLUK SERTİFİKA PROGRAMI

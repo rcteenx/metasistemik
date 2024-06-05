@@ -12,7 +12,7 @@ import { mykLogo, icfLogo } from "@/public/assets/logo";
 
 import Hero from "@/components/sections/home/1-hero";
 import SubHero from "@/components/sections/home/1b-sub-hero";
-import InfoBar from "@/components/sections/home/3-info-bar";
+// import InfoBar from "@/components/sections/home/3-info-bar";
 
 import WhatWeGain from "@/components/sections/home/b-1-what-we-gain";
 
@@ -39,7 +39,6 @@ export default function Home() {
     <>
       <Hero />
       <SubHero img={metasistemikNedir} />
-      <InfoBar info={barInfo} />
       <WhatWeGain
         img={kocluky1}
         img2={kocluky2}

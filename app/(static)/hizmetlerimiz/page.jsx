@@ -11,6 +11,8 @@ export default function StaticPage() {
   return (
     <>
       <HeaderTitle>HİZMETLERİMİZ</HeaderTitle>
+      <ServicesPrograms />
+
       <HeaderImage>Hizmetlerimiz Hakkında</HeaderImage>
 
       <PageContent h2Title="Hayatınızı ve Organizasyonunuzu Dönüştürün">
@@ -53,7 +55,6 @@ export default function StaticPage() {
       </PageContent>
 
       <ServicesWhy />
-      <ServicesPrograms />
 
       <SocialMedia />
     </>

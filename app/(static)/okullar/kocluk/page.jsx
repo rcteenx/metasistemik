@@ -19,13 +19,20 @@ export default function StaticPage() {
   return (
     <>
       <HeaderTitle>KOÇLUK OKULU</HeaderTitle>
-      <HeaderImage>Metasistematik Koçluk Okulu Hakkında</HeaderImage>
 
       <PageContent
         h2Title="Farkındalığınızı Geliştirin,
 Potansiyelinizi Açığa Çıkarmaya ve Yetenek Geliştirmeye Hazır
 Olun!"
       >
+        <iframe
+          className="video"
+          src="https://www.youtube.com/embed/9-RBxaXSwTo?si=tVn0TZj0T3haFVak"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+        ></iframe>
+
         <h3>Koçlukta Fark Yaratan İnovatif Yaklaşım:</h3>
         <p>
           METASİSTEMİK Koçluk Okulu, sadece koçluk becerileri kazandırmakla
@@ -38,6 +45,7 @@ Olun!"
           yolculuğa çıkarıyoruz.
         </p>
       </PageContent>
+      <CoachingProgramms />
 
       <WhyCoacging />
       <WhatYouGain
@@ -48,7 +56,6 @@ Olun!"
       />
       <CoachingInfoBar />
       <CoachingTitles img={mykLogo} img2={icfLogo} />
-      <CoachingProgramms />
 
       <SocialMedia />
     </>

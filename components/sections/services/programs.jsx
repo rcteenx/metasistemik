@@ -14,7 +14,7 @@ export default function ServicesPrograms() {
 
       <div className="container mx-auto mt-4 xl:-mt-[80px]">
         <div className="grid md:grid-cols-3 gap-4 px-8 xl:px-0">
-          <div className="services__item bg-accent-light-9 p-[30px] rounded-[10px] shadow-custom2 flex flex-col items-center text-center border border-accent ">
+          <div className="services__item bg-accent-light-9 px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border border-accent ">
             <h4>Kurumsal Hizmetler</h4>
             <p>
               Metasistemik'in Dönüştürücü Kurumsal Çözümleriyle
@@ -22,14 +22,14 @@ export default function ServicesPrograms() {
             </p>
           </div>
 
-          <div className="services__item bg-accent-light-7 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border-accent">
+          <div className="services__item bg-accent-light-7 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
             <h4 className="">
               <a href="#">Bireysel Hizmetler</a>
             </h4>
             <p>Bireysel Hizmetlerimiz: Kişisel Dönüşümünüzü Güçlendirin</p>
           </div>
 
-          <div className="services__item bg-accent-light-5 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border-accent">
+          <div className="services__item bg-accent-light-5 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
             <h4 className="">
               <a href="#">Sosyal Sorumluluk</a>
             </h4>

@@ -17,7 +17,7 @@ export default function MykPrograms() {
 
       <div className="container mx-auto my-4 xl:my-0 xl:-mt-[124px]">
         <div className="grid  xl:grid-cols-3 gap-4 px-8 xl:px-0">
-          <div className="services__item bg-accent-light-9 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border border-accent ">
+          <div className="services__item bg-accent-light-9 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border border-accent ">
             <p className="text-3xl text-accent-dark-3 font-bold">Seviye 1</p>
             <h4 className="mb-[10px]">MYK Koç Seviye-6</h4>
             <p className=" font-light leading-normal max-w-[300px] text-sm">
@@ -25,7 +25,7 @@ export default function MykPrograms() {
             </p>
           </div>
 
-          <div className="services__item bg-accent-light-7 p-[30px] rounded-[10px]  shadow-custom2 flex flex-col items-center text-center border-accent">
+          <div className="services__item bg-accent-light-7 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
             <p className="text-3xl text-accent-dark-3 font-bold">Seviye 2</p>
             <h4 className="mb-[10px]">MYK “EĞİTİM UZMANI” SEVİYE-6</h4>
             <p className=" font-light leading-normal max-w-[300px] text-sm">
@@ -33,7 +33,7 @@ export default function MykPrograms() {
             </p>
           </div>
 
-          <div className="services__item bg-accent-light-5 p-[30px] rounded-[10px] shadow-custom2 flex flex-col items-center text-center border-accent">
+          <div className="services__item bg-accent-light-5 px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent">
             <p className="text-3xl text-accent-dark-5 font-bold">Seviye 3</p>
             <h4 className="mb-[10px]">MYK “KURUMSAL EĞİTMEN” SEVİYE-6</h4>
             <p className=" font-light leading-normal max-w-[300px] text-sm">

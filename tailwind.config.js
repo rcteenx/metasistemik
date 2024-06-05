@@ -55,6 +55,7 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         kocluk1: "url('/assets/images/kocluk-1.jpg')",
+        okullarimiz1: "url('/assets/images/okullarimiz-1.jpg')",
         bilincSonrasi: "url('/assets/images/bilinc-sonrasi.jpg')",
         services: "url('/assets/images/bg.svg')",
       }),

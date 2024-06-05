@@ -1,6 +1,4 @@
 import HeaderTitle from "@/components/templates/headerTitle";
-import HeaderImage from "@/components/templates/headerImage";
-import PageContent from "@/components/templates/pageContent";
 
 import Schools from "@/components/sections/home/b-2-schools";
 

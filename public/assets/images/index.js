@@ -6,6 +6,7 @@ import bSonrasi from "./bilinc-sonrasi.jpg";
 import kocluk1 from "./kocluk-1.jpg";
 import kocluky1 from "./kocluk-y-1.jpg";
 import kocluky2 from "./kocluk-y-2.jpg";
+import okullarimiz1 from "./okullarimiz-1.jpg";
 
 import metasistemikNedir from "./metasistemik-nedir.jpg";
 
@@ -19,4 +20,5 @@ export {
   kocluky1,
   kocluky2,
   metasistemikNedir,
+  okullarimiz1,
 };

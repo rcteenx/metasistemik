@@ -40,12 +40,11 @@ export const whatwegain = {
 export const whatwegain2 = {
   items: [
     {
-      title: "Profesyonelliğe Adım Atın ve/veya Kariyerinizi Yükseltin",
+      title: "Profesyonel Kariyerinizi Yükseltin",
       info: "Ulusal ve Uluslararası mesleki standartlarda hazırlanan sertifika programlarımızla birlikte üst seviyede eğitimlerinizi tamamlayarak, kendinizi profesyonellik için ihtiyaç duyacağınız güçlü yetkinliklerle donatın. Benzersiz mesleki gelişim sertifika programlarımıza katılarak, kariyerinizde fark yaratın.",
     },
     {
-      title:
-        "Resmi Mesleki Kimlik Belgelerinizi ve Uluslararası Mesleki Unvanınızı Edinin",
+      title: "Mesleki Belge ve Uluslararası Unvan Kazanın",
       info: "MYK Seviye-6 resmi meslek belgelerinizi edinmeniz için etkili sınav hazırlık programlarımızla süreç boyunca yanınızda olacağız. Ek olarak ICF ünvan alma (ACC/PCC) son aşaması olan sınav sürecine gelmişseniz, benzer sınav sorularından oluşan testler, süpervizyon ve mentorluk süreçleriyle desteklenen ICF sınav hazırlık programımızla, sınav sürecinde güçlü desteğimizi sunuyoruz..",
     },
     {
@@ -81,8 +80,8 @@ export const StaticPages = [
     title: "METASİSTEMATİK",
     link: "metasistematik",
     pages: [
-      // { id: 1, title: "Platform Hakkında", link: "platform" },
-      { id: 1, title: "Kurucumuz", link: "metasistematik/kurucumuz" },
+      { id: 1, title: "Platform Hakkında", link: "platform" },
+      { id: 2, title: "Kurucumuz", link: "metasistematik/kurucumuz" },
     ],
   },
   {
