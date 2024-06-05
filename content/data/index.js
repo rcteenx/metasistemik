@@ -98,6 +98,19 @@ export const StaticPages = [
   },
   {
     id: 3,
+    title: "SINAVLARA HAZIRLIK",
+    link: "sinavlara-hazirlik",
+    pages: [
+      { id: 1, title: "MYK Seviye 6", link: "sinavlara-hazirlik/myk" },
+      {
+        id: 2,
+        title: "ICF Yeterlilik Sınavı",
+        link: "sinavlara-hazirlik/icf",
+      },
+    ],
+  },
+  {
+    id: 4,
     title: "ATÖLYELER",
     link: "atolyeler",
     pages: [
@@ -114,7 +127,7 @@ export const StaticPages = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "HİZMETLERİMİZ",
     link: "hizmetlerimiz",
     pages: [
@@ -128,19 +141,6 @@ export const StaticPages = [
         id: 3,
         title: "Sosyal Sorumluluk",
         link: "hizmetlerimiz/sosyal-sorumluluk",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "SINAVLAR",
-    link: "sinavlar",
-    pages: [
-      { id: 1, title: "MYK Seviye 6", link: "sinavlar/myk" },
-      {
-        id: 2,
-        title: "ICF Yeterlilik Sınavı",
-        link: "sinavlar/icf",
       },
     ],
   },

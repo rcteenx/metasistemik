@@ -10,7 +10,7 @@ export default function SubHero({ img }) {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/_XspJFZoBrU?si=BmYt6ULXn96Ov6bu"
+            src="https://youtu.be/9-RBxaXSwTo?si=xHTTVga2A8pDQO1H"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
