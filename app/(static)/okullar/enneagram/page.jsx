@@ -5,7 +5,11 @@ import {
   enneagramwhatwegain,
   enneagramwhatwegain2,
 } from "@/content/data/schools";
-import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
+import {
+  metasistemik1,
+  metasistemik2,
+  metasistemikNedir,
+} from "@/public/assets/images";
 
 import EnneagramWhy from "@/components/sections/schools/enneagram-why";
 import EnneagramGain from "@/components/sections/schools/enneagram-gain";
@@ -70,8 +74,8 @@ export default function StaticPage() {
 
       <EnneagramWhy />
       <EnneagramGain
-        img={kocluky1}
-        img2={kocluky2}
+        img={metasistemik1}
+        img2={metasistemik2}
         gain={enneagramwhatwegain}
         gain2={enneagramwhatwegain2}
       />

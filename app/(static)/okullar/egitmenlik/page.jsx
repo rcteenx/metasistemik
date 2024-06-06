@@ -5,7 +5,11 @@ import {
   teachingwhatwegain,
   teachingwhatwegain2,
 } from "@/content/data/schools";
-import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
+import {
+  metasistemik1,
+  metasistemik2,
+  metasistemikNedir,
+} from "@/public/assets/images";
 
 import TeadchingWhy from "@/components/sections/schools/teaching-why";
 import TeachingGain from "@/components/sections/schools/teaching-gain";
@@ -56,8 +60,8 @@ export default function StaticPage() {
 
       <TeadchingWhy />
       <TeachingGain
-        img={kocluky1}
-        img2={kocluky2}
+        img={metasistemik1}
+        img2={metasistemik2}
         gain={teachingwhatwegain}
         gain2={teachingwhatwegain2}
       />

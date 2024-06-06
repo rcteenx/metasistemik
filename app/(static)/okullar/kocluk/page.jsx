@@ -3,7 +3,11 @@ import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import { whatwegain, whatwegain2 } from "@/content/data/schools";
-import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
+import {
+  metasistemik1,
+  metasistemik2,
+  metasistemikNedir,
+} from "@/public/assets/images";
 import { mykLogo, icfLogo } from "@/public/assets/logo";
 
 import WhyCoacging from "@/components/sections/schools/coaching-why";
@@ -51,8 +55,8 @@ Olun!"
 
       <WhyCoacging />
       <WhatYouGain
-        img={kocluky1}
-        img2={kocluky2}
+        img={metasistemik1}
+        img2={metasistemik2}
         gain={whatwegain}
         gain2={whatwegain2}
       />

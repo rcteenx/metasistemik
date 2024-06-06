@@ -8,8 +8,9 @@ import {
 } from "@/content/data";
 import {
   okullarimiz1,
-  kocluky2,
   metasistemikNedir,
+  metasistemik1,
+  metasistemik2,
 } from "@/public/assets/images";
 
 import { hero1, mykLogo, icfLogo } from "@/public/assets/logo";
@@ -43,13 +44,13 @@ export default function Home() {
     <>
       <Hero />
       <SubHero img={metasistemikNedir} />
+      <Schools />
       <WhatWeGain
-        img={okullarimiz1}
-        img2={kocluky2}
+        img={metasistemik1}
+        img2={metasistemik2}
         gain={whatwegain}
         gain2={whatwegain2}
       />
-      <Schools />
       <Workshops />
       <section className="relative w-100 h-12 md:h-24 ">
         <div className="curvedR"></div>

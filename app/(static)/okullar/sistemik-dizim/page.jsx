@@ -5,7 +5,11 @@ import {
   systemicwhatwegain,
   systemicwhatwegain2,
 } from "@/content/data/schools";
-import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
+import {
+  metasistemik1,
+  metasistemik2,
+  metasistemikNedir,
+} from "@/public/assets/images";
 
 import SystemicWhy from "@/components/sections/schools/systemic-why";
 import SystemicGain from "@/components/sections/schools/systemic-gain";
@@ -61,8 +65,8 @@ export default function StaticPage() {
 
       <SystemicWhy />
       <SystemicGain
-        img={kocluky1}
-        img2={kocluky2}
+        img={metasistemik1}
+        img2={metasistemik2}
         gain={systemicwhatwegain}
         gain2={systemicwhatwegain2}
       />
