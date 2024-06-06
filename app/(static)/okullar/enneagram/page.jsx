@@ -1,5 +1,4 @@
 import HeaderTitle from "@/components/templates/headerTitle";
-import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import {
@@ -7,7 +6,6 @@ import {
   enneagramwhatwegain2,
 } from "@/content/data/schools";
 import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
-import { mykLogo, icfLogo } from "@/public/assets/logo";
 
 import EnneagramWhy from "@/components/sections/schools/enneagram-why";
 import EnneagramGain from "@/components/sections/schools/enneagram-gain";
@@ -19,10 +17,18 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>ENNEAGRAM OKULU</HeaderTitle>
-      <HeaderImage>Enneagram Okulu Hakkında</HeaderImage>
+      <HeaderTitle bgColor={"enneagram"}>ENNEAGRAM OKULU</HeaderTitle>
 
-      <PageContent h2Title="ENNEAGRAM OKULU">
+      <PageContent bgColor={"enneagram"} h2Title="ENNEAGRAM OKULU">
+        <div className="dvVideo">
+          <iframe
+            className="video"
+            src="https://www.youtube.com/embed/YgCkyn4XC0U?si=B4D4eGv2XzYyw1Yu"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
         <p>
           Üç seviyeden oluşan sertifika programlarıyla Enneagram Okulumuz,
           uluslararası Enneagram Uygulayıcılığı ve Enneagram Öğretmenliği eğitim
@@ -60,6 +66,8 @@ export default function StaticPage() {
         </p>
       </PageContent>
 
+      <EnneagramPrograms />
+
       <EnneagramWhy />
       <EnneagramGain
         img={kocluky1}
@@ -67,8 +75,6 @@ export default function StaticPage() {
         gain={enneagramwhatwegain}
         gain2={enneagramwhatwegain2}
       />
-
-      <EnneagramPrograms />
 
       <SocialMedia />
     </>

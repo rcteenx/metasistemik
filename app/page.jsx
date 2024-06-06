@@ -6,9 +6,13 @@ import {
   whatwegain2,
   mekanikYollar,
 } from "@/content/data";
-import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
+import {
+  okullarimiz1,
+  kocluky2,
+  metasistemikNedir,
+} from "@/public/assets/images";
 
-import { mykLogo, icfLogo } from "@/public/assets/logo";
+import { hero1, mykLogo, icfLogo } from "@/public/assets/logo";
 
 import Hero from "@/components/sections/home/1-hero";
 import SubHero from "@/components/sections/home/1b-sub-hero";
@@ -40,7 +44,7 @@ export default function Home() {
       <Hero />
       <SubHero img={metasistemikNedir} />
       <WhatWeGain
-        img={kocluky1}
+        img={okullarimiz1}
         img2={kocluky2}
         gain={whatwegain}
         gain2={whatwegain2}
@@ -50,7 +54,7 @@ export default function Home() {
       <section className="relative w-100 h-12 md:h-24 ">
         <div className="curvedR"></div>
       </section>
-      <Certificates img={kocluky1} mekanikYollar={mekanikYollar} />
+      <Certificates img={okullarimiz1} mekanikYollar={mekanikYollar} />
       <section className="relative w-100 h-12 md:h-24">
         <div className="curved"></div>
       </section>

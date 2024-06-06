@@ -1,5 +1,4 @@
 import HeaderTitle from "@/components/templates/headerTitle";
-import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import {
@@ -7,7 +6,6 @@ import {
   teachingwhatwegain2,
 } from "@/content/data/schools";
 import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
-import { mykLogo, icfLogo } from "@/public/assets/logo";
 
 import TeadchingWhy from "@/components/sections/schools/teaching-why";
 import TeachingGain from "@/components/sections/schools/teaching-gain";
@@ -19,10 +17,18 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>EĞİTMENLİK OKULU</HeaderTitle>
-      <HeaderImage>Metasistematik Eğitmenlik Okulu Hakkında</HeaderImage>
+      <HeaderTitle bgColor={"teaching"}>EĞİTMENLİK OKULU</HeaderTitle>
 
-      <PageContent h2Title="EĞİTMENLİK OKULU">
+      <PageContent bgColor={"teaching"} h2Title="EĞİTMENLİK OKULU">
+        <div className="dvVideo">
+          <iframe
+            className="video"
+            src="https://www.youtube.com/embed/E5E5WUmaWpM?si=RbWE_yAKfS8q-SOJ"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
         <p>
           Eğitmenlik Okulumuzda yer alan Profesyonel Eğitmenlik sertifika
           programımız hem ulusal ve uluslararası mesleki standartlara uyumluluğu
@@ -46,6 +52,7 @@ export default function StaticPage() {
           sanatı olarak kavranmasını sağlamak.
         </p>
       </PageContent>
+      <TeachingProgramms />
 
       <TeadchingWhy />
       <TeachingGain
@@ -54,8 +61,6 @@ export default function StaticPage() {
         gain={teachingwhatwegain}
         gain2={teachingwhatwegain2}
       />
-
-      <TeachingProgramms />
 
       <SocialMedia />
     </>

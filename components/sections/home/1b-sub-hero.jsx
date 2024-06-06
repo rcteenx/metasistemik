@@ -10,8 +10,7 @@ export default function SubHero({ img }) {
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 justify-center items-center">
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe
-            width="560"
-            height="315"
+            className="video"
             src="https://www.youtube.com/embed/9-RBxaXSwTo?si=3htehL1FjwnEArfH"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

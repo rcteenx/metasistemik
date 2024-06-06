@@ -18,20 +18,22 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>KOÇLUK OKULU</HeaderTitle>
+      <HeaderTitle bgColor={"coaching"}>KOÇLUK OKULU</HeaderTitle>
 
       <PageContent
         h2Title="Farkındalığınızı Geliştirin,
 Potansiyelinizi Açığa Çıkarmaya ve Yetenek Geliştirmeye Hazır
 Olun!"
       >
-        <iframe
-          className="video"
-          src="https://www.youtube.com/embed/9-RBxaXSwTo?si=tVn0TZj0T3haFVak"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-        ></iframe>
+        <div className="dvVideo">
+          <iframe
+            className="video"
+            src="https://www.youtube.com/embed/9-RBxaXSwTo?si=tVn0TZj0T3haFVak"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
 
         <h3>Koçlukta Fark Yaratan İnovatif Yaklaşım:</h3>
         <p>

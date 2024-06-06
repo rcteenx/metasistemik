@@ -1,5 +1,4 @@
 import HeaderTitle from "@/components/templates/headerTitle";
-import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import {
@@ -7,7 +6,6 @@ import {
   systemicwhatwegain2,
 } from "@/content/data/schools";
 import { kocluky1, kocluky2, metasistemikNedir } from "@/public/assets/images";
-import { mykLogo, icfLogo } from "@/public/assets/logo";
 
 import SystemicWhy from "@/components/sections/schools/systemic-why";
 import SystemicGain from "@/components/sections/schools/systemic-gain";
@@ -19,10 +17,18 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>SİSTEMİK DİZİM OKULU</HeaderTitle>
-      <HeaderImage>Sistemik Dizim Okulu Hakkında</HeaderImage>
+      <HeaderTitle bgColor={"systemic"}>SİSTEMİK DİZİM OKULU</HeaderTitle>
 
-      <PageContent h2Title="SİSTEMİK DİZİM OKULU">
+      <PageContent bgColor={"systemic"} h2Title="SİSTEMİK DİZİM OKULU">
+        <div className="dvVideo">
+          <iframe
+            className="video"
+            src="https://www.youtube.com/embed/rtbwi8Kn-UU?si=7tA6rZZZe7doZmxN"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
         <p>
           Sistemik Dizim Okulumuz, eğitimlerimizin uluslararası Sistemik Dizim
           Kolaylaştırıcılığı standartlarına uyumluluğunu sağlamayı,
@@ -51,6 +57,8 @@ export default function StaticPage() {
         </p>
       </PageContent>
 
+      <SystemicPrograms />
+
       <SystemicWhy />
       <SystemicGain
         img={kocluky1}
@@ -58,8 +66,6 @@ export default function StaticPage() {
         gain={systemicwhatwegain}
         gain2={systemicwhatwegain2}
       />
-
-      <SystemicPrograms />
 
       <SocialMedia />
     </>

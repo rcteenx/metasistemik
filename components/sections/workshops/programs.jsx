@@ -13,7 +13,7 @@ export default function WorkshopPrograms() {
         </div>
       </div>
 
-      <div className="container mx-auto xl:-mt-[124px]">
+      <div className="container mx-auto my-4 xl:-mt-[124px]">
         <div className="mx-4 grid md:grid-cols-2 gap-4 px-8 xl:px-0">
           <div className="services__item bg-accent-light-9 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border border-accent gradientCoaching">
             <h4>

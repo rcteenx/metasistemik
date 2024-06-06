@@ -1,24 +1,38 @@
 import { cva } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
-const titleStyles = cva(" ", {
+const titleStyles = cva("p-1 my-1 font-light ", {
   variants: {
     bgColor: {
       default: "bg-accent",
       secondary: "bg-accent",
-      danger: "bg-red-600",
+      schools: "gradientSchools",
+      coaching: "gradientCoaching",
+      teaching: "gradientTeaching",
+      enneagram: "gradientEnneagram",
+      systemic: "gradientSystemic",
+    },
+    titleColor: {
+      default: "text-white",
+      black: "text-black",
     },
   },
   defaultVariants: {
     bgColor: "default",
+    titleColor: "default",
   },
 });
 
-export default function HeaderTitle({ bgColor, children, ...props }) {
+export default function HeaderTitle({
+  bgColor,
+  titleColor,
+  children,
+  ...props
+}) {
   return (
-    <section id="headerBand" className={cn(titleStyles({ bgColor }))}>
-      <div className="mx-auto container px-4 md:p-0">
-        <h3 className="p-1 my-1 font-light text-white">{children}</h3>
+    <section id="headerBand" className={("", cn(titleStyles({ bgColor })))}>
+      <div className="mx-auto container-p">
+        <h3>{children}</h3>
       </div>
     </section>
   );
