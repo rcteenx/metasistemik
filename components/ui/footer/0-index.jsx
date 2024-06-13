@@ -1,7 +1,6 @@
-import FooterInfo from "@/components/ui/footer/1-Info";
 import FooterLinks from "@/components/ui/footer/2-Links";
 
-import FooterQuote from "./3-Quote";
+import FooterQuote from "@/components/ui/footer/3-Quote";
 import FooterCopyRight from "@/components/ui/footer/4-CopyRight";
 
 export default function Footer() {

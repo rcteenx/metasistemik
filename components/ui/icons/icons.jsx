@@ -18,7 +18,16 @@ import {
   FaAlignLeft,
 } from "react-icons/fa";
 
+import { IoMdSchool } from "react-icons/io";
+import { LiaChalkboardTeacherSolid } from "react-icons/lia";
+import { SiDwavesystems } from "react-icons/si";
+import { AiFillCheckCircle } from "react-icons/ai";
+
 const iconTypes = {
+  school: IoMdSchool,
+  teacher: LiaChalkboardTeacherSolid,
+  systemic: SiDwavesystems,
+  enegram: AiFillCheckCircle,
   facebook: FaFacebook,
   instagram: FaInstagram,
   github: FaGithub,
