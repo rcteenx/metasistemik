@@ -10,7 +10,7 @@ export default function LargeMenu() {
         {menu.map((p) => (
           <li
             key={p.id}
-            className={`text-lg text-gray-600 p-2 hover:bg-accent hover:text-white rounded-xl `}
+            className={`text-lg text-gray-600 p-2 hover:gradientAccentToDark hover:text-white rounded-xl`}
           >
             <Link href={`/${p.link}`}>{p.title.toUpperCase()}</Link>
           </li>

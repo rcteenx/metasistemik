@@ -15,7 +15,7 @@ export default function WorkshopPrograms() {
 
       <div className="container mx-auto my-4 xl:-mt-[124px]">
         <div className="mx-4 grid md:grid-cols-2 gap-4 px-8 xl:px-0">
-          <div className="services__item bg-accent-light-9 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border border-accent gradientCoaching">
+          <div className=" bg-accent-light-9 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border border-accent gradientAccentToDark">
             <h4>
               <a href="/atolyeler/farkindalik-gelistirme">
                 Farkındalık Geliştirme ve Sistemik Çalışma Grubu
@@ -23,7 +23,7 @@ export default function WorkshopPrograms() {
             </h4>
           </div>
 
-          <div className="services__item bg-accent-light-7 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center gradientSystemic">
+          <div className=" bg-accent-light-7 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center gradientAccentOppositeToBlack">
             <h4>
               <a href="/atolyeler/sistemik-dizim">
                 Sistemik Dizim Çalışma Grubu

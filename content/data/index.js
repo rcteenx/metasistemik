@@ -79,6 +79,7 @@ export const StaticPages = [
     id: 1,
     title: "METASİSTEMATİK",
     link: "metasistematik",
+    bg: "gradientAccentToDark",
     pages: [
       { id: 1, title: "Platforum Hakkında", link: "metasistematik/platform" },
       { id: 2, title: "Kurucumuz", link: "metasistematik/kurucumuz" },
@@ -88,6 +89,7 @@ export const StaticPages = [
     id: 2,
     title: "OKULLAR",
     link: "okullar",
+    bg: "gradientGreenToBlack",
     pages: [
       { id: 1, title: "Koçluk Okulu", link: "okullar/kocluk" },
       { id: 2, title: "Eğitmenlik Okulu", link: "okullar/egitmenlik" },
@@ -99,6 +101,7 @@ export const StaticPages = [
     id: 3,
     title: "SINAVLARA HAZIRLIK",
     link: "sinavlara-hazirlik",
+    bg: "gradientAccentOppositeToBlack",
     pages: [
       { id: 1, title: "MYK Seviye 6", link: "sinavlara-hazirlik/myk" },
       {
@@ -112,6 +115,7 @@ export const StaticPages = [
     id: 4,
     title: "ATÖLYELER",
     link: "atolyeler",
+    bg: "gradientRedToBlack",
     pages: [
       {
         id: 1,
@@ -129,6 +133,7 @@ export const StaticPages = [
     id: 5,
     title: "HİZMETLERİMİZ",
     link: "hizmetlerimiz",
+    bg: "gradientBlueToBlack",
     pages: [
       {
         id: 1,

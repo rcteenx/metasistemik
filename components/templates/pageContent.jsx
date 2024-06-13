@@ -6,13 +6,13 @@ const titleStyles = cva(
   {
     variants: {
       bgColor: {
-        default: "gradientCoaching",
+        default: "gradientAccentToDark",
         secondary: "bg-accent",
         schools: "gradientSchools",
-        coaching: "gradientCoaching",
-        teaching: "gradientTeaching",
-        enneagram: "gradientEnneagram",
-        systemic: "gradientSystemic",
+        coaching: "gradientAccentToDark",
+        teaching: "gradientGreenToBlack",
+        enneagram: "gradientRedToBlack",
+        systemic: "gradientAccentOppositeToBlack",
       },
     },
     defaultVariants: {

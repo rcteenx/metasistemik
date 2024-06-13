@@ -17,16 +17,16 @@ export default function EnneagramPrograms() {
 
       <div className="container mx-auto my-4 xl:-mt-[124px]">
         <div className="grid xl:grid-cols-3 gap-4 px-8 xl:px-0">
-          <div className="services__item bg-accent-light-9 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border border-accent ">
-            <p className="text-3xl text-accent-dark-1 font-bold">Seviye 1</p>
+          <div className="px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border border-accent gradientAccentToDark">
+            <p className="text-3xl font-bold">Seviye 1</p>
             <h4 className="mb-[10px]">ENNEAGRAM SİSTEMİ SERTİFİKA PROGRAMI</h4>
             <p className=" font-light leading-normal max-w-[300px] text-sm">
               90 Saat
             </p>
           </div>
 
-          <div className="services__item bg-accent-light-7 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
-            <p className="text-3xl text-accent-dark-3 font-bold">Seviye 2</p>
+          <div className=" px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent gradientGreenToBlack">
+            <p className="text-3xl font-bold">Seviye 2</p>
             <h4 className="mb-[10px]">
               <a href="#">SİSTEMİK ENNEAGRAM UYGULAYICISI SERTİFİKA PROGRAMI</a>
             </h4>
@@ -37,8 +37,8 @@ export default function EnneagramPrograms() {
             </p>
           </div>
 
-          <div className="services__item bg-accent-light-5 px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent">
-            <p className="text-3xl text-accent-dark-5 font-bold">Seviye 2</p>
+          <div className="  px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent gradientAccentOppositeToBlack">
+            <p className="text-3xl font-bold">Seviye 2</p>
             <h4 className="mb-[10px]">
               SİSTEMİK ENNEAGRAM ÖĞRETMENİ SERTİFİKA PROGRAMI
             </h4>

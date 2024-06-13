@@ -5,7 +5,7 @@ export default function MobileMenu() {
     <div className="w-48 px-4 flex justify-end">
       <nav id="service-menu">
         <ul className="flex space-x-4 text-sm m-4">
-          <li className="bg-black text-white rounded-xl hover:bg-gray-400 hover:text-black py-1 px-3">
+          <li className="gradientAccentToDark gradientTransition text-white rounded-xl py-1 px-3">
             <a href="/blog">Blog</a>
           </li>
           <li className="rounded-xl  hover:bg-gray-300 py-1 px-3">
