@@ -5,7 +5,7 @@ import { StaticPages } from "@/content/data";
 import { useState } from "react"; // import state
 
 export default function MobileMenu() {
-  const menu = StaticPages.filter((m) => m.id < 6);
+  const menu = StaticPages.filter((m) => m.id < 16);
   const [isNavOpen, setIsNavOpen] = useState(false);
   function handleClick() {
     setIsNavOpen((prev) => !prev);
@@ -32,11 +32,11 @@ export default function MobileMenu() {
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
-              className="CROSS-ICON absolute top-0 right-0 px-8 py-8"
+              className="absolute top-0 right-0 px-4 py-4"
               onClick={() => setIsNavOpen(false)}
             >
               <svg
-                className="h-8 w-8 text-red-600"
+                className="h-8 w-8 gradientRedToBlack"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -49,15 +49,33 @@ export default function MobileMenu() {
               </svg>
             </div>
 
-            <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
-              {menu.map((p) => (
-                <li
-                  key={p.id}
-                  className={`border-b border-gray-400 my-8 uppercase`}
-                >
-                  <Link href={`/${p.link}`} onClick={handleClick}>
-                    {p.title.toUpperCase()}
+            <ul className="flex flex-col items-left mt-16 h-full">
+              {menu.map((pg) => (
+                <li key={pg.id} className={` my-2`}>
+                  <Link
+                    href={`/${pg.link}`}
+                    onClick={handleClick}
+                    className="border-b border-gray-400 font-bold"
+                  >
+                    {pg.title.toUpperCase()}
                   </Link>
+
+                  <ul className="flex flex-col mt-1">
+                    {pg.pages.map((sp) => (
+                      <li
+                        key={sp.id}
+                        className=" text-sm text-gray-400 hover:text-gray-800 gradientTransition"
+                      >
+                        <a
+                          href={
+                            pg.id == 4 && sp.id < 3 ? sp.link : "/" + sp.link
+                          }
+                        >
+                          {sp.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
                 </li>
               ))}
             </ul>
