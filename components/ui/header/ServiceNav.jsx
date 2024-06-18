@@ -32,7 +32,7 @@ export default function MobileMenu() {
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
-              className="absolute top-0 right-0 px-4 py-4"
+              className="absolute top-0 right-0 px-4 py-4 "
               onClick={() => setIsNavOpen(false)}
             >
               <svg
@@ -49,18 +49,16 @@ export default function MobileMenu() {
               </svg>
             </div>
 
-            <ul className="flex flex-col items-left mt-16 h-full">
+            <ul className="flex flex-col items-left m-16 py-8 px-12 border rounded-xl bg-gray-200 border-gray-300 shadow-lg ">
               {menu.map((pg) => (
                 <li key={pg.id} className={` my-2`}>
-                  <Link
-                    href={`/${pg.link}`}
-                    onClick={handleClick}
-                    className="border-b border-gray-400 font-bold"
-                  >
-                    {pg.title.toUpperCase()}
-                  </Link>
+                  <h3 className="inline-block border-b border-gray-400 font-bold">
+                    <Link href={`/${pg.link}`} onClick={handleClick}>
+                      {pg.title.toUpperCase()}
+                    </Link>
+                  </h3>
 
-                  <ul className="flex flex-col mt-1">
+                  <ul className="flex flex-col">
                     {pg.pages.map((sp) => (
                       <li
                         key={sp.id}
