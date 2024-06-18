@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { StaticPages } from "@/content/data";
+import HeaderLogo from "@/components/ui/header/Logo";
 
 import { useState } from "react"; // import state
 
@@ -31,8 +32,11 @@ export default function MobileMenu() {
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
+            <div className="px-4 py-1">
+              <HeaderLogo />
+            </div>
             <div
-              className="absolute top-0 right-0 px-4 py-4 "
+              className="absolute top-0 right-0 px-8 py-4 "
               onClick={() => setIsNavOpen(false)}
             >
               <svg
