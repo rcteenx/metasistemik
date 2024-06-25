@@ -31,11 +31,11 @@ export default function Exams({ img, img2 }) {
             </a>
           </h3>
           <div className="grid grid-cols-1 xl:grid-cols-3 items-end gap-8 ">
-            <div className="rounded-xl p-8 bg-white ">
+            <div className="rounded-xl p-4 bg-white ">
               <img
                 src={img.src}
                 alt="img colletion"
-                className=" h-[150px] mx-auto object-cover object-center rounded-xl"
+                className=" mx-auto object-cover object-center rounded-xl"
               />
             </div>
             <div className="p-4 col-span-2 ">
@@ -101,11 +101,11 @@ export default function Exams({ img, img2 }) {
                 </li>
               </ul>
             </div>
-            <div className="rounded-3xl hidden xl:block">
+            <div className="rounded-3xl hidden xl:block bg-accent p-4">
               <img
                 src={img2.src}
                 alt="img colletion"
-                className=" h-[120px] mx-auto object-cover object-center "
+                className=" h-[120px] mx-auto object-cover object-center border-8 border-white rounded-xl"
               />
             </div>
           </div>

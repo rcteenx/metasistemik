@@ -1,6 +1,6 @@
 import SvgCheck from "@/components/ui/svg/check";
 
-export default function Certificates({ img, mekanikYollar }) {
+export default function Certificates({ img, img2, mekanikYollar }) {
   return (
     <section id="mekanikYollar" className="bg-accent/50 py-10">
       <div className="container mx-auto">
@@ -30,7 +30,7 @@ export default function Certificates({ img, mekanikYollar }) {
           </div>
           <div className="p-4">
             <img
-              src={img.src}
+              src={img2.src}
               alt="img colletion"
               className=" h-[420px] w-full rounded-xl object-cover object-center shadow-lg border-8   border-white"
             />

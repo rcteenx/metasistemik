@@ -11,6 +11,8 @@ import {
   metasistemikNedir,
   metasistemik1,
   metasistemik2,
+  sertifikaMetasistemik,
+  sertifikaUluslararasi,
 } from "@/public/assets/images";
 
 import { hero1, mykLogo, icfLogo } from "@/public/assets/logo";
@@ -55,7 +57,11 @@ export default function Home() {
       <section className="relative w-100 h-12 md:h-24 ">
         <div className="curvedR"></div>
       </section>
-      <Certificates img={okullarimiz1} mekanikYollar={mekanikYollar} />
+      <Certificates
+        img={sertifikaMetasistemik}
+        img2={sertifikaUluslararasi}
+        mekanikYollar={mekanikYollar}
+      />
       <section className="relative w-100 h-12 md:h-24">
         <div className="curved"></div>
       </section>
