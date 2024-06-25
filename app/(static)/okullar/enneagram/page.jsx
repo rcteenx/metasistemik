@@ -24,13 +24,16 @@ export default function StaticPage() {
       <HeaderTitle bgColor={"enneagram"}>ENNEAGRAM OKULU</HeaderTitle>
 
       <PageContent bgColor={"enneagram"} h2Title="ENNEAGRAM OKULU">
-        <div className="dvVideo">
+        <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe
-            className="video"
-            src="https://www.youtube.com/embed/YgCkyn4XC0U?si=B4D4eGv2XzYyw1Yu"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/G2sUrRAGOnU?si=Hcy3N0KyO11CFZSq"
             title="YouTube video player"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
           ></iframe>
         </div>
         <p>

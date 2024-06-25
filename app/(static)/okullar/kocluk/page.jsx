@@ -29,13 +29,16 @@ export default function StaticPage() {
 Potansiyelinizi Açığa Çıkarmaya ve Yetenek Geliştirmeye Hazır
 Olun!"
       >
-        <div className="dvVideo">
+        <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe
-            className="video"
-            src="https://www.youtube.com/embed/9-RBxaXSwTo?si=tVn0TZj0T3haFVak"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/P5xmoZZOKfk?si=RhhmCMBqPNymAp61"
             title="YouTube video player"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
           ></iframe>
         </div>
 

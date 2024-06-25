@@ -24,13 +24,16 @@ export default function StaticPage() {
       <HeaderTitle bgColor={"systemic"}>SİSTEMİK DİZİM OKULU</HeaderTitle>
 
       <PageContent bgColor={"systemic"} h2Title="SİSTEMİK DİZİM OKULU">
-        <div className="dvVideo">
+        <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe
-            className="video"
-            src="https://www.youtube.com/embed/rtbwi8Kn-UU?si=7tA6rZZZe7doZmxN"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ViJGKLGRPJ8?si=c5b6c-HCUg9_-9Vs"
             title="YouTube video player"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
           ></iframe>
         </div>
         <p>

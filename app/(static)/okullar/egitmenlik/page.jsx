@@ -24,13 +24,16 @@ export default function StaticPage() {
       <HeaderTitle bgColor={"teaching"}>EĞİTMENLİK OKULU</HeaderTitle>
 
       <PageContent bgColor={"teaching"} h2Title="EĞİTMENLİK OKULU">
-        <div className="dvVideo">
+        <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe
-            className="video"
-            src="https://www.youtube.com/embed/E5E5WUmaWpM?si=RbWE_yAKfS8q-SOJ"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/-vYhcmc3JlA?si=GxNtMtbfnZ37IUKK"
             title="YouTube video player"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
           ></iframe>
         </div>
         <p>

@@ -10,13 +10,16 @@ export default function StaticPage() {
       <HeaderTitle>Metasistematik</HeaderTitle>
 
       <PageContent h2Title="Farkındalığın Işığında, Dönüşüme Adım Adım: Platformumuzun Hikayesi">
-        <div className="dvVideo">
+        <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe
-            className="video"
-            src="https://www.youtube.com/embed/9-RBxaXSwTo?si=3htehL1FjwnEArfH"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/B3ykKy6_X3w?si=YsfWPNaCTikue2-_"
             title="YouTube video player"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
           ></iframe>
         </div>
         <p>
