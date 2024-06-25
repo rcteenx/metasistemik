@@ -17,63 +17,75 @@ export default function CoachingProgramms() {
 
       <div className="container mx-auto my-4 xl:-mt-[124px]">
         <div className="mx-4 grid md:grid-cols-2 xl:grid-cols-5 gap-4 px-8 xl:px-0">
-          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border border-accent gradientAccentToDark">
-            <p className="text-3xl font-bold">Seviye 1</p>
-            <h4 className="mb-[10px]">PROFESYONEL KOÇLUK SERTİFİKA PROGRAMI</h4>
-            <p className=" font-light leading-normal max-w-[300px] text-sm">
-              72 Saat
-              <br />
-              Mesleki Yeterlilik Eğitimi
-            </p>
-          </div>
+          
+          <a href="/okullar/kocluk/seviye-1" className="gradientTransition">
+            <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border border-accent gradientAccentToDark">
+              <p className="text-3xl font-bold">Seviye 1</p>
+              <h4 className="mb-[10px]">
+                PROFESYONEL KOÇLUK SERTİFİKA PROGRAMI
+              </h4>
+              <p className=" font-light leading-normal max-w-[300px] text-sm">
+                72 Saat
+                <br />
+                Mesleki Yeterlilik Eğitimi
+              </p>
+            </div>
+          </a>
 
-          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent gradientGreenToBlack">
-            <p className="text-3xl  font-bold">Seviye 2</p>
-            <h4 className="mb-[10px]">
-              <a href="#">SİSTEMİK KOÇLUK SERTİFİKA PROGRAMI</a>
-            </h4>
-            <p className=" font-light leading-normal max-w-[300px] text-sm">
-              92 Saat
-              <br />
-              Mesleki Gelişim Eğitimi
-            </p>
-          </div>
+          <a href="/okullar/kocluk/seviye-2" className="gradientTransition">
+            <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent gradientGreenToBlack">
+              <p className="text-3xl  font-bold">Seviye 2</p>
+              <h4 className="mb-[10px]">SİSTEMİK KOÇLUK SERTİFİKA PROGRAMI</h4>
+              <p className=" font-light leading-normal max-w-[300px] text-sm">
+                92 Saat
+                <br />
+                Mesleki Gelişim Eğitimi
+              </p>
+            </div>
+          </a>
 
-          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent gradientAccentOppositeToBlack">
-            <p className="text-3xl font-bold">Seviye 3/A</p>
-            <h4 className="mb-[10px]">
-              Çözüm Odaklı ve Yapılandırmacı SİSTEMİK KOÇLUK SERTİFİKA PROGRAMI
-            </h4>
-            <p className=" font-light leading-normal max-w-[300px] text-sm">
-              98 Saat
-              <br />
-              Mesleki Gelişim Eğitimi
-            </p>
-          </div>
+          <a href="/okullar/kocluk/seviye-3a" className="gradientTransition">
+            <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent gradientAccentOppositeToBlack">
+              <p className="text-3xl font-bold">Seviye 3/A</p>
+              <h4 className="mb-[10px]">
+                Çözüm Odaklı ve Yapılandırmacı SİSTEMİK KOÇLUK SERTİFİKA
+                PROGRAMI
+              </h4>
+              <p className=" font-light leading-normal max-w-[300px] text-sm">
+                98 Saat
+                <br />
+                Mesleki Gelişim Eğitimi
+              </p>
+            </div>
+          </a>
 
-          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent gradientRedToBlack">
-            <p className="text-3xl font-bold">Seviye 3/B</p>
-            <h4 className="mb-[10px]">
-              YÖNETİM ve ORGANİZASYONEL SİSTEMİK KOÇLUK SERTİFİKA PROGRAMI
-            </h4>
-            <p className=" font-light leading-normal max-w-[300px] text-sm">
-              96 Saat
-              <br />
-              Mesleki Gelişim Eğitimi
-            </p>
-          </div>
+          <a href="/okullar/kocluk/seviye-3b" className="gradientTransition">
+            <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent gradientRedToBlack">
+              <p className="text-3xl font-bold">Seviye 3/B</p>
+              <h4 className="mb-[10px]">
+                YÖNETİM ve ORGANİZASYONEL SİSTEMİK KOÇLUK SERTİFİKA PROGRAMI
+              </h4>
+              <p className=" font-light leading-normal max-w-[300px] text-sm">
+                96 Saat
+                <br />
+                Mesleki Gelişim Eğitimi
+              </p>
+            </div>
+          </a>
 
-          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent gradientBlueToBlack">
-            <p className="text-3xl font-bold">Seviye 3/C</p>
-            <h4 className="mb-[10px]">
-              ENNEAGRAMLA SİSTEMİK KOÇLUK SERTİFİKA PROGRAMI
-            </h4>
-            <p className=" font-light leading-normal max-w-[300px] text-sm">
-              120 Saat
-              <br />
-              Mesleki Gelişim Eğitimi
-            </p>
-          </div>
+          <a href="/okullar/kocluk/seviye-3c" className="gradientTransition">
+            <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent gradientBlueToBlack">
+              <p className="text-3xl font-bold">Seviye 3/C</p>
+              <h4 className="mb-[10px]">
+                ENNEAGRAMLA SİSTEMİK KOÇLUK SERTİFİKA PROGRAMI
+              </h4>
+              <p className=" font-light leading-normal max-w-[300px] text-sm">
+                120 Saat
+                <br />
+                Mesleki Gelişim Eğitimi
+              </p>
+            </div>
+          </a>
         </div>
         <div className="text-center my-8">
           <h2>MESLEKİ YETERLİLİK VE GELİŞİM SERTİFİKA PROGRAM TAKVİMİ:</h2>
