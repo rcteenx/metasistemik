@@ -14,12 +14,12 @@ export default function Certificates({ img, img2, mekanikYollar }) {
             sunar.
           </p>
         </div>
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:my-8 items-start bg-accent-light-7 p-4 rounded-xl text-center">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 lg:my-8 items-start bg-accent-light-7 lg:p-4 rounded-xl text-center">
           <div className="p-4">
             <img
               src={img.src}
               alt="img colletion"
-              className=" h-[420px] w-full rounded-xl object-cover object-center shadow-lg border-8   border-white"
+              className="w-full rounded-xl object-cover object-center shadow-lg border-8 border-white"
             />
             <h3 className="mt-4">METASİSTEMİK Onaylı Sertifikalar</h3>
             <p className="bg-white p-4 rounded-lg shadow-lg ">
@@ -32,7 +32,7 @@ export default function Certificates({ img, img2, mekanikYollar }) {
             <img
               src={img2.src}
               alt="img colletion"
-              className=" h-[420px] w-full rounded-xl object-cover object-center shadow-lg border-8   border-white"
+              className="w-full rounded-xl object-cover object-center shadow-lg border-8 border-white"
             />
             <h3 className="my-4">
               Uluslararası Onaylı Güvenilir Sertifikasyon Sistemi

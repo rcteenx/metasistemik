@@ -24,7 +24,7 @@ export default function Exams({ img, img2 }) {
             desteği sağlar.
           </p>
         </div>
-        <div className="lg:mt-4  p-8 bg-accent text-accent-light-7 rounded-xl ">
+        <div className="m-4 p-8 bg-accent text-accent-light-7 rounded-xl ">
           <h3 className=" mx-auto my-4 hover:border-b text-center">
             <a href="/sinavlar/myk">
               Ulusal Mesleki Kimlik Kazanımı (MYK Düzey-6)

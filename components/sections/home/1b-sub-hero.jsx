@@ -1,7 +1,7 @@
 export default function SubHero({ img }) {
   return (
     <section id="subhero" className="container mx-auto px-4 my-16 md:p-0 ">
-      <h2 className="text-center lg:text-6xl text-accent">
+      <h2 className="p-4 lg:p-8 text-center lg:text-6xl gradientAccentToDark sm:rounded-xl ">
         METASİSTEMİK ÇALIŞMA NEDİR?
       </h2>
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 justify-center items-center">
