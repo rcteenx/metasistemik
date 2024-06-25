@@ -15,7 +15,7 @@
     @apply text-sm md:text-base font-base text-primary;
   }
   h1 {
-    @apply my-6 leading-tight tracking-normal text-2xl font-bold md:text-3xl;
+    @apply my-6 tracking-normal text-2xl font-bold md:text-3xl;
   }
   h2 {
     @apply text-xl font-bold md:text-2xl my-4;
@@ -53,8 +53,8 @@
   .input {
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-accent pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-accent max-sm:rounded-full;
   }
-  .gradientHero {
-    @apply bg-gradient-to-b from-black via-[#003c7f] to-[#0188da];
+  .gradientLogo {
+    @apply bg-gradient-to-r from-black to-accent;
   }
   .gradientChoose {
     @apply bg-gradient-to-r from-white via-accent to-accent-dark-7 text-black;
@@ -170,8 +170,8 @@
 }
 
 .imageBG {
-  background-position: center;
-  background-image: url("/assets/images/hero-connect.jpg");
+  background-position: top right;
+  background-image: url("/assets/images/hero-640-480-1.png");
 }
 
 .curved {

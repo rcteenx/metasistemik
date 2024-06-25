@@ -180,7 +180,7 @@ export const socialMedia = [
     name: "instagram",
     alt: "instagram logo",
     title: "instagram sayfamıza bekleriz",
-    link: "https://www.instagram.com/metasistemik/?igsh=N2VyZ2JmcjRhejM0",
+    link: "https://www.instagram.com/metasistemik",
   },
   {
     id: 3,

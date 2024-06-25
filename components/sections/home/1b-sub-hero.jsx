@@ -1,20 +1,20 @@
 export default function SubHero({ img }) {
   return (
-    <section
-      id="subhero"
-      className="container mx-auto px-4 my-8 md:p-0 md:my-24"
-    >
+    <section id="subhero" className="container mx-auto px-4 my-16 md:p-0 ">
       <h2 className="text-center lg:text-6xl text-accent">
         METASİSTEMİK ÇALIŞMA NEDİR?
       </h2>
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 justify-center items-center">
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe
-            className="video"
-            src="https://www.youtube.com/embed/9-RBxaXSwTo?si=3htehL1FjwnEArfH"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/B3ykKy6_X3w?si=YsfWPNaCTikue2-_"
             title="YouTube video player"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
           ></iframe>
         </div>
         <div className="px-4 text-center xl:text-left ">
