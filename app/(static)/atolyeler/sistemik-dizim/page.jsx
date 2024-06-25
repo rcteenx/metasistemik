@@ -13,6 +13,18 @@ export default function StaticPage() {
       <HeaderImage>Sistemik Dizim Çalışmaları</HeaderImage>
 
       <PageContent h2Title="Sürekli Grup Çalışmaları Program Tanıtımı">
+        <div className="flex justify-center items-center p-4 rounded-xl bg-black">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/EagOZN1Jwko?si=WOzUy7gnVlORqpZI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
         <h3>
           Gizli Dinamiklerin Kilidini Açın, Hayatınızı Dönüştürün ve Dünyanızı
           Etkileyin

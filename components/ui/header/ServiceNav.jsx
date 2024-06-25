@@ -70,7 +70,9 @@ export default function MobileMenu() {
                       >
                         <a
                           href={
-                            pg.id == 4 && sp.id < 3 ? sp.link : "/" + sp.link
+                            pg.id == 4 && sp.id < 3
+                              ? "/" + sp.link
+                              : "/" + sp.link
                           }
                         >
                           {sp.title}

@@ -15,6 +15,18 @@ export default function StaticPage() {
       <HeaderImage>Farkındalık Geliştirme ve Sistemik Çalışma</HeaderImage>
 
       <PageContent h2Title="Sürekli Grup Çalışmaları Program Tanıtımı">
+        <div className="flex justify-center items-center p-4 rounded-xl bg-black">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/z74hbZfXnPI?si=RpRnhMnGqVS_b0wP"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
         <h3>
           Farkındalığa Dayalı Kişisel Dönüşümün Sistemik Çapta Değişimle
           Gerçekleştiği Yer
