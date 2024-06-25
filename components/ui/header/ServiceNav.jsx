@@ -15,7 +15,7 @@ export default function MobileMenu() {
   return (
     <div className="w-48 px-4 flex justify-end">
       <nav id="service-menu">
-        <ul className="hidden xl:flex space-x-4 text-sm m-4">
+        <ul className="hidden xl:flex space-x-4 text-sm m-2">
           <li className="gradientAccentToDark gradientTransition text-white rounded-xl py-1 px-3">
             <a href="/blog">Blog</a>
           </li>
