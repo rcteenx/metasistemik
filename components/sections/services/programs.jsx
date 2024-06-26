@@ -7,7 +7,7 @@ export default function ServicesPrograms() {
       <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative xl:h-72 flex items-center xl:items-start -z-10">
         <div className="container mx-auto">
           <div className="text-center text-white">
-            <h2 className="xl:text-4xl ">METASİSTEMATİK HİZMETLER</h2>
+            <h2 className="xl:text-4xl ">METASİSTEMATİK HİZMETLERİMİZ</h2>
           </div>
         </div>
       </div>
