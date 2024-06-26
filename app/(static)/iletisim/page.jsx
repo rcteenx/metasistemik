@@ -25,10 +25,10 @@ export default function StaticPage() {
             <dd className="font-semibold">Email:</dd>
             <dt>
               <a
-                href="mailto:bilgi@metasistemik.com"
+                href="mailto:social@metasistemik.com"
                 className="hover:border-b"
               >
-                bilgi@metasistemik.com
+                social@metasistemik.com
               </a>
             </dt>
           </li>

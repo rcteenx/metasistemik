@@ -88,10 +88,10 @@ export default function Certificates({ img, img2, mekanikYollar }) {
                 <dd className="font-semibold">Yaz</dd>
                 <dt>
                   <a
-                    href="mailto:bilgi@metasistemik.com"
+                    href="mailto:social@metasistemik.com"
                     className="hover:border-b"
                   >
-                    bilgi@metasistemik.com
+                    social@metasistemik.com
                   </a>
                 </dt>
               </li>

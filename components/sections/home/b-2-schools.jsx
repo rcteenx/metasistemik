@@ -12,11 +12,10 @@ export default function Schools2() {
               OKULLARIMIZ
             </h2>
             <div className="xl:pl-8 flex-1 text-center xl:text-left">
-              <h3>Sistemik Yaklaşımda Uzmanlık Geliştirin</h3>
               <p>
-                Farkındalık Geliştirme ve Sistemik Çalışmanın dönüştürücü ilke
-                ve yöntemlerini tüm sertifika programlarımda, yetenek
-                geliştirmeye dayalı dönüşüm yolculuğunu güçlendiriyoruz.
+                Tüm Okullarımızda, Farkındalık Geliştirme ve Sistemik Çalışmanın
+                dönüştürücü ilke ve yöntemlerini kullanarak, yüksek standartları
+                karşılayan sertifika programları sunuyoruz.
               </p>
             </div>
           </div>
@@ -85,6 +84,17 @@ export default function Schools2() {
         <p className="text-center mt-4 ">
           Karar veremediyseniz, danışman desteği için bize ulaşın
         </p>
+        <div className="text-center">
+          <a
+            href="https://wa.me/905434649144?text=genel%20bilgi%20istiyorum"
+            title="WhatsApp Mesajı Gönderin"
+            className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200  font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 gradientAccentToDark gradientTransition btn-hero"
+            role="button"
+          >
+            Mesaj Atın
+            <IconComponent name="arrowright" size={18} color="white" />
+          </a>
+        </div>
       </div>
     </section>
   );
