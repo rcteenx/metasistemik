@@ -5,7 +5,7 @@ import { socialMedia } from "@/content/data";
 export default function HomeServices() {
   return (
     <section className="container mx-auto my-16 lg:my-24">
-      <div className="px-8 text-center">
+      <div className="mx-auto px-8 text-center max-w-4xl">
         <h2 className="text-2xl lg:text-6xl text-accent-dark-6">
           HİZMETLERİMİZ
         </h2>

@@ -48,7 +48,7 @@ export default function ServicesWhy() {
               keşfedin.
             </p>
 
-            <h3 className="xl:text-2xl ">Dönüşüme Doğru İlk Adımı Atın</h3>
+            <h3 className="xl:text-2xl">Dönüşüme Doğru İlk Adımı Atın</h3>
             <p>
               Daha tatmin edici bir hayata ve daha etkili bir organizasyona
               doğru yolculuğunuz burada başlıyor.
