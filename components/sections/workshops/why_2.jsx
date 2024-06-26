@@ -83,13 +83,13 @@ export default function WorkshopsWhy1() {
                 herkes.
               </li>
             </ul>
-            <h5>
+            <h4>
               Sistemik Dizimlerin dönüştürücü gücünü keşfedin. Çalışma Grubumuza
               katılın ve potansiyelinizi ortaya çıkarın!
-            </h5>
+            </h4>
             <p>
               SD Bilgilendirilmiş Onam Formu: Lütfen Grup Çalışmalarına
-              Katılmadan önce okuyup onaylayınız.
+              katılmadan önce okuyup onaylayınız.
             </p>
 
             <hr className="my-8" />
