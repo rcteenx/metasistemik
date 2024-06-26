@@ -67,7 +67,7 @@ export default function WorkshopsWhy1() {
             </ul>
           </div>
 
-          <div className="p-4 m-8 mx-auto border rounded-xl bg-accent-dark-3">
+          <div className="p-4 m-8 mx-auto border rounded-xl bg-accent-dark-3 max-w-4xl">
             <h3>Kimler Katılmalı</h3>
             <ul>
               <li>
@@ -92,6 +92,7 @@ export default function WorkshopsWhy1() {
               Katılmadan önce okuyup onaylayınız.
             </p>
 
+            <hr className="my-8" />
             <h3>
               Kendini Keşfetme ve İyileşmenin Dönüştürücü Yolculuğuna Katılın
             </h3>
