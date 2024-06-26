@@ -47,7 +47,7 @@ Farkındalık Yolculuğu"
           Çalışma Platformunun Doğuşu:
         </h3>
         <p>
-          Hakan, farkındalık üzerine e30 yıllık deneyimin gücüyle, birkaç yıl
+          Hakan, farkındalık üzerine 30 yıllık deneyimin gücüyle, birkaç yıl
           süren yeniden- yapılanma sürecini tamamlayarak, 2020 yılından itibaren
           Enneagram Sistemi öğretim programlarıyla birlikte Koçluk, Sistemik
           Kolaylaştırıcılık ve Eğitmenlik gibi farklı branşlarda profesyonel

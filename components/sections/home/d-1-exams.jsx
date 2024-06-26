@@ -5,7 +5,7 @@ export default function Exams({ img, img2 }) {
     <div id="gain" className="bg-white py-10 lg:my-16">
       <div className="container mx-auto ">
         <h2 className="text-2xl lg:text-6xl text-accent-dark-6 text-left xl:text-center">
-          MESLEKİ YETERLİLİK SINAVLARI
+          MESLEK SINAVLARINA HAZIRLIK PROGRAMLARI
         </h2>
         <div className="mx-auto px-4 lg:p-0 text-left xl:text-center  max-w-4xl">
           <h5>
