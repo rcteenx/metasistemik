@@ -10,7 +10,7 @@ import ContactAtolye from "@/components/sections/common/z-contact-atolye";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>ATÖLYELER VE ETKİNLİKLER</HeaderTitle>
+      {/* <HeaderTitle>ATÖLYELER VE ETKİNLİKLER</HeaderTitle> */}
 
       <WorkshopPrograms />
 
