@@ -4,7 +4,7 @@ import IconComponent from "@/components/ui/icons/icons";
 export default function WorkshopPrograms() {
   return (
     <section id="coaching-programms" className="mx-4">
-      <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[328px] flex items-center xl:items-start -z-10">
+      <div className="my-8 bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[328px] flex items-center xl:items-start -z-10">
         <div className="container mx-auto">
           <div className="text-center text-white">
             <h2 className="xl:text-4xl ">METASİSTEMATİK ÇALIŞMALAR</h2>
@@ -31,7 +31,7 @@ export default function WorkshopPrograms() {
             </h4>
           </div>
         </div>
-        <div className="text-center my-8">
+        {/* <div className="text-center my-8">
           <h2>MESLEKİ YETERLİLİK VE GELİŞİM SERTİFİKA PROGRAM TAKVİMİ:</h2>
           <p className=" max-w-4xl mx-auto text-accent">
             4 Okulumuz için ilk sertifika programları olan Mesleki Yeterlilik
@@ -51,7 +51,7 @@ export default function WorkshopPrograms() {
             <li>10 kişi birlikte kayıt: %20</li>
             <li>15 kişi birlikte kayıt: %25</li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -43,13 +43,16 @@ export default function WorkshopsWhy() {
                   sahip bireylerle bağlantı kurun.
                 </p>
               </li>
+
+              <li>
+                <h3>Dönüştürücü Yolculuğunuza Başlamaya Hazır mısınız?</h3>
+                <p>
+                  Aşağıdaki Grup atölye açıklamalarımızı inceleyin ve size uygun
+                  olan yolu bulun. Kişisel gelişim ve güçlenme yolculuğuna
+                  çıktığınızda sizi desteklemek için şimdi ve buradayız.
+                </p>
+              </li>
             </ul>
-            <h3>Dönüştürücü Yolculuğunuza Başlamaya Hazır mısınız?</h3>
-            <p>
-              Aşağıdaki Grup atölye açıklamalarımızı inceleyin ve size uygun
-              olan yolu bulun. Kişisel gelişim ve güçlenme yolculuğuna
-              çıktığınızda sizi desteklemek için şimdi ve buradayız.
-            </p>
           </div>
         </div>
       </div>
