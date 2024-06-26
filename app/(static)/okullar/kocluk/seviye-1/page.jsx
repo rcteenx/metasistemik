@@ -16,10 +16,10 @@ export default function StaticPage() {
             height="315"
             src="https://www.youtube.com/embed/p24N9H_uwcU?si=e7vqDYi1WUdQddSL"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           ></iframe>
         </div>
       </PageContent>
