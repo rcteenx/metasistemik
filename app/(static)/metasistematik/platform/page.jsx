@@ -14,7 +14,7 @@ export default function StaticPage() {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/B3ykKy6_X3w?si=YsfWPNaCTikue2-_"
+            src="https://www.youtube.com/embed/mM373kwYNTY?si=L18Ks_cBXlTQ7x-0"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
