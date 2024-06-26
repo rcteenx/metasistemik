@@ -1,4 +1,4 @@
-import { StaticPages } from "@/content/data";
+import IconComponent from "@/components/ui/icons/icons";
 
 export default function Workshops() {
   return (
@@ -9,10 +9,9 @@ export default function Workshops() {
             ATÖLYE VE ETKİNLİKLER
           </h2>
           <p className=" text-accent-light-8">
-            Hafta da birer gün olarak düzenlediğimiz aşağıdaki gruplarımız genel
-            katılıma açıktır:
+            Aşağıdaki gruplarımız genel katılıma açıktır:
           </p>
-          <p> (Sürekli çalışma grubu)</p>
+          <p> (Sürekli çalışma grupları)</p>
           <ul className="my-4 text-accent text-base flex flex-col md:flex-row gap-4 ">
             <li className=" w-full border p-4 rounded-md shadow-lg bg-white hover:bg-gray-100 ">
               <h4>
@@ -22,7 +21,10 @@ export default function Workshops() {
               </h4>
               <ul className="my-4 flex items-center justify-center gap-4  ">
                 <li className="px-4 py-2 bg-accent text-white hover:bg-accent/80 rounded-xl cursor-pointer shadow-lg">
-                  <a href="https://wa.me/905443087402?text=bilgi">Kayıt</a>
+                  <a href="https://wa.me/905443087402?text=bilgi">
+                    Kayıt
+                    <IconComponent name="whatsapp" size={18} color="white" />
+                  </a>
                 </li>
                 <li className="px-4 py-2 border hover:bg-gray-200 rounded-xl cursor-pointer">
                   <a href="#">Bilgi</a>
@@ -37,7 +39,10 @@ export default function Workshops() {
               </h4>
               <ul className="my-4 flex items-center justify-center gap-4  ">
                 <li className="px-4 py-2 bg-accent text-white hover:bg-accent/80 rounded-xl cursor-pointer shadow-lg">
-                  <a href="https://wa.me/905443087402?text=bilgi">Kayıt</a>
+                  <a href="https://wa.me/905443087402?text=bilgi">
+                    Kayıt
+                    <IconComponent name="whatsapp" size={18} color="white" />
+                  </a>
                 </li>
                 <li className="px-4 py-2 border hover:bg-gray-200 rounded-xl cursor-pointer">
                   <a href="#">Bilgi</a>
