@@ -10,7 +10,7 @@ export default function StaticPage() {
   return (
     <>
       <HeaderTitle>MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI </HeaderTitle>
-      <HeaderImage>MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI </HeaderImage>
+      {/* <HeaderImage>MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI </HeaderImage> */}
 
       <PageContent h2Title="MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI">
         <h3>Önce Mesleki Yeterlilik Eğitimi, Sonra Resmi Meslek Belgesi</h3>

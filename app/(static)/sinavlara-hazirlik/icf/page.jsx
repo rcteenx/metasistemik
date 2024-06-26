@@ -10,7 +10,7 @@ export default function StaticPage() {
   return (
     <>
       <HeaderTitle>ICF (ACC/PCC) ÜNVAN ALMA SINAVI</HeaderTitle>
-      <HeaderImage>ICF (ACC/PCC) ÜNVAN ALMA SINAVI</HeaderImage>
+      {/* <HeaderImage>ICF (ACC/PCC) ÜNVAN ALMA SINAVI</HeaderImage> */}
 
       <PageContent h2Title="ICF (ACC/PCC) ÜNVAN ALMA SINAVI">
         <h3>Metasistemik Farkıyla ICF (ACC/PCC) Unvanınızı Güvenle Alın:</h3>
