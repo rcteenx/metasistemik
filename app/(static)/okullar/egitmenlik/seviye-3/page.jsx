@@ -7,10 +7,6 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle bgColor={"teaching"}>
-        EĞİTMENLİK OKULU - Seviye 3
-      </HeaderTitle>
-
       <PageContent
         bgColor={"teaching"}
         h2Title="Sistemik Süpervizyon Sertifika Programı"

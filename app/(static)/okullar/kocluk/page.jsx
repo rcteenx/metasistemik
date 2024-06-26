@@ -22,8 +22,6 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle bgColor={"coaching"}>KOÇLUK OKULU</HeaderTitle>
-
       <PageContent
         h2Title="Farkındalığınızı Geliştirin,
 Potansiyelinizi Açığa Çıkarmaya ve Yetenek Geliştirmeye Hazır

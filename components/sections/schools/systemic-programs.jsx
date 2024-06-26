@@ -16,12 +16,12 @@ export default function SystemicPrograms() {
       </div>
 
       <div className="container mx-auto my-4 xl:-mt-[124px]">
-        <div className="grid  xl:grid-cols-3 gap-4 px-8 xl:px-0">
+        <div className="grid xl:grid-cols-3 gap-4 px-8 xl:px-0">
           <a
             href="/okullar/sistemik-dizim/seviye-1"
             className="gradientTransition"
           >
-            <div className="px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border border-accent gradientAccentToDark">
+            <div className="px-4 py-8 xl:h-64 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border border-accent gradientAccentToDark">
               <p className="text-3xl font-bold">Seviye 1</p>
               <h4 className="mb-[10px]">
                 BİREYSEL SİSTEMİK DİZİM KOLAYLAŞTIRICISI SERTİFİKA PROGRAMI
@@ -37,7 +37,7 @@ export default function SystemicPrograms() {
             href="/okullar/sistemik-dizim/seviye-2a"
             className="gradientTransition"
           >
-            <div className="px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent gradientGreenToBlack">
+            <div className="px-4 py-8 xl:h-64 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent gradientGreenToBlack">
               <p className="text-3xl font-bold">Seviye 2/A</p>
               <h4 className="mb-[10px]">
                 SİSTEMİK DİZİM KOLAYLAŞTIRICISI SERTİFİKA PROGRAMI
@@ -53,7 +53,7 @@ export default function SystemicPrograms() {
             href="/okullar/sistemik-dizim/seviye-2b"
             className="gradientTransition"
           >
-            <div className="  px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent gradientAccentOppositeToBlack">
+            <div className=" px-4 py-8 xl:h-64 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent gradientAccentOppositeToBlack">
               <p className="text-3xl font-bold">Seviye 2/B</p>
               <h4 className="mb-[10px]">
                 YÖNETİM VE ORGANİZASYONEL SİSTEMİK DİZİM KOLAYLAŞTIRICISI

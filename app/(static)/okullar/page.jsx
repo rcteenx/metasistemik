@@ -7,8 +7,6 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle bgColor={"schools"}>Metasistematik Okullarımız</HeaderTitle>
-
       <Schools />
 
       <SocialMedia />

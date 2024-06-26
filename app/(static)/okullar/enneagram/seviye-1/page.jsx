@@ -7,10 +7,6 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle bgColor={"enneagram"}>
-        ENNEAGRAM OKULU - Seviye 1
-      </HeaderTitle>
-
       <PageContent
         bgColor={"enneagram"}
         h2Title="ENNEAGRAM OKULUEnneagram Sistemi Sertifika Programı Seviye 1"

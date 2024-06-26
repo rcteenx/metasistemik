@@ -7,8 +7,6 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle bgColor={"coaching"}>KOÇLUK OKULU - Seviye 1</HeaderTitle>
-
       <PageContent h2Title="Profesyonel Koçluk Sertifika Programı Seviye 1">
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe

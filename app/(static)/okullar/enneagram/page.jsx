@@ -21,8 +21,6 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle bgColor={"enneagram"}>ENNEAGRAM OKULU</HeaderTitle>
-
       <PageContent bgColor={"enneagram"} h2Title="ENNEAGRAM OKULU">
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe

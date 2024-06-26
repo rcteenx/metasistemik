@@ -7,10 +7,6 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle bgColor={"systemic"}>
-        SİSTEMİK DİZİM OKULU - Seviye 2B
-      </HeaderTitle>
-
       <PageContent
         bgColor={"systemic"}
         h2Title="Y&O Sistemik Dizim Kolaylaştırıcısı Sertifika Programı Seviye 2B"

@@ -21,8 +21,6 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle bgColor={"teaching"}>EĞİTMENLİK OKULU</HeaderTitle>
-
       <PageContent bgColor={"teaching"} h2Title="EĞİTMENLİK OKULU">
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe
