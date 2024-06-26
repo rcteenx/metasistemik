@@ -92,7 +92,7 @@ export default function Schools2() {
             role="button"
           >
             Mesaj Atın
-            <IconComponent name="arrowright" size={18} color="white" />
+            <IconComponent name="whatsapp" size={24} color="white" />
           </a>
         </div>
       </div>

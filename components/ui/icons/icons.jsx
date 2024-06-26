@@ -1,4 +1,5 @@
 import {
+  FaWhatsapp,
   FaFacebook,
   FaGithub,
   FaInstagram,
@@ -24,6 +25,7 @@ import { SiDwavesystems } from "react-icons/si";
 import { AiFillCheckCircle } from "react-icons/ai";
 
 const iconTypes = {
+  whatsapp: FaWhatsapp,
   school: IoMdSchool,
   teacher: LiaChalkboardTeacherSolid,
   systemic: SiDwavesystems,
