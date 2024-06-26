@@ -4,12 +4,11 @@ export default function ExamsWhyIcf() {
       <div className="container mx-auto my-8 lg:my-24">
         <div className="bg-gradient-to-br from-accent via-accent-dark-3 to-accent-dark-7 p-12 m-4 border rounded-2xl shadow-lg text-center text-white">
           <h2 className=" text-accent-light-7 lg:text-6xl">
-            ICF (ACC/PCC) YETERLİLİK SINAVI
+            Neden Bizi Seçmelisiniz?
           </h2>
-          <h3>Neden Bizi Seçmelisiniz?</h3>
 
           <div className=" mx-auto bg-accent-light-3 p-4 md:p-12 text-accent-dark-7 rounded-xl my-8">
-            <h2 className="">Programın Avantajları:</h2>
+            <h3 className="text-2xl md:text-4xl">Programın Avantajları</h3>
             <ul className="grid md:grid-cols-2 mx-auto gap-8 my-8 p-4 [&>li]:border [&>li]:bg-accent-light-7 [&>li]:rounded-xl [&>li]:p-4">
               <li>
                 <h4>Koçluk Yeterliliğinizi Artırma Sözü</h4>
@@ -65,36 +64,38 @@ export default function ExamsWhyIcf() {
                 </p>
               </li>
             </ul>
-            <h3>Programa Genel Bakış</h3>
-            <ul>
-              <li>
-                <dd className="font-semibold inline">Amaç: </dd>
-                <dt className="inline">
-                  Bu program, ICF (ACC/PCC) Yeterlilik Sınavına girebilmek için
-                  ön koşul olan eğitim saatlerini ve deneyimini yerine getirmiş
-                  koçlar için tasarlanmıştır. Programımız başarı oranınızı
-                  artırmayı, ACC veya PCC unvanını kazanma yolunuzu
-                  kolaylaştırmayı ve koçluk yetkinliğinizi geliştirmeyi
-                  amaçlamaktadır.
-                </dt>
-              </li>
-              <li>
-                <dd className="font-semibold inline">Süre: </dd>
-                <dt className="inline">36 saat</dt>
-              </li>
-              <li>
-                <dd className="font-semibold inline">Format: </dd>
-                <dt className="inline">
-                  Süpervizyon desteğiyle 8 ICF Temel Yetkinliğine göre
-                  uyarlanmış soruların ayrıntılı analizleri. Soru bankası ile
-                  uygulama sınavları ve grup mentorluk desteği.
-                </dt>
-              </li>
-            </ul>
+            <div className="mx-auto max-w-3xl">
+              <h3>Programa Genel Bakış</h3>
+              <ul>
+                <li>
+                  <dd className="font-semibold inline">Amaç: </dd>
+                  <dt className="inline">
+                    Bu program, ICF (ACC/PCC) Yeterlilik Sınavına girebilmek
+                    için ön koşul olan eğitim saatlerini ve deneyimini yerine
+                    getirmiş koçlar için tasarlanmıştır. Programımız başarı
+                    oranınızı artırmayı, ACC veya PCC unvanını kazanma yolunuzu
+                    kolaylaştırmayı ve koçluk yetkinliğinizi geliştirmeyi
+                    amaçlamaktadır.
+                  </dt>
+                </li>
+                <li>
+                  <dd className="font-semibold inline">Süre: </dd>
+                  <dt className="inline">36 saat</dt>
+                </li>
+                <li>
+                  <dd className="font-semibold inline">Format: </dd>
+                  <dt className="inline">
+                    Süpervizyon desteğiyle 8 ICF Temel Yetkinliğine göre
+                    uyarlanmış soruların ayrıntılı analizleri. Soru bankası ile
+                    uygulama sınavları ve grup mentorluk desteği.
+                  </dt>
+                </li>
+              </ul>
+            </div>
           </div>
 
-          <div className="p-4 m-8 mx-auto border rounded-xl bg-accent-dark-3">
-            <h3>Bizim Sözümüz</h3>
+          <div className="p-4 m-8 mx-auto border rounded-xl bg-accent-dark-3 max-w-4xl">
+            <h3 className="text-2xl md:text-4xl">Bizim Sözümüz</h3>
             <p>
               METASİSTEMİK kendini başarınıza adamıştır. Koçların
               potansiyellerini ortaya çıkarmaları ve profesyonel koçluk
