@@ -6,20 +6,6 @@ export default function WorkshopsWhy1() {
           <h2 className=" text-accent-light-7 lg:text-6xl">
             Grup Çalışmalarımız
           </h2>
-          <div className="p-4 m-8 mx-auto border rounded-xl bg-accent-dark-3">
-            <h3>Genel Formatı</h3>
-            <ul>
-              <li>Açılış konuşmaları</li>
-              <li>
-                Öğretmen eşliğinde çalışma anlayış ve konularının paylaşıldığı
-                etkileşimli eğitim
-              </li>
-              <li>Kolaylaştırıcı eşliğinde Sistemik Çalışma uygulamaları</li>
-              <li>
-                Moderatör eşliğinde bireysel paylaşımlar ve değerlendirmeler
-              </li>
-            </ul>
-          </div>
           <div className=" mx-auto bg-accent-light-3 p-4 md:p-12 text-accent-dark-7 rounded-xl my-8">
             <h2 className="">
               Birlikte Uzun Bir yolculuğa Çıkmaya Hazır mısınız? İşte Sizi
@@ -75,25 +61,6 @@ export default function WorkshopsWhy1() {
               <li>
                 Farkındalık geliştirme potansiyelinden ve dönüşüm için sistemik
                 çalışmanın gücünden etkilenen herkes.
-              </li>
-            </ul>
-          </div>
-
-          <div className="p-4 m-8 mx-auto border rounded-xl bg-accent-dark-3">
-            <h3>Diğer Bilgiler</h3>
-            <ul>
-              <li>
-                Çalışma Grubunun oturumları Her hafta pazartesi akşam 19:30’da
-                başlar ve 3(+) saat sürer. Ayda 4 kez düzenlenir.
-              </li>
-              <li>
-                Çalışma grubumuz, her ay yüz-yüze gelişim atölyeleri
-                etkinlikleri ve 3-4 ayda bir inziva programları düzenleyerek bir
-                araya gelinmesini teşvik eder.
-              </li>
-              <li>
-                FGSÇ Bilgilendirilmiş Onam Formu: Lütfen Grup Çalışmalarına
-                Katılmadan önce okuyup onaylayınız.
               </li>
             </ul>
           </div>
