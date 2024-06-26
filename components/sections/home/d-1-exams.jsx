@@ -31,7 +31,7 @@ export default function Exams({ img, img2 }) {
               Ulusal Mesleki Kimlik Kazanımı (MYK Düzey-6)
             </a>
           </h3>
-          <div className="grid grid-cols-1 xl:grid-cols-2 items-end gap-8 ">
+          <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-8 ">
             <div className="rounded-xl p-4 bg-white ">
               <img
                 src={img.src}
@@ -76,18 +76,15 @@ export default function Exams({ img, img2 }) {
 
         <div className="lg:mt-4 p-8 border rounded-xl border-accent-dark-3 text-accent-dark-3">
           <h3 className=" mx-auto my-4 text-center">
-            <a href="/sinavlara-hazirlik/icf">Ulusal Mesleki Kimlik Kazanımı</a>
+            <a href="/sinavlara-hazirlik/icf">
+              ACC veya PCC Ünvanlama Sınavına Bizimle Hazırlanın
+            </a>
           </h3>
-          <div className="grid grid-cols-1 xl:grid-cols-2 items-end gap-8 ">
+          <div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-8 ">
             <div className="p-4 ">
               <ul className="space-y-5">
                 <li className="flex gap-2">
-                  <SvgCheck />
                   <div>
-                    <dt className="text-2xl">
-                      ACC veya PCC Unvanınızı Ünvanlama Sınavına Bizimle
-                      Hazırlanın
-                    </dt>
                     <dd className="-ml-7 mt-2">
                       Uluslararası Koçluk Federasyonu (ICF) ile Ortak
                       Sertifikalı Koç (ACC) veya Profesyonel Sertifikalı Koç
@@ -110,8 +107,14 @@ export default function Exams({ img, img2 }) {
         </div>
 
         <p className="text-center my-4">
-          Daha kapsamlı bilgiler için Mesleki Yeterlilik Sınavları sayfamızı
-          ziyaret edin
+          Daha kapsamlı bilgiler için{" "}
+          <a
+            href="https://metasistemik.vercel.app/sinavlara-hazirlik"
+            className="text-accent font-bold"
+          >
+            Mesleki Yeterlilik Sınavları
+          </a>{" "}
+          sayfamızı ziyaret edin
         </p>
       </div>
     </div>
