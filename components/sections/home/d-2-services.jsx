@@ -13,14 +13,10 @@ export default function HomeServices() {
           Dönüşüme Doğru İlk Adımı Atın
         </h3>
         <p>
-          İster organizasyonunuzu, kişisel yaşamınızı, ister çevrenizdeki
-          dünyayı dönüştürmeyi hedefliyor olun, Metasistemik yolculuğunuzda size
-          rehberlik edecek araçlara ve uzmanlığa sahiptir. Hizmetlerimizi
-          keşfedin ve sistemik farkındalığın gücünü bugün keşfedin.
-        </p>
-        <p>
-          Daha tatmin edici bir hayata ve daha etkili bir organizasyona doğru
-          yolculuğunuz burada başlıyor.
+          Amaçlarınızı destekliyoruz: METASİSTEMİK, kişisel veya organizasyonel
+          hedefleriniz söz konusu olduğunda size rehberlik edecek araçlara ve
+          uzmanlığa sahiptir. Hizmetlerimizle birlikte sistemik farkındalığın
+          gücünü bugün keşfedin.
         </p>
         <h4 className="text-accent my-8">
           Detaylı Bilgi İçin{" "}
