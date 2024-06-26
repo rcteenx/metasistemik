@@ -14,6 +14,12 @@ export default function FooterQuote() {
         ))}
       </div> */}
       <p className="text-right text-sm">
+        <IconComponent
+          name="location"
+          size={18}
+          color="black"
+          className="inline-block"
+        />
         Çınarlı Mah. Ozan Abay Cad. No:8-Z17 / Ege Perla-Konak / İzmir
       </p>
     </div>

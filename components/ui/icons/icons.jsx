@@ -19,12 +19,14 @@ import {
   FaAlignLeft,
 } from "react-icons/fa";
 
+import { VscLocation } from "react-icons/vsc";
 import { IoMdSchool } from "react-icons/io";
 import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import { SiDwavesystems } from "react-icons/si";
 import { AiFillCheckCircle } from "react-icons/ai";
 
 const iconTypes = {
+  location: VscLocation,
   whatsapp: FaWhatsapp,
   school: IoMdSchool,
   teacher: LiaChalkboardTeacherSolid,
