@@ -4,7 +4,7 @@ export default function Certificates({ img, img2, mekanikYollar }) {
   return (
     <section id="mekanikYollar" className="bg-accent/50 py-10">
       <div className="container mx-auto">
-        <div className="px-4 lg:p-0 text-left xl:text-center">
+        <div className="mx-auto px-4 lg:p-0 text-left xl:text-center max-w-2xlframeborder">
           <h2>Mesleki Yeterlilik ve Gelişim Sertifika Programları</h2>
           <p>
             Platformumuzda yer alan 4 okulumuzdaki tüm sertifika programları hem
@@ -12,6 +12,11 @@ export default function Certificates({ img, img2, mekanikYollar }) {
             hazırlanmıştır. Platformumuz, her sertifika programı için hem
             tanınma hem de mesleki güvenilirlik sağlayan ikili sertifika modeli
             sunar.
+          </p>
+          <p>
+            Bu ikili sertifikalandırma yaklaşımı, kimlik bilgilerinizin hem
+            Metasistemik toplulukta hem de global çapta daha geniş profesyonel
+            ortamda tanınmasını ve saygı duyulmasını sağlar.
           </p>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 lg:my-8 items-start bg-accent-light-7 lg:p-4 rounded-xl text-center">
@@ -58,11 +63,6 @@ export default function Certificates({ img, img2, mekanikYollar }) {
             Bu düzey, verilen eğitimin üniversite lisans derecesine uygun
             olduğunu ancak örgün lisans eğitiminin katılım için ön koşul
             olmadığını göstermektedir.
-          </p>
-          <p>
-            Bu ikili sertifikalandırma yaklaşımı, kimlik bilgilerinizin hem
-            Metasistemik toplulukta hem de global çapta daha geniş profesyonel
-            ortamda tanınmasını ve saygı duyulmasını sağlar.
           </p>
           <p>
             Yaklaşan yeni sınıflarımızı kaçırmayın; dönüştürücü öğrenme
