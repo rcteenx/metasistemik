@@ -9,7 +9,8 @@ export default function Workshops() {
             ATÖLYE VE ETKİNLİKLER
           </h2>
           <p className=" text-accent-light-8">
-            Aşağıdaki gruplarımız genel katılıma açıktır:
+            Aşağıdaki haftalık online (canlı) çalışma gruplarımız genel katılıma
+            açıktır:
           </p>
           <p> (Sürekli çalışma grupları)</p>
           <ul className="my-4 text-accent text-base flex flex-col md:flex-row gap-4 ">
@@ -22,12 +23,9 @@ export default function Workshops() {
               <ul className="my-4 flex items-center justify-center gap-4  ">
                 <li className="px-4 py-2 bg-accent text-white hover:bg-accent/80 rounded-xl cursor-pointer shadow-lg">
                   <a href="https://wa.me/905443087402?text=bilgi">
-                    Kayıt
+                    Kayıt İçin
                     <IconComponent name="whatsapp" size={18} color="white" />
                   </a>
-                </li>
-                <li className="px-4 py-2 border hover:bg-gray-200 rounded-xl cursor-pointer">
-                  <a href="#">Bilgi</a>
                 </li>
               </ul>
             </li>
@@ -40,12 +38,9 @@ export default function Workshops() {
               <ul className="my-4 flex items-center justify-center gap-4  ">
                 <li className="px-4 py-2 bg-accent text-white hover:bg-accent/80 rounded-xl cursor-pointer shadow-lg">
                   <a href="https://wa.me/905443087402?text=bilgi">
-                    Kayıt
+                    Kayıt İçin
                     <IconComponent name="whatsapp" size={18} color="white" />
                   </a>
-                </li>
-                <li className="px-4 py-2 border hover:bg-gray-200 rounded-xl cursor-pointer">
-                  <a href="#">Bilgi</a>
                 </li>
               </ul>
             </li>
