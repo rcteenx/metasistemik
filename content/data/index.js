@@ -21,7 +21,7 @@ export const barInfo = {
 };
 
 export const whatwegain = {
-  h2: "Metasistemik Çalışma Programlarımız Neler Kazandırır?",
+  h2: "Sertifika Programlarımız Neler Kazandırır?",
   items: [
     {
       title: "Derin Kişisel Farkındalığı Geliştirin",

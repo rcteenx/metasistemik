@@ -38,7 +38,7 @@ export default function Hero() {
                 role="button"
               >
                 Mesaj Atın
-                <IconComponent name="arrowright" size={18} color="white" />
+                <IconComponent name="whatsapp" size={18} color="white" />
               </a>
             </div>
             <a
