@@ -5,17 +5,17 @@ import PageContent from "@/components/templates/pageContent";
 import JoinTheWay from "@/components/sections/platform/join-the-way";
 import SocialMedia from "@/components/sections/common/z-contact";
 
+import { hakanTurkdonmez640 } from "@/public/assets/images";
+
 export default function StaticPage() {
   return (
     <>
       <HeaderTitle>Kurucumuz</HeaderTitle>
-      <HeaderImage>Kurucumuz Hakkında</HeaderImage>
-
       <PageContent
         h2Title="Potansiyeli Açığa Çıkaran ve Dönüşüme İlham Veren
 Farkındalık Yolculuğu"
       >
-        <p>
+        <p className="">
           Hakan'ın hikayesi, farkındalığın gücünü keşfeden ve potansiyelin
           sınırlarını zorlayan 30 yılı aşkın bir yolculuk. Hakan, 2000 – 2017
           yılları arasında Telekomünikasyon sektörünün önde gelen büyük
@@ -29,6 +29,15 @@ Farkındalık Yolculuğu"
           ve zaman içerisinde kurumsal eğitmenlik yetkinliklerini geliştirmesine
           de olanak sağladı.
         </p>
+        <div className="p-4 border border-accent shadow-xl rounded-xl">
+          <img
+            src={hakanTurkdonmez640.src}
+            alt="img colletion"
+            width="w-full"
+            height={480}
+            className="rounded-xl"
+          />
+        </div>
         <h3>Farkındalığın Uyanışı ve Enneagram ile Derinleşme:</h3>
         <p>
           Hakan, erken gençlik yıllarından itibaren felsefeye ve kendini tanıma
