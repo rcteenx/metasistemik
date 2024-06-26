@@ -23,7 +23,11 @@ export default function HomeServices() {
           yolculuğunuz burada başlıyor.
         </p>
         <h4 className="text-accent my-8">
-          Detaylı Bilgi İçin Hizmetlerimiz sayfasına ulaşın
+          Detaylı Bilgi İçin{" "}
+          <a href="/hizmetlerimiz" className="text-accent-dark-5 font-bold">
+            Hizmetlerimiz
+          </a>{" "}
+          sayfasına ulaşın
         </h4>
       </div>
     </section>

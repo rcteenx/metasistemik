@@ -108,10 +108,7 @@ export default function Exams({ img, img2 }) {
 
         <p className="text-center my-4">
           Daha kapsamlı bilgiler için{" "}
-          <a
-            href="https://metasistemik.vercel.app/sinavlara-hazirlik"
-            className="text-accent font-bold"
-          >
+          <a href="/sinavlara-hazirlik" className="text-accent font-bold">
             Mesleki Yeterlilik Sınavları
           </a>{" "}
           sayfamızı ziyaret edin
