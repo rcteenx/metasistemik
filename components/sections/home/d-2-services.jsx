@@ -9,7 +9,7 @@ export default function HomeServices() {
         <h2 className="text-2xl lg:text-6xl text-accent-dark-6">
           HİZMETLERİMİZ
         </h2>
-        <h3 className="my-4 text-base md:text-xl text-accent-light-5">
+        <h3 className="my-4 text-base md:text-xl text-accent-dark-5">
           Dönüşüme Doğru İlk Adımı Atın
         </h3>
         <p>
