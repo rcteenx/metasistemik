@@ -3,19 +3,20 @@ import SvgCheck from "@/components/ui/svg/check";
 export default function Exams({ img, img2 }) {
   return (
     <div id="gain" className="bg-white py-10 lg:my-16">
-      <div className="container mx-auto">
-        <div className="px-4 lg:p-0 text-left xl:text-center">
-          <h2 className="text-2xl lg:text-6xl text-accent-dark-6">
-            MESLEKİ YETERLİLİK SINAVLARI
-          </h2>
+      <div className="container mx-auto ">
+        <h2 className="text-2xl lg:text-6xl text-accent-dark-6 text-left xl:text-center">
+          MESLEKİ YETERLİLİK SINAVLARI
+        </h2>
+        <div className="mx-auto px-4 lg:p-0 text-left xl:text-center  max-w-4xl">
           <h5>
-            Sınav Hazırlık Programlarıyla Ulusal ve Uluslararası Mesleki
-            Tanınırlığa Ulaşın
+            Sınav Hazırlık Programlarıyla, Sınav Başarınızı Artırın ve Ulusal ve
+            Uluslararası Mesleki Tanınırlığa Ulaşın
           </h5>
           <p>
-            Metasistemik'in kapsamlı sınav hazırlık programlarıyla, ulusal
-            mesleki yeterlilik belgelerinizi edinin, uluslararası mesleki
-            unvanınızı alın.
+            Ulusal ve uluslararası düzeyde tanınan mesleki yeterlilik
+            belgelerine ulaşmanıza yardımcı olmak için tasarlanan sınav hazırlık
+            programlarımız, başarılı olmanız için ihtiyaç duyduğunuz bilgi ve
+            desteği sağlar
           </p>
           <p>
             Ulusal ve uluslararası düzeyde tanınan mesleki yeterlilik
@@ -24,7 +25,7 @@ export default function Exams({ img, img2 }) {
             desteği sağlar.
           </p>
         </div>
-        <div className="m-4 p-8 bg-accent text-accent-light-7 rounded-xl ">
+        <div className="m-4 p-8 bg-accent-dark-5 text-accent-light-7 rounded-xl ">
           <h3 className=" mx-auto my-4 text-center">
             <a href="/sinavlara-hazirlik/myk">
               Ulusal Mesleki Kimlik Kazanımı (MYK Düzey-6)
@@ -49,8 +50,7 @@ export default function Exams({ img, img2 }) {
                     <dd className="-ml-7 mt-2">
                       Profesyonel Koçluk Sertifika Programımız ve özel MYK
                       Seviye-6 Koçluk Sınavına Hazırlık Programımızla koçluk
-                      kariyerinize başlayın. (Bağlantı) [MYK Logosunu Buraya
-                      Yerleştirin]
+                      kariyerinize başlayın.
                     </dd>
                   </div>
                 </li>
@@ -94,8 +94,7 @@ export default function Exams({ img, img2 }) {
                       Sertifikalı Koç (ACC) veya Profesyonel Sertifikalı Koç
                       (PCC) olma yolunda son adımı atmaya hazırsanız, sıkı ICF
                       Sınav Hazırlık Programımız size gerekli donanımı
-                      sağlayacaktır. (Bağlantı) [ICF Logosunu Buraya
-                      Yerleştirin]
+                      sağlayacaktır.
                     </dd>
                   </div>
                 </li>
@@ -105,7 +104,7 @@ export default function Exams({ img, img2 }) {
               <img
                 src={img2.src}
                 alt="img colletion"
-                className=" h-[120px] mx-auto object-cover object-center border-8 border-white rounded-xl"
+                className=" mx-auto object-cover object-center border-8 border-white rounded-xl"
               />
             </div>
           </div>
