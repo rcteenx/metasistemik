@@ -9,7 +9,7 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI </HeaderTitle>
+      {/* <HeaderTitle>MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI </HeaderTitle> */}
       {/* <HeaderImage>MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI </HeaderImage> */}
 
       <PageContent h2Title="MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI">
