@@ -76,8 +76,8 @@ export default function Certificates({ img, img2, mekanikYollar }) {
               <h4>Bizimle iletişime geçin</h4>
               <p>
                 Yaklaşan başlangıç tarihleri hakkında daha fazla bilgi edinmek
-                veya mesleki gelişim hedeflerinizi tartışmak için sizi şu adrese
-                davet ediyoruz:
+                veya mesleki gelişim hedeflerinizi tartışmak için sizi
+                bekliyoruz:
               </p>
               <ul className="flex flex-col justify-center gap-4 my-4 ">
                 <li className="p-4 border rounded-xl">

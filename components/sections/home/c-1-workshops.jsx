@@ -21,10 +21,15 @@ export default function Workshops() {
                 </a>
               </h4>
               <ul className="my-4 flex items-center justify-center gap-4  ">
-                <li className="px-4 py-2 bg-accent text-white hover:bg-accent/80 rounded-xl cursor-pointer shadow-lg">
+                <li className="px-4 py-2 bg-accent-opposite text-white hover:bg-accent-dark-5 rounded-xl cursor-pointer shadow-lg">
                   <a href="https://wa.me/905443087402?text=bilgi">
                     Kayıt İçin
-                    <IconComponent name="whatsapp" size={18} color="white" />
+                    <IconComponent
+                      name="whatsapp"
+                      size={18}
+                      color="white"
+                      className="inline-block ml-2"
+                    />
                   </a>
                 </li>
               </ul>
@@ -36,10 +41,15 @@ export default function Workshops() {
                 </a>
               </h4>
               <ul className="my-4 flex items-center justify-center gap-4  ">
-                <li className="px-4 py-2 bg-accent text-white hover:bg-accent/80 rounded-xl cursor-pointer shadow-lg">
+                <li className="px-4 py-2 bg-accent-opposite text-white hover:bg-accent-dark-5 rounded-xl cursor-pointer shadow-lg">
                   <a href="https://wa.me/905443087402?text=bilgi">
                     Kayıt İçin
-                    <IconComponent name="whatsapp" size={18} color="white" />
+                    <IconComponent
+                      name="whatsapp"
+                      size={18}
+                      color="white"
+                      className="inline-block ml-2"
+                    />
                   </a>
                 </li>
               </ul>
