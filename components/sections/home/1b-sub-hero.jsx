@@ -20,16 +20,19 @@ export default function SubHero({ img }) {
         <div className="px-4 text-center xl:text-left ">
           <div className="lg:my-8 text-base [&>p]:leading-6 [&>p]:my-4">
             <p>
-              Bireysel ve Kurumsal Dönüşümün Anahtarı: Platformumuz bünyesinde
-              ye alan okullarımız, farkındalık geliştirme ve sistemik çalışma
-              anlayışına bağlı kalarak ve global standartlara uyumluluğu
-              sağlayarak, bireylerin ve organizasyonların potansiyellerini
-              keşfetmelerine ve tam potansiyellerine ulaşmalarına yardımcı olmak
-              üzere çeşitli düzeylerde mesleki yeterlilik ve bütünsel gelişime
-              dayalı sertifika programları sunmaktadır.
+              <strong className="text-accent">
+                Bireysel ve Kurumsal Dönüşümün Anahtarı:
+              </strong>{" "}
+              Platformumuz bünyesinde ye alan okullarımız, farkındalık
+              geliştirme ve sistemik çalışma anlayışına bağlı kalarak ve global
+              standartlara uyumluluğu sağlayarak, bireylerin ve
+              organizasyonların potansiyellerini keşfetmelerine ve tam
+              potansiyellerine ulaşmalarına yardımcı olmak üzere çeşitli
+              düzeylerde mesleki yeterlilik ve bütünsel gelişime dayalı
+              sertifika programları sunmaktadır.
             </p>
           </div>
-          <hr className="my-4" />
+          <hr className="my-2" />
           <h3 className="text-accent">Eğitim Programlarımızla:</h3>
           <ul className="xl:px-4 my-4 xl:list-disc [&>li]:text-sm [&>li]:my-2 [&>li]:leading-6">
             <li>Bireysel yetenek ve beceri geliştirmenin ötesine geçiyoruz.</li>
