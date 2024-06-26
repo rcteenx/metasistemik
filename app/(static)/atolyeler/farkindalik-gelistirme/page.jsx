@@ -4,7 +4,7 @@ import PageContent from "@/components/templates/pageContent";
 
 import WorkshopsWhy1 from "@/components/sections/workshops/why_1";
 
-import SocialMedia from "@/components/sections/common/z-contact";
+import ContactAtolye from "@/components/sections/common/z-contact-atolye";
 
 export default function StaticPage() {
   return (
@@ -49,7 +49,7 @@ export default function StaticPage() {
 
       <WorkshopsWhy1 />
 
-      <SocialMedia />
+      <ContactAtolye />
     </>
   );
 }
