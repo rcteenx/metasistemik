@@ -12,7 +12,7 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>MESLEK SINAVLARINA HAZIRLIK PROGRAMLARI</HeaderTitle>
+      {/* <HeaderTitle>MESLEK SINAVLARINA HAZIRLIK PROGRAMLARI</HeaderTitle> */}
       {/* <HeaderImage>Meslek Sınavları Hakkında</HeaderImage> */}
       <ExamPrograms />
 

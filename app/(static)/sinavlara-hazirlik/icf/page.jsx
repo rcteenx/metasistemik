@@ -9,10 +9,10 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>ICF (ACC/PCC) YETERLİLİK SINAVI</HeaderTitle>
-      <HeaderImage>ICF (ACC/PCC) YETERLİLİK SINAVI</HeaderImage>
+      <HeaderTitle>ICF (ACC/PCC) ÜNVAN ALMA SINAVI</HeaderTitle>
+      <HeaderImage>ICF (ACC/PCC) ÜNVAN ALMA SINAVI</HeaderImage>
 
-      <PageContent h2Title="ICF Mesleki Yeterlilik Sınavı">
+      <PageContent h2Title="ICF (ACC/PCC) ÜNVAN ALMA SINAVI">
         <h3>Metasistemik Farkıyla ICF (ACC/PCC) Unvanınızı Güvenle Alın:</h3>
         <p>
           ICF, ACC veya PCC unvan alma yolculuğunuzun son aşaması olan sınav

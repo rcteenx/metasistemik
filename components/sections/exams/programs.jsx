@@ -18,14 +18,16 @@ export default function ExamPrograms() {
         <div className="mx-4 grid md:grid-cols-2 gap-4 px-8 xl:px-0">
           <div className=" bg-accent-light-9 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border border-accent gradientAccentToDark">
             <h4>
-              <a href="/sinavlara-hazirlik/myk">MYK SEVİYE-6 SINAVLARI</a>
+              <a href="/sinavlara-hazirlik/myk">
+                MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI
+              </a>
             </h4>
           </div>
 
           <div className=" bg-accent-light-7 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center gradientAccentOppositeToBlack">
             <h4>
               <a href="/sinavlara-hazirlik/icf">
-                ICF (ACC/PCC) YETERLİLİK SINAVI
+                ICF (ACC/PCC) ÜNVAN ALMA SINAVI
               </a>
             </h4>
           </div>

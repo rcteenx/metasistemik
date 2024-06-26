@@ -9,10 +9,10 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>MESLEKİ YETERLİLİK SINAVLARI </HeaderTitle>
-      <HeaderImage>MYK SEVİYE-6 SINAVLARI </HeaderImage>
+      <HeaderTitle>MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI </HeaderTitle>
+      <HeaderImage>MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI </HeaderImage>
 
-      <PageContent h2Title="Mesleki Yeterlilik Sınavları">
+      <PageContent h2Title="MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI">
         <h3>Önce Mesleki Yeterlilik Eğitimi, Sonra Resmi Meslek Belgesi</h3>
         <p>
           Ulusal Resmi Meslek Belgesi Edinmek İçin, MYK’nın Avrupa Mesleki
