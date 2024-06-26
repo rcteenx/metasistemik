@@ -14,27 +14,29 @@ export default function ServicesPrograms() {
 
       <div className="container mx-auto mt-4 xl:-mt-[80px]">
         <div className="grid md:grid-cols-3 gap-4 px-8 xl:px-0">
-          <div className=" px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border border-accent gradientAccentToDark">
-            <h4>Kurumsal Hizmetler</h4>
-            <p>
-              Metasistemik'in Dönüştürücü Kurumsal Çözümleriyle
-              Organizasyonunuzu Yükseltin
-            </p>
-          </div>
+          <a href="/hizmetlerimiz/kurumsal">
+            <div className=" px-4 py-8 md:h-36 rounded-2xl shadow-custom2 flex flex-col items-center text-center border border-accent gradientAccentToDark">
+              <h4>Kurumsal Hizmetler</h4>
+              <p>
+                Metasistemik'in Dönüştürücü Kurumsal Çözümleriyle
+                Organizasyonunuzu Yükseltin
+              </p>
+            </div>
+          </a>
 
-          <div className=" px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent gradientGreenToBlack">
-            <h4 className="">
-              <a href="#">Bireysel Hizmetler</a>
-            </h4>
-            <p>Bireysel Hizmetlerimiz: Kişisel Dönüşümünüzü Güçlendirin</p>
-          </div>
+          <a href="/hizmetlerimiz/bireysel">
+            <div className=" px-4 py-8 md:h-36 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent gradientGreenToBlack">
+              <h4 className="">Bireysel Hizmetler</h4>
+              <p>Bireysel Hizmetlerimiz: Kişisel Dönüşümünüzü Güçlendirin</p>
+            </div>
+          </a>
 
-          <div className="px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent gradientAccentOppositeToBlack">
-            <h4 className="">
-              <a href="#">Sosyal Sorumluluk</a>
-            </h4>
-            <p>Sosyal Sorumluluk Taahhüdümüz</p>
-          </div>
+          <a href="/hizmetlerimiz/sosyal-sorumluluk">
+            <div className="px-4 py-8 md:h-36 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent gradientAccentOppositeToBlack">
+              <h4 className="">Sosyal Sorumluluk</h4>
+              <p>Sosyal Sorumluluk Taahhüdümüz</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>

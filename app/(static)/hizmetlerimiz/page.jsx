@@ -10,10 +10,7 @@ import SocialMedia from "@/components/sections/common/z-contact";
 export default function StaticPage() {
   return (
     <>
-      {/* <HeaderTitle>HİZMETLERİMİZ</HeaderTitle> */}
       <ServicesPrograms />
-
-      {/* <HeaderImage>Hizmetlerimiz Hakkında</HeaderImage> */}
 
       <PageContent h2Title="Hayatınızı ve Organizasyonunuzu Dönüştürün">
         <p>
