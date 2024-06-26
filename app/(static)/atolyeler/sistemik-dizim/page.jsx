@@ -4,15 +4,15 @@ import PageContent from "@/components/templates/pageContent";
 
 import WorkshopsWhy2 from "@/components/sections/workshops/why_2";
 
-import SocialMedia from "@/components/sections/common/z-contact";
+import ContactAtolye from "@/components/sections/common/z-contact-atolye";
 
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>Sistemik Dizim Çalışma Grubu</HeaderTitle>
-      <HeaderImage>Sistemik Dizim Çalışmaları</HeaderImage>
+      {/* <HeaderTitle>Sistemik Dizim Çalışma Grubu</HeaderTitle> */}
+      {/* <HeaderImage>Sistemik Dizim Çalışmaları</HeaderImage> */}
 
-      <PageContent h2Title="Sürekli Grup Çalışmaları Program Tanıtımı">
+      <PageContent h2Title="Sistemik Dizim Çalışma Grubu">
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe
             width="560"
@@ -40,32 +40,7 @@ export default function StaticPage() {
           dönüşümün içeriden başladığına ve sistemik çerçevede gerçekleştiği
           fikrine dayanır. Derin bir kişisel farkındalık geliştirdiğinizde ve
           dünyamızı şekillendiren birbirine bağlı sistemik çerçevedeki yerinizi
-          anladığınızda, olumlu değişim için güçlü bir güç haline gelirsiniz.
-        </p>
-        <p>
-          Dönüşüme giden benzersiz bir yolu keşfedin. Farkındalık Geliştirme ve
-          Sistemik Çalışmanın dönüştürücü ilkelerini, yöntemlerini ve
-          tekniklerini grup sistemik dizim oturumlarımıza entegre ederek, sizi
-          farkındalık geliştirmeye dayalı dönüşüm yolculuğu için
-          güçlendiriyoruz.
-        </p>
-        <p>
-          Sistemik etkileşimler bağlamında derinlemesine dönüştürücü kişisel
-          anlayış ve gelişmiş ilişkiler için Sistemik Kişilik Çerçevesinden,
-          Sistemik Çalışma metodolojisinden ve Enneagram bilgeliğinden
-          yararlanıyoruz. Sistemik Dizim oturumlarımızda kişilik yapılarını ve
-          bu yapıların kendimizle ve başkalarıyla olan ilişkilerimizi nasıl
-          şekillendirdiğini derinlemesine kavrama olanağı kazanıyoruz.
-        </p>
-        <p>
-          Farkındalık Geliştirme ve Sistemik Çalışmaya olan bağlılığımız bizi
-          farklı kılıyor. Farkındalığı geliştirmenin, bütünsel ve sistemik
-          birbirine bağlılığı anlamanın, dönüşüm potansiyelinin kilidini açmak
-          için gerekli olduğuna inanıyoruz. Geleneksel Dizim çalışmalarının
-          aksine, sadece sorun çözme ve şifalanma/iyileşme kısıtlamalarının
-          içine hapsolup kalmanın ötesine geçerek farkındalığa alan açıyor tüm
-          potansiyelimizin daha büyük sistemlerin dinamikleri içerisinde nasıl
-          etkileşime girdiğine dair derinlemesine bir anlayış geliştiriyoruz. 
+          anladığınızda, olumlu değişim için bir güç haline gelirsiniz.
         </p>
         <h3>Sistemik Dizim Çalışması Nedir? </h3>
         <p>
@@ -79,7 +54,7 @@ export default function StaticPage() {
 
       <WorkshopsWhy2 />
 
-      <PageContent h2Title="Katılım Detayları: Sistemik Takımyıldızı Çalışma Grubu">
+      {/* <PageContent h2Title="Katılım Detayları: Sistemik Takımyıldızı Çalışma Grubu">
         <div className="text-left">
           <h3>
             Kendini Keşfetme ve İyileşmenin Dönüştürücü Yolculuğuna Katılın
@@ -196,9 +171,9 @@ export default function StaticPage() {
             önce okuyup onaylayınız.
           </p>
         </div>
-      </PageContent>
+      </PageContent> */}
 
-      <SocialMedia />
+      <ContactAtolye />
     </>
   );
 }

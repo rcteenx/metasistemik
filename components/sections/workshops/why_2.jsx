@@ -6,20 +6,6 @@ export default function WorkshopsWhy1() {
           <h2 className=" text-accent-light-7 lg:text-6xl">
             Grup Çalışmalarımız
           </h2>
-          <div className="p-4 m-8 mx-auto border rounded-xl bg-accent-dark-3">
-            <h3>Genel Formatı!?</h3>
-            <ul>
-              <li>Açılış konuşmaları</li>
-              <li>
-                Öğretmen eşliğinde çalışma anlayış ve konularının paylaşıldığı
-                etkileşimli eğitim
-              </li>
-              <li>Kolaylaştırıcı eşliğinde Sistemik Çalışma uygulamaları</li>
-              <li>
-                Moderatör eşliğinde bireysel paylaşımlar ve değerlendirmeler
-              </li>
-            </ul>
-          </div>
           <div className=" mx-auto bg-accent-light-3 p-4 md:p-12 text-accent-dark-7 rounded-xl my-8">
             <h2 className="">Grubumuza Katılımın Yararları</h2>
             <ul className="grid md:grid-cols-2 mx-auto gap-8 my-8 p-4 [&>li]:border [&>li]:bg-accent-light-7 [&>li]:rounded-xl [&>li]:p-4">
@@ -60,118 +46,28 @@ export default function WorkshopsWhy1() {
                   kurun ve birbirinizin gelişimini destekleyin.
                 </p>
               </li>
-            </ul>
-            <h3>Grubumuz Nasıl Çalışıyor?</h3>
-            <p>
-              Güvenli ve destekleyici bir ortamda aşağıdakileri gerçekleştirmek
-              için çeşitli Sistemik Dizim tekniklerini kullanırız:
-            </p>
-            <ul>
+
               <li>
-                Birbirini destekleyen grup üyeleriyle birlikte gizli ve saygılı
-                bir alanda en kişisel konularınızı güvenle çalışın
-              </li>
-              <li>
-                Grup üyelerinin ortaya çıkardığı kişisel sorunları keşfedin
-              </li>
-              <li>
-                Tüm ilişki sistemleriniz de derin içgörüler kazanarak ilişkisel
-                denge noktalarını keşfedin
-              </li>
-              <li>
-                Aile sistemleri ve daha geniş sosyal bağlamlardaki gizli
-                dinamikleri aydınlatın.
-              </li>
-              <li>
-                Deneyimsel egzersizler ve içgörüler aracılığıyla iyileşme
-                değişimlerini kolaylaştırın.
+                <h4>Grubumuz Nasıl Çalışıyor?</h4>
+                <p>
+                  Güvenli ve destekleyici bir ortamda aşağıdakileri
+                  gerçekleştirmek için çeşitli Sistemik Dizim tekniklerini
+                  kullanırız:
+                </p>
+                <ul>
+                  <li>
+                    Birbirini destekleyen grup üyeleriyle birlikte gizli ve
+                    saygılı bir alanda en kişisel konularınızı güvenle çalışın
+                  </li>
+                  <li>
+                    Grup üyelerinin ortaya çıkardığı kişisel sorunları keşfedin
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
 
           <div className="p-4 m-8 mx-auto border rounded-xl bg-accent-dark-3">
-            <h3>
-              Sistemik Dizim Grup Çalışmalarımız 2 formatta gerçekleştirilir:
-            </h3>
-            <ol className="list-decimal list-inside">
-              <li>
-                <h4 className="inline-block">
-                  Grup için Sistemik Dizim Formatı:
-                </h4>
-                <p>
-                  Bu Sistemik Dizim modeli, bireysel katılımcılar kişisel
-                  gündemlerini grup ortamında tek tek paylaşarak keşfederler.
-                  Grup ortamında yapılan bu paylaşım süreci başlı başına
-                  iyileştirici bir etkiye sahiptir. Ayrıca bu süreç kolektif
-                  sistemik bir gündemin ortaya çıkmasına yol açar. Grup daha
-                  sonra ortak bir hedefe yönelik işbirliği içinde sistemik dizim
-                  çalışmasını
-                </p>
-              </li>
-              <li>
-                <h4 className="inline-block">
-                  Konularına Göre Grup İçin Sistemik Dizim Formatı:
-                </h4>
-                <p>
-                  Bu formatta aşağıda belirtilen konulardan herhangi biriyle
-                  ilgili spesifik bir gündem belirlenerek çalışmaya başlanır:
-                </p>
-                <ul>
-                  <li>Aile, Ortaklık, Arkadaşlık, Yakın İlişkiler</li>
-                  <li>Kişisel (Gelişim)</li>
-                  <li>Eğitim</li>
-                  <li>İş / Para</li>
-                  <li>Sağlık ve Vücut</li>
-                  <li>Dava ve Arabuluculuk</li>
-                  <li>Politika ve Toplum ve Kültür ve Sanat</li>
-                  <li>Bilim ve Teknoloji</li>
-                  <li>Maneviyat ve Din vb.</li>
-                  <li>Ekoloji, Doğal Yaşam</li>
-                  <li>Diğer</li>
-                </ul>
-              </li>
-            </ol>
-            <h3>Her iki formatta şunları amaçlamaktadır:</h3>
-            <ul>
-              <li>
-                <h5>Paylaşılan Kalıpları Ortaya Çıkarma:</h5>
-                <p>
-                  Grubun ortak hedefi bağlamında bireyler tarafından benimsenen
-                  temel zihniyetleri ve varsayımları ortaya çıkararak kişisel
-                  özelliklerin keşfi ve kişisel farkındalığa alan açma.
-                </p>
-              </li>
-              <li>
-                <h5>Motivasyonları Ortaya Çıkarma:</h5>{" "}
-                <p>
-                  Grup dinamiğinin daha derinlemesine anlaşılmasını teşvik
-                  ederek eylem ve davranışların arkasındaki itici güçleri
-                  aydınlatarak kişisel özelliklerin keşfi ve kişisel
-                  farkındalığa alan açma.
-                </p>
-              </li>
-              <li>
-                <h5>Karmaşıklığın Ele Alınması:</h5>{" "}
-                <p>
-                  Karmaşık zorlukların üstesinden gelmek ve grubu çözümlere
-                  doğru yönlendirmek için dinamik bir görsel araç olan Sistemik
-                  Haritalamayı kullanma.
-                </p>
-              </li>
-              <li>
-                <h5>Ortaklığı ve Desteği Vurgulama:</h5>
-                <p>
-                  {" "}
-                  Bireysel mücadelelerin sıklıkla nasıl diğerlerince de
-                  paylaşıldığını göstererek derin bir birliktelik anlayışı
-                  geliştirme sorunların çözümünde grup çalışmasının gücünü
-                  keşfederek işbirliğinden yararlanma.
-                </p>
-              </li>
-              <li>
-                <h5>Yaşamı birlikte daha derin keşfetme:</h5>
-              </li>
-            </ul>
             <h3>Kimler Katılmalı</h3>
             <ul>
               <li>
@@ -194,6 +90,16 @@ export default function WorkshopsWhy1() {
             <p>
               SD Bilgilendirilmiş Onam Formu: Lütfen Grup Çalışmalarına
               Katılmadan önce okuyup onaylayınız.
+            </p>
+
+            <h3>
+              Kendini Keşfetme ve İyileşmenin Dönüştürücü Yolculuğuna Katılın
+            </h3>
+            <p>
+              Hayatınızı şekillendiren gizli dinamikleri ortaya çıkarmaya hazır
+              mısınız? Sistemik Dizim Çalışma Grubumuz, bu birbirine bağlı
+              ilişkileri keşfetmek ve derin kişisel gelişimi teşvik etmek için
+              güçlü ve dönüştürücü bir alan sunar.
             </p>
           </div>
         </div>

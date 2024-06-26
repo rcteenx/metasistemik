@@ -9,12 +9,12 @@ import ContactAtolye from "@/components/sections/common/z-contact-atolye";
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>
+      {/* <HeaderTitle>
         Farkındalık Geliştirme ve Sistemik Çalışma Grubu
-      </HeaderTitle>
+      </HeaderTitle> */}
       {/* <HeaderImage>Farkındalık Geliştirme ve Sistemik Çalışma</HeaderImage> */}
 
-      <PageContent h2Title="Sürekli Grup Çalışmaları Program Tanıtımı">
+      <PageContent h2Title="Farkındalık Geliştirme ve Sistemik Çalışma Grubu">
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe
             width="560"
