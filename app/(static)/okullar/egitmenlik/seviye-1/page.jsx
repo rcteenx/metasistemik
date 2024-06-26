@@ -1,6 +1,5 @@
-import HeaderTitle from "@/components/templates/headerTitle";
 import PageContent from "@/components/templates/pageContent";
-
+import ContactSchools from "@/components/sections/common/z-contact-okullar";
 import TeachingProgramms from "@/components/sections/schools/teaching-programs";
 import SocialMedia from "@/components/sections/common/z-contact";
 
@@ -23,6 +22,7 @@ export default function StaticPage() {
             allowFullScreen
           ></iframe>
         </div>
+        <ContactSchools />
       </PageContent>
       <TeachingProgramms />
 
