@@ -3,7 +3,7 @@ import { StaticPages } from "@/content/data";
 export default function MissionVision() {
   return (
     <section id="mission" className="">
-      <div className="container mx-auto my-8 lg:my-24">
+      <div className="container mx-auto my-8 lg:my-16">
         <div className=" mx-auto my-8 p-4 md:p-12  bg-accent-light-3  text-accent-dark-7 rounded-xl text-center ">
           <h2 className="text-2xl md:text-4xl lg:text-6xl">
             Temel Anlayış ve Değerlerimiz

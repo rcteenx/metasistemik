@@ -1,6 +1,7 @@
 import HeaderTitle from "@/components/templates/headerTitle";
 import PageContent from "@/components/templates/pageContent";
 
+import SubMovie from "@/components/sections/platform/what";
 import MissionVision from "@/components/sections/platform/mission-vision";
 import SocialMedia from "@/components/sections/common/z-contact";
 
@@ -33,41 +34,11 @@ export default function StaticPage() {
           tasarladığımız mesleki yeterlilik ve gelişime yönelik eğitim
           programlarımızla hizmet veriyor ve rehberlik sunuyoruz.
         </p>
-        <h3>Metasistemik Nedir?</h3>
 
-        <p>
-          "Meta sistemik”, kelime anlamı olarak, Sistem’le ilgili olanların
-          ötesinde; onları aşan, anlamına gelmektedir.
-        </p>
-        <p>
-          Metasistemik yaklaşım, “Farkındalık Geliştirme” anlayışına ve
-          “Sistemik Çalışma” uygulamalarına dayanır.
-        </p>
-        <p>
-          Özünde Metasistemik yaklaşım, olağan bir yaşamda olağanüstü insanlar
-          olmaya çalışma anlayışına meydan okur.
-        </p>
-        <p>
-          Bunun yerine, varoluşun olağanüstü doğasına dahil olarak, olağan birer
-          insan olmaya çalışmaya teşvik eder.
-        </p>
-        <p>
-          Yaşamın bu “Metasistemik” kavranışı, çeşitli seviyelerde ve modlarda
-          Bütün-Parça ilişkisini anlamada ve uyumlanmada bitmeyen bir süreçtir;
-          bunu, “Farkındalık Geliştirme” olarak tanımlıyoruz.
-        </p>
-        <p>
-          Yaşamı algılayışımızdaki bu değişim, bağlantısal bütünlüğünü takdir
-          etmemize olanak sağlayan, Metasistemik bakış açısını yansıtır.
-        </p>
-        <p>
-          Böylece, kim(?) olduğumuz sorusuna katı bireyselci sınırlamalar
-          içerisinde cevap aramak yerine, ilişkilerimizin dinamik ve bağlantısal
-          bir akış içerisinde var olduğunu deneyimleyerek Farkındalığımızı
-          Geliştiriyor, Sistemik Çalışmalarla kendimizi, diğerlerini ve yaşamı
-          keşfediyoruz.
-        </p>
+        
       </PageContent>
+
+      <SubMovie />
 
       <MissionVision />
 
