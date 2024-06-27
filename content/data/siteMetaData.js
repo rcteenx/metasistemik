@@ -8,9 +8,9 @@ const siteMetadata = {
   description:
     "Farkındalığa Dayalı Kişisel Dönüşümün Sistemik Çapta Değişimle Gerçekleştiği Yer",
   language: "tr-TR",
-  siteUrl: "https://metasistemik.com.tr",
+  siteUrl: "https://metasistemik.com",
   siteLogo: "/logo-metasistemik.webp",
-  email: "rhan.cetinx@gmail.com",
+  email: "social@metasistemik.com",
 };
 
 module.exports = siteMetadata;
