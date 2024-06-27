@@ -30,7 +30,7 @@ export default function StaticPage() {
         <ContactSchools />
       </PageContent>
 
-      <CoachingProgramms />
+      <CoachingProgramms id="1" />
       <SocialMedia />
     </>
   );

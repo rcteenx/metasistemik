@@ -32,7 +32,7 @@ export default function StaticPage() {
         <ContactSchools />
       </PageContent>
 
-      <SystemicPrograms />
+      <SystemicPrograms id="1" />
       <SocialMedia />
     </>
   );

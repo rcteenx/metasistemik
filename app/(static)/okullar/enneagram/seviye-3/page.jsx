@@ -32,7 +32,7 @@ export default function StaticPage() {
         <ContactSchools />
       </PageContent>
 
-      <EnneagramPrograms />
+      <EnneagramPrograms id="3" />
       <SocialMedia />
     </>
   );

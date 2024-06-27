@@ -1,7 +1,6 @@
-import IconComponent from "@/components/ui/icons/icons";
+import { systemicPrograms } from "@/content/data/schools";
 
-// https://www.youtube.com/watch?v=qmMIz0_c9Ek
-export default function SystemicPrograms() {
+export default function SystemicPrograms({ id }) {
   return (
     <section id="coaching-programms" className="mx-4">
       <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[328px] flex items-center xl:items-start -z-10">
@@ -17,55 +16,28 @@ export default function SystemicPrograms() {
 
       <div className="container mx-auto my-4 xl:-mt-[124px]">
         <div className="grid xl:grid-cols-3 gap-4 px-8 xl:px-0">
-          <a
-            href="/okullar/sistemik-dizim/seviye-1"
-            className="gradientTransition"
-          >
-            <div className="px-4 py-8 xl:h-64 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border border-accent gradientAccentToDark">
-              <p className="text-3xl font-bold">Seviye 1</p>
-              <h4 className="mb-[10px]">
-                BİREYSEL SİSTEMİK DİZİM KOLAYLAŞTIRICISI SERTİFİKA PROGRAMI
-              </h4>
-              <p className=" font-light leading-normal max-w-[300px] text-sm">
-                120 Saat
-                <br />
-                Mesleki Yeterlilik Eğitimi
-              </p>
-            </div>
-          </a>
-          <a
-            href="/okullar/sistemik-dizim/seviye-2a"
-            className="gradientTransition"
-          >
-            <div className="px-4 py-8 xl:h-64 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent gradientGreenToBlack">
-              <p className="text-3xl font-bold">Seviye 2/A</p>
-              <h4 className="mb-[10px]">
-                SİSTEMİK DİZİM KOLAYLAŞTIRICISI SERTİFİKA PROGRAMI
-              </h4>
-              <p className=" font-light leading-normal max-w-[300px] text-sm">
-                120 Saat
-                <br />
-                Mesleki Gelişim Eğitimi
-              </p>
-            </div>
-          </a>
-          <a
-            href="/okullar/sistemik-dizim/seviye-2b"
-            className="gradientTransition"
-          >
-            <div className=" px-4 py-8 xl:h-64 rounded-2xl shadow-custom2 flex flex-col items-center text-center border-accent gradientAccentOppositeToBlack">
-              <p className="text-3xl font-bold">Seviye 2/B</p>
-              <h4 className="mb-[10px]">
-                YÖNETİM VE ORGANİZASYONEL SİSTEMİK DİZİM KOLAYLAŞTIRICISI
-                SERTİFİKA PROGRAMI
-              </h4>
-              <p className=" font-light leading-normal max-w-[300px] text-sm">
-                120 Saat
-                <br />
-                Mesleki Gelişim Eğitimi
-              </p>
-            </div>
-          </a>
+          {systemicPrograms.map((p) => (
+            <a
+              key={p.id}
+              href={id == p.id ? "#" : p.link}
+              className={" " + (id == p.id ? "" : "gradientTransition")}
+            >
+              <div
+                className={
+                  "px-4 py-8 xl:h-64 rounded-2xl shadow-custom2 flex flex-col items-center text-center border border-accent " +
+                  (id == p.id ? "bg-white" : p.bg)
+                }
+              >
+                <p className="text-3xl font-bold">{p.grade}</p>
+                <h4 className="mb-[10px]">{p.title}</h4>
+                <p className=" font-light leading-normal max-w-[300px] text-sm">
+                  {p.time}
+                  <br />
+                  {p.info}
+                </p>
+              </div>
+            </a>
+          ))}
         </div>
         <div className="text-center my-8">
           <h2>MESLEKİ YETERLİLİK VE GELİŞİM SERTİFİKA PROGRAM TAKVİMİ:</h2>
