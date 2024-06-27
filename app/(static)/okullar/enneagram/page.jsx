@@ -1,22 +1,23 @@
-import HeaderTitle from "@/components/templates/headerTitle";
-import PageContent from "@/components/templates/pageContent";
-
 import {
   enneagramwhatwegain,
   enneagramwhatwegain2,
 } from "@/content/data/schools";
-import {
-  metasistemik1,
-  metasistemik2,
-  metasistemikNedir,
-} from "@/public/assets/images";
+import { metasistemik1, metasistemik2 } from "@/public/assets/images";
+
+import PageContent from "@/components/templates/pageContent";
+
+import EnneagramPrograms from "@/components/sections/schools/enneagram-programs";
 
 import EnneagramWhy from "@/components/sections/schools/enneagram-why";
 import EnneagramGain from "@/components/sections/schools/enneagram-gain";
 
-import EnneagramPrograms from "@/components/sections/schools/enneagram-programs";
-
 import SocialMedia from "@/components/sections/common/z-contact";
+
+export async function generateMetadata() {
+  return {
+    title: "ENNEAGRAM OKULU",
+  };
+}
 
 export default function StaticPage() {
   return (
@@ -80,7 +81,6 @@ export default function StaticPage() {
         gain={enneagramwhatwegain}
         gain2={enneagramwhatwegain2}
       />
-
       <SocialMedia />
     </>
   );

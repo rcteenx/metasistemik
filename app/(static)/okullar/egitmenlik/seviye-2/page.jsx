@@ -1,7 +1,14 @@
 import PageContent from "@/components/templates/pageContent";
 import ContactSchools from "@/components/sections/common/z-contact-okullar";
+
 import TeachingProgramms from "@/components/sections/schools/teaching-programs";
 import SocialMedia from "@/components/sections/common/z-contact";
+
+export async function generateMetadata() {
+  return {
+    title: "Sistemik Eğitmenlik Sertifika Programı",
+  };
+}
 
 export default function StaticPage() {
   return (
@@ -24,8 +31,8 @@ export default function StaticPage() {
         </div>
         <ContactSchools />
       </PageContent>
-      <TeachingProgramms />
 
+      <TeachingProgramms />
       <SocialMedia />
     </>
   );

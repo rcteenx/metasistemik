@@ -1,12 +1,19 @@
 import PageContent from "@/components/templates/pageContent";
 import ContactSchools from "@/components/sections/common/z-contact-okullar";
+
 import CoachingProgramms from "@/components/sections/schools/coaching-programs";
 import SocialMedia from "@/components/sections/common/z-contact";
+
+export async function generateMetadata() {
+  return {
+    title: "Profesyonel Koçluk Sertifika Programı",
+  };
+}
 
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Profesyonel Koçluk Sertifika Programı Seviye 1">
+      <PageContent h2Title="Profesyonel Koçluk Sertifika Programı - Seviye 1">
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe
             width="560"
@@ -22,8 +29,8 @@ export default function StaticPage() {
 
         <ContactSchools />
       </PageContent>
-      <CoachingProgramms />
 
+      <CoachingProgramms />
       <SocialMedia />
     </>
   );

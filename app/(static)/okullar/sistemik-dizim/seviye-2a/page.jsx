@@ -1,14 +1,21 @@
 import PageContent from "@/components/templates/pageContent";
 import ContactSchools from "@/components/sections/common/z-contact-okullar";
+
 import SystemicPrograms from "@/components/sections/schools/systemic-programs";
 import SocialMedia from "@/components/sections/common/z-contact";
+
+export async function generateMetadata() {
+  return {
+    title: "Sistemik Dizim Kolaylaştırıcısı Sertifika Programı",
+  };
+}
 
 export default function StaticPage() {
   return (
     <>
       <PageContent
         bgColor={"systemic"}
-        h2Title="Sistemik Dizim Kolaylaştırıcısı Sertifika Programı Seviye 2A"
+        h2Title="Sistemik Dizim Kolaylaştırıcısı Sertifika Programı - Seviye 2A"
       >
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe

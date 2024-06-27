@@ -1,18 +1,18 @@
-import HeaderTitle from "@/components/templates/headerTitle";
-import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import MykPrograms from "@/components/sections/exams/myk-programs";
-
 import SocialMedia from "@/components/sections/common/z-contact";
+
+export async function generateMetadata() {
+  return {
+    title: "MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARINA HAZIRLIK",
+  };
+}
 
 export default function StaticPage() {
   return (
     <>
-      {/* <HeaderTitle>MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI </HeaderTitle> */}
-      {/* <HeaderImage>MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI </HeaderImage> */}
-
-      <PageContent h2Title="MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARI">
+      <PageContent h2Title="MYK SEVİYE-6 MESLEKİ YETERLİLİK SINAVLARINA HAZIRLIK">
         <h3>Önce Mesleki Yeterlilik Eğitimi, Sonra Resmi Meslek Belgesi</h3>
         <p>
           Ulusal Resmi Meslek Belgesi Edinmek İçin, MYK’nın Avrupa Mesleki

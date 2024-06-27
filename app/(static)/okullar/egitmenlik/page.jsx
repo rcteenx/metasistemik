@@ -1,22 +1,21 @@
-import HeaderTitle from "@/components/templates/headerTitle";
-import PageContent from "@/components/templates/pageContent";
-
 import {
   teachingwhatwegain,
   teachingwhatwegain2,
 } from "@/content/data/schools";
-import {
-  metasistemik1,
-  metasistemik2,
-  metasistemikNedir,
-} from "@/public/assets/images";
+import { metasistemik1, metasistemik2 } from "@/public/assets/images";
+
+import PageContent from "@/components/templates/pageContent";
+import TeachingProgramms from "@/components/sections/schools/teaching-programs";
 
 import TeadchingWhy from "@/components/sections/schools/teaching-why";
 import TeachingGain from "@/components/sections/schools/teaching-gain";
-
-import TeachingProgramms from "@/components/sections/schools/teaching-programs";
-
 import SocialMedia from "@/components/sections/common/z-contact";
+
+export async function generateMetadata() {
+  return {
+    title: "EĞİTMENLİK OKULU",
+  };
+}
 
 export default function StaticPage() {
   return (
@@ -66,7 +65,6 @@ export default function StaticPage() {
         gain={teachingwhatwegain}
         gain2={teachingwhatwegain2}
       />
-
       <SocialMedia />
     </>
   );

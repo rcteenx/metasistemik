@@ -1,14 +1,18 @@
 import HeaderTitle from "@/components/templates/headerTitle";
-import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import SocialMedia from "@/components/sections/common/z-contact";
+
+export async function generateMetadata() {
+  return {
+    title: "İLETİŞİM",
+  };
+}
 
 export default function StaticPage() {
   return (
     <>
       <HeaderTitle>İletişim</HeaderTitle>
-      <HeaderImage bgImage="iMerhaba">Bize Ulaşın</HeaderImage>
 
       <PageContent h2Title="İletişim Bilgileri">
         <p>Bize aşağıdaki kanallardan ulaşabilirsiniz.</p>

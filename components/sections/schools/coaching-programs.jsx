@@ -47,8 +47,7 @@ export default function CoachingProgramms() {
             <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center xl:h-72 border-accent gradientAccentOppositeToBlack">
               <p className="text-3xl font-bold">Seviye 3/A</p>
               <h4 className="mb-[10px]">
-                Çözüm Odaklı ve Yapılandırmacı SİSTEMİK KOÇLUK SERTİFİKA
-                PROGRAMI
+                MODÜLER SİSTEMİK KOÇLUK SERTİFİKA PROGRAMI
               </h4>
               <p className=" font-light leading-normal max-w-[300px] text-sm">
                 98 Saat

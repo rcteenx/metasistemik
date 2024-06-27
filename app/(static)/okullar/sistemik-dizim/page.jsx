@@ -1,22 +1,23 @@
-import HeaderTitle from "@/components/templates/headerTitle";
-import PageContent from "@/components/templates/pageContent";
-
 import {
   systemicwhatwegain,
   systemicwhatwegain2,
 } from "@/content/data/schools";
-import {
-  metasistemik1,
-  metasistemik2,
-  metasistemikNedir,
-} from "@/public/assets/images";
+import { metasistemik1, metasistemik2 } from "@/public/assets/images";
+
+import PageContent from "@/components/templates/pageContent";
+
+import SystemicPrograms from "@/components/sections/schools/systemic-programs";
 
 import SystemicWhy from "@/components/sections/schools/systemic-why";
 import SystemicGain from "@/components/sections/schools/systemic-gain";
 
-import SystemicPrograms from "@/components/sections/schools/systemic-programs";
-
 import SocialMedia from "@/components/sections/common/z-contact";
+
+export async function generateMetadata() {
+  return {
+    title: "SİSTEMİK DİZİM OKULU",
+  };
+}
 
 export default function StaticPage() {
   return (

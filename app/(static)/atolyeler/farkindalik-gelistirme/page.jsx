@@ -1,19 +1,17 @@
-import HeaderTitle from "@/components/templates/headerTitle";
-import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import WorkshopsWhy1 from "@/components/sections/workshops/why_1";
-
 import ContactAtolye from "@/components/sections/common/z-contact-atolye";
+
+export async function generateMetadata() {
+  return {
+    title: "Farkındalık Geliştirme ve Sistemik Çalışma Grubu",
+  };
+}
 
 export default function StaticPage() {
   return (
     <>
-      {/* <HeaderTitle>
-        Farkındalık Geliştirme ve Sistemik Çalışma Grubu
-      </HeaderTitle> */}
-      {/* <HeaderImage>Farkındalık Geliştirme ve Sistemik Çalışma</HeaderImage> */}
-
       <PageContent h2Title="Farkındalık Geliştirme ve Sistemik Çalışma Grubu">
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe

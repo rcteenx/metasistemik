@@ -35,11 +35,11 @@ import HomeServices from "@/components/sections/home/d-2-services";
 import BlogBar from "@/components/sections/home/d-3-blog-bar";
 import SocialMedia from "@/components/sections/common/z-contact";
 
-export async function generateMetadata() {
-  return {
-    title: smd.title + " - Metasistemik",
-  };
-}
+// export async function generateMetadata() {
+//   return {
+//     title: smd.title,
+//   };
+// }
 
 export default function Home() {
   return (

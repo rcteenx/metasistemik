@@ -5,10 +5,16 @@ import SubMovie from "@/components/sections/platform/what";
 import MissionVision from "@/components/sections/platform/mission-vision";
 import SocialMedia from "@/components/sections/common/z-contact";
 
+export async function generateMetadata() {
+  return {
+    title: "Metasistematik Platform Hakkında",
+  };
+}
+
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>Metasistematik</HeaderTitle>
+      <HeaderTitle>Metasistematik Platform Hakkında</HeaderTitle>
 
       <PageContent h2Title="Farkındalığın Işığında, Dönüşüme Adım Adım: Platformumuzun Hikayesi">
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
@@ -37,9 +43,7 @@ export default function StaticPage() {
       </PageContent>
 
       <SubMovie />
-
       <MissionVision />
-
       <SocialMedia />
     </>
   );

@@ -34,14 +34,10 @@ export default function StaticPage() {
           tasarladığımız mesleki yeterlilik ve gelişime yönelik eğitim
           programlarımızla hizmet veriyor ve rehberlik sunuyoruz.
         </p>
-
-        
       </PageContent>
 
       <SubMovie />
-
       <MissionVision />
-
       <SocialMedia />
     </>
   );

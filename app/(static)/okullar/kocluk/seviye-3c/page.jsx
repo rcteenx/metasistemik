@@ -1,12 +1,19 @@
 import PageContent from "@/components/templates/pageContent";
 import ContactSchools from "@/components/sections/common/z-contact-okullar";
+
 import CoachingProgramms from "@/components/sections/schools/coaching-programs";
 import SocialMedia from "@/components/sections/common/z-contact";
+
+export async function generateMetadata() {
+  return {
+    title: "Enneagram'la Sistemik Koçluk Sertifika Programı",
+  };
+}
 
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Enneagram'la Sistemik Koçluk Sertifika Programı Seviye 3C">
+      <PageContent h2Title="Enneagram'la Sistemik Koçluk Sertifika Programı - Seviye 3C">
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe
             width="560"
@@ -21,8 +28,8 @@ export default function StaticPage() {
         </div>
         <ContactSchools />
       </PageContent>
-      <CoachingProgramms />
 
+      <CoachingProgramms />
       <SocialMedia />
     </>
   );

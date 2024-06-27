@@ -1,16 +1,20 @@
 import HeaderTitle from "@/components/templates/headerTitle";
-import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import BlogsWhy from "@/components/sections/blogs/why";
 import BlogCategories from "@/components/sections/blogs/categories";
 import SocialMedia from "@/components/sections/common/z-contact";
 
+export async function generateMetadata() {
+  return {
+    title: "BLOG",
+  };
+}
+
 export default function StaticPage() {
   return (
     <>
       <HeaderTitle>BLOG</HeaderTitle>
-      <HeaderImage>Bloglarımız Hakkında</HeaderImage>
 
       <PageContent h2Title="Potansiyelinizi Ortaya Çıkarın">
         <h3>Metasistemik Blogu Keşfedin</h3>
@@ -54,7 +58,6 @@ export default function StaticPage() {
 
       <BlogsWhy />
       <BlogCategories />
-
       <SocialMedia />
     </>
   );

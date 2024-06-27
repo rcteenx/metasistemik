@@ -1,14 +1,21 @@
 import PageContent from "@/components/templates/pageContent";
 import ContactSchools from "@/components/sections/common/z-contact-okullar";
+
 import EnneagramPrograms from "@/components/sections/schools/enneagram-programs";
 import SocialMedia from "@/components/sections/common/z-contact";
+
+export async function generateMetadata() {
+  return {
+    title: "Enneagram Sistemi Sertifika Programı",
+  };
+}
 
 export default function StaticPage() {
   return (
     <>
       <PageContent
         bgColor={"enneagram"}
-        h2Title="ENNEAGRAM OKULUEnneagram Sistemi Sertifika Programı Seviye 1"
+        h2Title="Enneagram Sistemi Sertifika Programı - Seviye 1"
       >
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
           <iframe
@@ -26,7 +33,6 @@ export default function StaticPage() {
       </PageContent>
 
       <EnneagramPrograms />
-
       <SocialMedia />
     </>
   );

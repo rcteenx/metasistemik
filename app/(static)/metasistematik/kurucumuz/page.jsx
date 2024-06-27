@@ -1,5 +1,4 @@
 import HeaderTitle from "@/components/templates/headerTitle";
-import HeaderImage from "@/components/templates/headerImage";
 import PageContent from "@/components/templates/pageContent";
 
 import JoinTheWay from "@/components/sections/platform/join-the-way";
@@ -7,10 +6,16 @@ import SocialMedia from "@/components/sections/common/z-contact";
 
 import { hakanTurkdonmez640 } from "@/public/assets/images";
 
+export async function generateMetadata() {
+  return {
+    title: "Kurucumuz Hakan Türkdönmez Hakkında",
+  };
+}
+
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>Kurucumuz</HeaderTitle>
+      <HeaderTitle>Kurucumuz Hakan Türkdönmez Hakkında</HeaderTitle>
       <PageContent
         h2Title="Potansiyeli Açığa Çıkaran ve Dönüşüme İlham Veren
 Farkındalık Yolculuğu"
@@ -106,7 +111,6 @@ Farkındalık Yolculuğu"
       </PageContent>
 
       <JoinTheWay />
-
       <SocialMedia />
     </>
   );

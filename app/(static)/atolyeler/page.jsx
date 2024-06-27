@@ -1,17 +1,19 @@
-import HeaderTitle from "@/components/templates/headerTitle";
-import PageContent from "@/components/templates/pageContent";
-
 import WorkshopPrograms from "@/components/sections/workshops/programs";
 
-import WorkshopsWhy from "@/components/sections/workshops/why";
+import PageContent from "@/components/templates/pageContent";
 
+import WorkshopsWhy from "@/components/sections/workshops/why";
 import ContactAtolye from "@/components/sections/common/z-contact-atolye";
+
+export async function generateMetadata() {
+  return {
+    title: "ATÖLYELER VE ETKİNLİKLER",
+  };
+}
 
 export default function StaticPage() {
   return (
     <>
-      {/* <HeaderTitle>ATÖLYELER VE ETKİNLİKLER</HeaderTitle> */}
-
       <WorkshopPrograms />
 
       <PageContent h2Title="ATÖLYELER VE ETKİNLİKLER">

@@ -1,8 +1,13 @@
 import PageContent from "@/components/templates/pageContent";
 
 import ServicesWhy from "@/components/sections/services/why";
-
 import SocialMedia from "@/components/sections/common/z-contact";
+
+export async function generateMetadata() {
+  return {
+    title: "Kurumsal Hizmetler",
+  };
+}
 
 export default function StaticPage() {
   return (

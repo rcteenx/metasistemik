@@ -1,23 +1,22 @@
-import HeaderTitle from "@/components/templates/headerTitle";
-import HeaderImage from "@/components/templates/headerImage";
-import PageContent from "@/components/templates/pageContent";
-
 import { whatwegain, whatwegain2 } from "@/content/data/schools";
-import {
-  metasistemik1,
-  metasistemik2,
-  metasistemikNedir,
-} from "@/public/assets/images";
+import { metasistemik1, metasistemik2 } from "@/public/assets/images";
 import { mykLogo, icfLogo } from "@/public/assets/logo";
+
+import PageContent from "@/components/templates/pageContent";
+import CoachingProgramms from "@/components/sections/schools/coaching-programs";
 
 import WhyCoacging from "@/components/sections/schools/coaching-why";
 import WhatYouGain from "@/components/sections/schools/coaching-gain";
 import CoachingInfoBar from "@/components/sections/schools/coaching-bar";
 import CoachingTitles from "@/components/sections/schools/coaching-title";
 
-import CoachingProgramms from "@/components/sections/schools/coaching-programs";
-
 import SocialMedia from "@/components/sections/common/z-contact";
+
+export async function generateMetadata() {
+  return {
+    title: "KOÇLUK OKULU",
+  };
+}
 
 export default function StaticPage() {
   return (

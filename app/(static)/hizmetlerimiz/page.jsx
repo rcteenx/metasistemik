@@ -1,11 +1,15 @@
-import HeaderTitle from "@/components/templates/headerTitle";
-import HeaderImage from "@/components/templates/headerImage";
+import ServicesPrograms from "@/components/sections/services/programs";
+
 import PageContent from "@/components/templates/pageContent";
 
 import ServicesWhy from "@/components/sections/services/why";
-import ServicesPrograms from "@/components/sections/services/programs";
-
 import SocialMedia from "@/components/sections/common/z-contact";
+
+export async function generateMetadata() {
+  return {
+    title: "HİZMETLERİMİZ",
+  };
+}
 
 export default function StaticPage() {
   return (
