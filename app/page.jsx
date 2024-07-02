@@ -7,7 +7,6 @@ import {
   mekanikYollar,
 } from "@/content/data";
 import {
-  okullarimiz1,
   metasistemikNedir,
   metasistemik1,
   metasistemik2,

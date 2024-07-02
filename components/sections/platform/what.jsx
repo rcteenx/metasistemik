@@ -1,10 +1,10 @@
 export default function SubMovie({ img }) {
   return (
-    <section id="subhero" className="container mx-auto px-4 mt-12 md:p-0 ">
+    <section id="subhero" className="container mx-auto px-4 mt-12 md:p-0">
       <h2 className="p-4 lg:p-8 text-center lg:text-6xl gradientAccentToDark sm:rounded-xl ">
         METASİSTEMİK NEDİR?
       </h2>
-      <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 justify-center items-center">
+      <div className=" grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 lg:mx-8 justify-center items-center">
         <div className="lg:my-8 text-base">
           <ul className="p-4 my-4 xl:list-none [&>li]:text-sm [&>li]:my-2 [&>li]:leading-6 bg-accent-opposite/60 rounded-xl">
             <li>
