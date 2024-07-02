@@ -1,7 +1,6 @@
 import IconComponent from "@/components/ui/icons/icons";
 import MySvgIcon from "@/components/ui/svg/enegram";
 
-// https://www.youtube.com/watch?v=qmMIz0_c9Ek
 export default function Schools2() {
   return (
     <section id="servicestut" className="m-4">
@@ -41,12 +40,9 @@ export default function Schools2() {
 
           <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientGreenToBlack gradientTransition">
             <a href="/okullar/egitmenlik">
-              <IconComponent
-                name="teacher"
-                size={64}
-                color="white"
-                className="my-4 mx-auto"
-              />
+              <div className=" flex justify-center items-center">
+                <IconComponent name="teacher" size={64} color="white" />
+              </div>
               <h3 className="mb-[10px] font-semibold">Eğitmenlik Okulu</h3>
               <p className=" font-light leading-normal max-w-[300px] text-sm">
                 Dönüşümsel öğrenme ortamlarının dinamik kolaylaştırıcı ve lider
@@ -56,12 +52,9 @@ export default function Schools2() {
           </div>
           <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientAccentOppositeToBlack gradientTransition">
             <a href="/okullar/sistemik-dizim">
-              <IconComponent
-                name="systemic"
-                size={64}
-                color="white"
-                className="my-4 mx-auto"
-              />
+              <div className=" flex justify-center items-center">
+                <IconComponent name="systemic" size={64} color="white" />
+              </div>
               <h3 className="mb-[10px] font-semibold">Sistemik Dizim</h3>
               <p className=" font-light leading-normal max-w-[300px] text-sm">
                 Bireyler, gruplar ve organizasyon sistemleri içindeki gizli
@@ -71,7 +64,7 @@ export default function Schools2() {
           </div>
           <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientRedToBlack gradientTransition">
             <a href="/okullar/enneagram">
-              <div className="my-4 mx-auto w-16">
+              <div className=" flex justify-center items-center">
                 <MySvgIcon />
               </div>
               <h3 className="mb-[10px] font-semibold">Enneagram Okulu</h3>

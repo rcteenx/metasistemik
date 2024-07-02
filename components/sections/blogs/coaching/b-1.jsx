@@ -287,7 +287,7 @@ export default function Blog1({ gain, gain2 }) {
 
           <hr className="my-4" />
 
-          <div className="p-4 gradientAccentOppositeToBlack rounded-xl">
+          <div className="p-4 gradientAccentToDark rounded-xl">
             <h4>Bilinçli Harekete Geçmek: Kendinize Yatırım Yapmanın Gücü</h4>
             <p>
               <strong>Giriş Görüşmeleri (Kimya Görüşmesi):</strong> Özel

@@ -1,6 +1,6 @@
 import IconComponent from "@/components/ui/icons/icons";
+import MySvgIcon from "@/components/ui/svg/enegram";
 
-// https://www.youtube.com/watch?v=qmMIz0_c9Ek
 export default function BlogCategories() {
   return (
     <section id="coaching-programms" className="mx-4">
@@ -13,45 +13,42 @@ export default function BlogCategories() {
       </div>
 
       <div className="container mx-auto mt-4 xl:-mt-[80px]">
-        <div className="grid md:grid-cols-3 gap-4 px-8 xl:px-0">
-          <div className=" bg-accent-light-9 px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center border border-accent ">
-            <h4>Koçluk Okulu Bloğu</h4>
-            <p>...</p>
+        <div className="xl:mx-8 grid md:grid-cols-2 xl:grid-cols-4 gap-8 px-8 xl:px-0 ">
+          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientAccentToDark gradientTransition ">
+            <a href="/blog/kocluk">
+              <div className=" flex justify-center items-center h-24">
+                <IconComponent name="school" size={64} color="white" />
+              </div>
+              <h3 className="mb-[10px] font-semibold">Koçluk Okulu Bloğu</h3>
+            </a>
           </div>
-
-          <div className=" bg-accent-light-7 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
-            <h4 className="">
-              <a href="#">Eğitmenlik Okulu Bloğu</a>
-            </h4>
-            <p>...</p>
+          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientGreenToBlack gradientTransition">
+            <a href="/blog/egitmenlik">
+              <div className=" flex justify-center items-center h-24">
+                <IconComponent name="teacher" size={64} color="white" />
+              </div>
+              <h3 className="mb-[10px] font-semibold">
+                Eğitmenlik Okulu Bloğu
+              </h3>
+            </a>
           </div>
-
-          <div className=" bg-accent-light-5 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
-            <h4 className="">
-              <a href="#">Sistemik Dizim Okulu Bloğu</a>
-            </h4>
-            <p>...</p>
+          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientAccentOppositeToBlack gradientTransition">
+            <a href="/blog/sistemik-dizim">
+              <div className=" flex justify-center items-center h-24">
+                <IconComponent name="systemic" size={64} color="white" />
+              </div>
+              <h3 className="mb-[10px] font-semibold">
+                Sistemik Dizim Okulu Bloğu
+              </h3>
+            </a>
           </div>
-
-          <div className=" bg-accent-light-5 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
-            <h4 className="">
-              <a href="#">Enneagram Okulu Bloğu</a>
-            </h4>
-            <p>...</p>
-          </div>
-
-          <div className=" bg-accent-light-5 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
-            <h4 className="">
-              <a href="#">Atölye ve Etkinlikler Bloğu</a>
-            </h4>
-            <p>...</p>
-          </div>
-
-          <div className=" bg-accent-light-5 px-4 py-8 rounded-2xl  shadow-custom2 flex flex-col items-center text-center border-accent">
-            <h4 className="">
-              <a href="#">Sosyal Sorumluluk Bloğu</a>
-            </h4>
-            <p>...</p>
+          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientRedToBlack gradientTransition">
+            <a href="/blog/enneagram">
+              <div className=" flex justify-center items-center h-24">
+                <MySvgIcon />
+              </div>
+              <h3 className="mb-[10px] font-semibold">Enneagram Okulu Bloğu</h3>
+            </a>
           </div>
         </div>
       </div>
