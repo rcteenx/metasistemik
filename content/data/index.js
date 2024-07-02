@@ -172,7 +172,7 @@ export const socialMedia = [
     name: "facebook",
     alt: "facebook logo",
     title: "facebook sayfamıza bekleriz",
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/metasistemik",
   },
   {
     id: 2,
