@@ -61,7 +61,7 @@ Olun!"
         gain2={whatwegain2}
       />
       <CoachingInfoBar />
-      <CoachingTitles img={mykLogo} img2={icfLogo} />
+      {/* <CoachingTitles img={mykLogo} img2={icfLogo} /> */}
 
       <SocialMedia />
     </>
