@@ -150,7 +150,22 @@ export const StaticPages = [
   },
   {
     id: 6,
-    title: "İletişim",
+    title: "BLOG",
+    link: "blog",
+    pages: [
+      { id: 1, title: "Koçluk Okulu Bloğu", link: "blog/kocluk" },
+      { id: 2, title: "Eğitmenlik Okulu Bloğu", link: "blog/egitmenlik" },
+      {
+        id: 3,
+        title: "Sistemik Dizim Okulu Bloğu",
+        link: "blog/sistemik-dizim",
+      },
+      { id: 4, title: "Enneagram Okulu Bloğu", link: "blog/enneagram" },
+    ],
+  },
+  {
+    id: 7,
+    title: "İLETİŞİM",
     link: "iletisim",
     pages: [
       {
