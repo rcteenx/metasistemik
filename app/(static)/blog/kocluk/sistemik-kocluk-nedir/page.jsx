@@ -3,7 +3,7 @@ import PageContent from "@/components/templates/pageContent";
 
 import Blog2 from "@/components/sections/blogs/coaching/b-2";
 
-import BlogCategories from "@/components/sections/blogs/categories";
+import Blogs from "@/components/sections/blogs/coaching/blogs";
 import SocialMedia from "@/components/sections/common/z-contact";
 
 export async function generateMetadata() {
@@ -36,7 +36,7 @@ export default function StaticPage() {
 
       <Blog2 />
 
-      <BlogCategories />
+      <Blogs />
       <SocialMedia />
     </>
   );

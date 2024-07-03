@@ -5,7 +5,7 @@ export default function BlogCategory() {
         <div className="container mx-auto">
           <div className="text-center text-white">
             <h2 className="xl:text-4xl ">
-              METASİSTEMATİK KOÇLUK OKULU BLOG YAZILARI
+              METASİSTEMATİK EĞİTMENLİK OKULU BLOG YAZILARI
             </h2>
           </div>
         </div>
@@ -14,16 +14,17 @@ export default function BlogCategory() {
       <div className="container mx-auto mt-4 xl:-mt-[80px]">
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 xl:px-0 ">
           <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientAccentToDark gradientTransition w-96">
-            <a href="/blog/kocluk/profesyonel-koclugun-gucu">
+            <a href="/blog/egitmenlik/profesyonel-egitmenlerin-rolu">
               <h3 className="mb-[10px] font-semibold h-24">
-                Profesyonel Koçluğun Gücü
+                Profesyonel Eğitmenlerin Gelişen Rolü
               </h3>
             </a>
           </div>
           <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientGreenToBlack gradientTransition w-96">
-            <a href="/blog/kocluk/sistemik-kocluk-nedir">
+            <a href="/blog/egitmenlik/profesyonel-egitmenlik-egitimi">
               <h3 className="mb-[10px] font-semibold h-24">
-                Sistemik Koçluk Nedir?
+                Profesyonel Eğitmenlik Eğitimi ve MYK Seviye-6 Yeterliliklerinde
+                Uzmanlaşmak
               </h3>
             </a>
           </div>
