@@ -1,7 +1,6 @@
 import SvgCheck from "@/components/ui/svg/check16";
-import { metasistemik1, metasistemik2 } from "@/public/assets/images";
 
-export default function Blog1({ gain, gain2 }) {
+export default function ({ gain, gain2 }) {
   return (
     <div id="gain" className="bg-white py-4 lg:my-8">
       <div className="container mx-auto">
@@ -184,7 +183,6 @@ export default function Blog1({ gain, gain2 }) {
               Bu benzetme, sistemik koçluğun özünü yansıtır.
             </p>
           </div>
-          <hr className="my-4" />
 
           <div className="p-4 gradientAccentToDark rounded-xl">
             <h3 className="text-center">
@@ -198,30 +196,30 @@ export default function Blog1({ gain, gain2 }) {
               farkları aşağıdaki karşılaştırma tablosunda inceleyelim:
             </p>
           </div>
-          <div className="my-4 p-4 border">
-            <table class="w-full text-xs text-left rtl:text-right text-gray-500 dark:text-gray-400 ">
-              <thead class="text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          <div className="my-4 border">
+            <table className="w-full text-xs text-left rtl:text-right text-gray-500 dark:text-gray-400 ">
+              <thead className="text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     Özellik
                   </th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     Koç
                   </th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     Sistemik Koç
                   </th>
                 </tr>
               </thead>
               <tbody className="[&>tr>td>ul>li]:text-xs">
-                <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                   >
                     Odak ve Kapsam
                   </th>
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <ul>
                       <li>
                         Öncelikle bireyin iç dünyasına (inançlar, güçlü ve
@@ -234,7 +232,7 @@ export default function Blog1({ gain, gain2 }) {
                       </li>
                     </ul>
                   </td>
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <ul>
                       <li>
                         Hem bütünsel bireyi hem de parçası/dahil olduğu
@@ -247,14 +245,14 @@ export default function Blog1({ gain, gain2 }) {
                     </ul>
                   </td>
                 </tr>
-                <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 ">
+                <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 ">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                   >
                     Yaklaşım
                   </th>
-                  <td class="px-6 py-4 ">
+                  <td className="px-6 py-4 ">
                     <ul>
                       <li>
                         Genellikle çözüm odaklıdır, bireyin kendi cevaplarını
@@ -262,7 +260,7 @@ export default function Blog1({ gain, gain2 }) {
                       </li>
                     </ul>
                   </td>
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <ul>
                       <li>
                         Sistemik perspektifle modelleri ve dinamikleri ortaya
@@ -274,14 +272,14 @@ export default function Blog1({ gain, gain2 }) {
                   </td>
                 </tr>
 
-                <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 ">
+                <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 ">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                   >
                     Koçun Rolü
                   </th>
-                  <td class="px-6 py-4 ">
+                  <td className="px-6 py-4 ">
                     <ul>
                       <li>
                         Bireyin kendi özellikleri ve potansiyellerini keşif ve
@@ -291,7 +289,7 @@ export default function Blog1({ gain, gain2 }) {
                       </li>
                     </ul>
                   </td>
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <ul>
                       <li>
                         Sistemik perspektif ve bağlantısallığı içeren
@@ -303,14 +301,14 @@ export default function Blog1({ gain, gain2 }) {
                   </td>
                 </tr>
 
-                <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 ">
+                <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 ">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                   >
                     Daha Çok Kimlere Uygun
                   </th>
-                  <td class="px-6 py-4 ">
+                  <td className="px-6 py-4 ">
                     <ul>
                       <li>
                         Kişisel gelişim, hedefe ulaşma, iç engelleri aşma
@@ -320,7 +318,7 @@ export default function Blog1({ gain, gain2 }) {
                       </li>
                     </ul>
                   </td>
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <ul>
                       <li>
                         Sistemik perspektif, algı ve farkındalık geliştirmek
@@ -333,19 +331,19 @@ export default function Blog1({ gain, gain2 }) {
                   </td>
                 </tr>
 
-                <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800  dark:border-gray-700 ">
+                <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800  dark:border-gray-700 ">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                   >
                     Ek Yetkinlikler
                   </th>
-                  <td class="px-6 py-4 ">
+                  <td className="px-6 py-4 ">
                     <ul>
                       <li>-</li>
                     </ul>
                   </td>
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <ul>
                       <li>
                         Sistem düşüncesi + Sistemik algı yetkinliği + Sistemik
@@ -359,8 +357,6 @@ export default function Blog1({ gain, gain2 }) {
               </tbody>
             </table>
           </div>
-
-          <hr className="my-4" />
 
           <div className="p-4 gradientAccentToDark rounded-xl">
             <h3 className="text-center">Sistemik Koçluğun Faydaları</h3>
@@ -423,8 +419,6 @@ export default function Blog1({ gain, gain2 }) {
               </li>
             </ul>
           </div>
-
-          <hr className="my-4" />
 
           <div className="p-4 gradientAccentToDark rounded-xl">
             <h3 className="text-center">
@@ -512,8 +506,6 @@ export default function Blog1({ gain, gain2 }) {
               destekleyebilirler.
             </p>
           </div>
-
-          <hr className="my-4" />
 
           <div className="p-4 gradientAccentOppositeToBlack rounded-xl">
             <h3 className="text-center">Sonuç</h3>

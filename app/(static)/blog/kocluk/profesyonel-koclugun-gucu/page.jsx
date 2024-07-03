@@ -1,7 +1,7 @@
 import HeaderTitle from "@/components/templates/headerTitle";
 import PageContent from "@/components/templates/pageContent";
 
-import Blog1 from "@/components/sections/blogs/coaching/b-1";
+import Blog from "@/components/sections/blogs/coaching/b-1";
 
 import Blogs from "@/components/sections/blogs/coaching/blogs";
 import SocialMedia from "@/components/sections/common/z-contact";
@@ -29,7 +29,7 @@ export default function StaticPage() {
         </p>
       </PageContent>
 
-      <Blog1 />
+      <Blog />
 
       <Blogs />
       <SocialMedia />

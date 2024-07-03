@@ -1,7 +1,6 @@
 import SvgCheck from "@/components/ui/svg/check16";
-import { metasistemik1, metasistemik2 } from "@/public/assets/images";
 
-export default function Blog1({ gain, gain2 }) {
+export default function Blog() {
   return (
     <div id="gain" className="bg-white py-4 lg:my-8">
       <div className="container mx-auto">
