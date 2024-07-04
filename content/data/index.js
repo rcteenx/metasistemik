@@ -77,8 +77,8 @@ export const mekanikYollar = {
 export const StaticPages = [
   {
     id: 1,
-    title: "METASİSTEMATİK",
-    link: "metasistematik",
+    title: "PLATFORM",
+    link: "platform",
     bg: "gradientAccentToDark",
     pages: [
       { id: 1, title: "Platforum Hakkında", link: "metasistematik/platform" },
