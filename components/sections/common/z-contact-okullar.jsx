@@ -8,7 +8,6 @@ export default function ContactSchools() {
       <h3>Sertifika Programları Sunum Dosyaları İçin:</h3>
 
       <div className="my-4 relative inline-flex group">
-        <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px gradientBlueToBlack rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
         <a
           href="https://wa.me/905434649144?text=genel%20bilgi%20istiyorum"
           title="WhatsApp Mesajı Gönderin"

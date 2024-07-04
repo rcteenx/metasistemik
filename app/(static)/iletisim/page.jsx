@@ -15,13 +15,13 @@ export default function StaticPage() {
       <HeaderTitle>İletişim</HeaderTitle>
 
       <PageContent h2Title="İletişim Bilgileri">
-        <p>Bize aşağıdaki kanallardan ulaşabilirsiniz.</p>
+        <p>Hızlı erişim için aşağıdaki kanallardan ulaşabilirsiniz.</p>
         <ul>
           <li>
             <dd className="font-semibold">Whatsapp & Telefon:</dd>
             <dt>
-              <a href="tel:+902325208409" className="hover:border-b">
-                0 (232) 520 8409
+              <a href="tel:+905434649144" className="hover:border-b">
+                0 (543) 464 91 44
               </a>
             </dt>
           </li>

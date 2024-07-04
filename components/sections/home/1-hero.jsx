@@ -30,7 +30,6 @@ export default function Hero() {
           </h2>
           <div className="flex flex-row space-x-8 justify-center xl:justify-start items-center">
             <div className="relative inline-flex group">
-              <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px gradientBlueToBlack rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
               <a
                 href="https://wa.me/905434649144?text=genel%20bilgi%20istiyorum"
                 title="WhatsApp Mesajı Gönderin"

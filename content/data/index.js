@@ -81,8 +81,8 @@ export const StaticPages = [
     link: "platform",
     bg: "gradientAccentToDark",
     pages: [
-      { id: 1, title: "Platforum Hakkında", link: "metasistematik/platform" },
-      { id: 2, title: "Kurucumuz", link: "metasistematik/kurucumuz" },
+      { id: 1, title: "Platform Hakkında", link: "platform/hakkinda" },
+      { id: 2, title: "Kurucumuz", link: "platform/kurucumuz" },
     ],
   },
   {

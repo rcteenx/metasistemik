@@ -52,7 +52,7 @@ export default function StaticPage() {
 
       <Blog />
 
-      <Blogs />
+      <Blogs id="2" />
       <SocialMedia />
     </>
   );

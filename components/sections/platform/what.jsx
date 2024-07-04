@@ -39,7 +39,7 @@ export default function SubMovie({ img }) {
             </p>
             <p>
               Böylece, kim(?) olduğumuz sorusuna katı bireyselci sınırlamalar
-              içerisinde cevap aramak yerine, ilişkilerimizin dinamik ve
+              içerisinde cevap aramak yerine, kişiliklerimizin dinamik ve
               bağlantısal bir akış içerisinde var olduğunu deneyimleyerek
               Farkındalığımızı Geliştiriyor, Sistemik Çalışmalarla kendimizi,
               diğerlerini ve yaşamı keşfediyoruz.

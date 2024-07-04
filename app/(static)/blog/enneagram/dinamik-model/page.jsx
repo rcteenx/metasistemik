@@ -34,7 +34,7 @@ export default function StaticPage() {
 
       <Blog />
 
-      <Blogs />
+      <Blogs id="1" />
       <SocialMedia />
     </>
   );
