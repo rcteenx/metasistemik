@@ -31,13 +31,6 @@ export default function BlogsWhy() {
                 </p>
               </li>
               <li>
-                <h3>Hayatın Zorluklarını Aşmak</h3>
-                <p>
-                  Karmaşık durum ve ilişkilerde yol almak için bilgelik ve
-                  stratejiler kazanın.
-                </p>
-              </li>
-              <li>
                 <h3>Kalıcı Değişim Yaratın</h3>
                 <p>
                   Kendiniz, organizasyonunuz ve dünya üzerinde nasıl olumlu bir
