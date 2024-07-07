@@ -1,3 +1,5 @@
+import MailForm from "../common/mail-form";
+
 export default function SignupBar() {
   return (
     <section className="bg-bilincSonrasi bg-cover bg-fixed ">
@@ -5,7 +7,7 @@ export default function SignupBar() {
         <h2 className="text-2xl lg:text-6xl text-center border-b-4 inline-block border-black">
           BAĞLANTIDA KALALIM
         </h2>
-        <p>Mail listemize üye olun.</p>
+        <MailForm />
       </div>
     </section>
   );
