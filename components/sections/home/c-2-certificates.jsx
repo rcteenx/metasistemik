@@ -99,8 +99,8 @@ export default function Certificates({ img, img2, mekanikYollar }) {
                 <li className="p-4 border rounded-xl">
                   <dd className="font-semibold">Ara</dd>
                   <dt>
-                    <a href="tel:+902325208409" className="hover:border-b">
-                      0 (232) 520 8409
+                    <a href="tel:+905434649144" className="hover:border-b">
+                      0 (543) 464 91 44
                     </a>
                   </dt>
                 </li>

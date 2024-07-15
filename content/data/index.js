@@ -173,7 +173,7 @@ export const StaticPages = [
         title: "social@metasistemik.com",
         link: "mailto:social@metasistemik.com",
       },
-      { id: 2, title: "0 (232) 520 8409", link: "tel:+902325208409" },
+      { id: 2, title: "0 (543) 464 9144", link: "tel:+905434649144" },
       { id: 3, title: "Çerez Politikası", link: "iletisim/cerez" },
       { id: 4, title: "K.V.K.K.", link: "iletisim/kvkk" },
     ],
