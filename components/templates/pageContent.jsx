@@ -2,12 +2,13 @@ import { cva } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const titleStyles = cva(
-  "mx-auto p-4 md:p-12 max-w-2xl flex flex-col gap-4 text-center shadow-xl rounded-2xl ",
+  "mx-auto p-4 md:p-12 max-w-2xl flex flex-col gap-4 text-left shadow-xl rounded-2xl ",
   {
     variants: {
       bgColor: {
         default: "gradientAccentToDark",
         secondary: "bg-accent",
+        white: "white",
         schools: "gradientSchools",
         coaching: "gradientAccentToDark",
         teaching: "gradientGreenToBlack",
