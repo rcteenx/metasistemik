@@ -15,7 +15,7 @@ export default function TeachingProgramms({ id }) {
       </div>
 
       <div className="container mx-auto my-4 xl:-mt-[124px]">
-        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-4 px-8 xl:px-0">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-4 px-8 xl:mx-4 xl:px-0">
           {teachingPrograms.map((p) => (
             <a
               key={p.id}
@@ -28,7 +28,7 @@ export default function TeachingProgramms({ id }) {
                   (id == p.id ? "bg-white" : p.bg)
                 }
               >
-                <p className="text-3xl font-bold">{p.grade}</p>
+                {/* <p className="text-3xl font-bold">{p.grade}</p> */}
                 <h4 className="mb-[10px]">{p.title}</h4>
                 <p className=" font-light leading-normal max-w-[300px] text-sm">
                   {p.time}

@@ -75,7 +75,7 @@
   .gradientRedToBlack {
     @apply bg-gradient-to-br from-red-500 to-black text-white;
   }
-  .gradientBlueToBlack {
+  .gradientMagentaToBlack {
     @apply bg-gradient-to-br from-[#FF00FF] to-black text-white;
   }
   .gradientTransition {

@@ -131,7 +131,7 @@ export const coachingPrograms = [
   {
     id: 5,
     link: "/okullar/kocluk/seviye-3c",
-    bg: "gradientBlueToBlack",
+    bg: "gradientMagentaToBlack",
     grade: "Seviye 3/C",
     title: "ENNEAGRAMLA SİSTEMİK KOÇLUK SERTİFİKA PROGRAMI",
     time: "120 Saat",

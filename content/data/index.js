@@ -133,7 +133,7 @@ export const StaticPages = [
     id: 5,
     title: "HİZMETLERİMİZ",
     link: "hizmetlerimiz",
-    bg: "gradientBlueToBlack",
+    bg: "gradientMagentaToBlack",
     pages: [
       {
         id: 1,

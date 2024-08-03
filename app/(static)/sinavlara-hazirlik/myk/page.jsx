@@ -39,8 +39,8 @@ export default function StaticPage() {
         </ul>
         <p>
           Sınavlarına hazırlık programlarıyla entegre ettiğimiz mesleki eğitim
-          sertifika programlarımız, süreç boyunca ihtiyaç duyacağınız
-          kesintisizi desteğimizle birlikte sunulmaktadır.
+          sertifika programlarımız, süreç boyunca ihtiyaç duyacağınız kesintisiz
+          desteğimizle birlikte sunulmaktadır.
         </p>
       </PageContent>
 
